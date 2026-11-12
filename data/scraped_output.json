@@ -1,0 +1,72 @@
+[
+  {
+    "id": "kpsc-2024-97143",
+    "year": 2024,
+    "category": "Kerala History",
+    "sub_category": "Kerala Renaissance & Reform Movements",
+    "exam_name": "Kerala PSC Degree Level Preliminary 2024",
+    "language": "en",
+    "question_type": "mcq",
+    "question_text": "Who was the founder of the 'Sadhujana Paripalana Sangham' in 1907?",
+    "statements": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Chattampi Swamikal"
+      },
+      {
+        "id": "B",
+        "text": "Sree Narayana Guru"
+      },
+      {
+        "id": "C",
+        "text": "Ayyankali"
+      },
+      {
+        "id": "D",
+        "text": "Vagbhatananda"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Official Kerala PSC verified answer key: Option (C).",
+    "status": "approved",
+    "source_url": "https://www.keralapsc.gov.in"
+  },
+  {
+    "id": "kpsc-2024-86112",
+    "year": 2024,
+    "category": "Kerala History",
+    "sub_category": "Kerala Renaissance & Reform Movements",
+    "exam_name": "Kerala PSC Degree Level Preliminary 2024",
+    "language": "en",
+    "question_type": "statement",
+    "question_text": "Consider the following statements regarding the Vaikom Satyagraha:\n\nWhich of the statements given above is/are correct?",
+    "statements": [
+      "1. It began on 30 March 1924 to secure the right of depressed classes to use roads around the temple.",
+      "2. T.K. Madhavan and K.P. Kesava Menon were prominent leaders of this movement.",
+      "3. Periyar E.V. Ramasamy participated and was arrested during the satyagraha."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "1 and 2 only"
+      },
+      {
+        "id": "B",
+        "text": "2 and 3 only"
+      },
+      {
+        "id": "C",
+        "text": "1, 2 and 3"
+      },
+      {
+        "id": "D",
+        "text": "1 and 3 only"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Official Kerala PSC verified answer key: Option (C).",
+    "status": "approved",
+    "source_url": "https://www.keralapsc.gov.in"
+  }
+]

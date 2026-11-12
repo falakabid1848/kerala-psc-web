@@ -1,0 +1,173 @@
+[
+  {
+    "id": "kerala-history",
+    "name": "Kerala History & Culture",
+    "icon": "ScrollText",
+    "description": "Kerala Renaissance, Modern Travancore, Cochin, Malabar, and anti-colonial revolts.",
+    "sub_categories": [
+      "Kerala Renaissance & Reform Movements",
+      "Anti-Colonial Struggles & Revolts",
+      "Social Reforms in Kerala",
+      "Formation of Modern Kerala (Aikya Kerala)"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ]
+  },
+  {
+    "id": "indian-polity",
+    "name": "Indian Polity & Constitution",
+    "icon": "Scale",
+    "description": "Fundamental Rights, Directive Principles, Judiciary, Constitutional Bodies, Governance.",
+    "sub_categories": [
+      "Constitutional Bodies & Governance",
+      "Fundamental Rights & Duties",
+      "Union & State Executive",
+      "Panchayati Raj & Local Governance"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ]
+  },
+  {
+    "id": "geography",
+    "name": "Geography of Kerala & India",
+    "icon": "Globe",
+    "description": "Physiography, Rivers, Climate, Wildlife Sanctuaries, Minerals and Agriculture.",
+    "sub_categories": [
+      "Rivers and Drainage System of Kerala",
+      "Western Ghats & Protected Areas",
+      "Agriculture and Soil Patterns"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "general-science",
+    "name": "General Science & Technology",
+    "icon": "Atom",
+    "description": "Space missions, Defense technology, Human physiology, Environmental science.",
+    "sub_categories": [
+      "Physics & Space Technology",
+      "Environmental Biology & Ecology",
+      "Chemistry in Daily Life"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "mental-ability",
+    "name": "Quantitative Aptitude & Mental Ability",
+    "icon": "Calculator",
+    "description": "Arithmetic shortcuts, Number Series, Reasoning, Time & Work, Speed math and Banking Aptitude.",
+    "sub_categories": [
+      "Arithmetic & Numerical Ability",
+      "Mental Ability & Logical Reasoning"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+    ]
+  },
+  {
+    "id": "general-english",
+    "name": "General English",
+    "icon": "BookOpen",
+    "description": "Grammar rules, Tenses, Prepositions, Idioms, Phrasal verbs, Vocabulary and Sentence correction.",
+    "sub_categories": [
+      "Grammar & Vocabulary",
+      "Idioms & Phrasal Verbs"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "malayalam",
+    "name": "Malayalam Language & Literature",
+    "icon": "Languages",
+    "description": "സാഹിത്യം, പുരസ്കാരങ്ങൾ, സന്ധി, സമാസം, ശൈലികൾ, പര്യായങ്ങൾ, വിപരീത പദങ്ങൾ.",
+    "sub_categories": [
+      "സാഹിത്യം & വ്യാകരണം",
+      "ശൈലികളും പഴഞ്ചൊല്ലുകളും"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "banking-awareness",
+    "name": "Banking & Financial Awareness",
+    "icon": "Landmark",
+    "description": "RBI policies, Kerala Bank, cooperative banking, monetary tools, financial institutions.",
+    "sub_categories": [
+      "RBI & Banking Principles",
+      "Cooperative Banking & Digital Payments"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "it-cyber-laws",
+    "name": "Information Technology & Cyber Laws",
+    "icon": "Cpu",
+    "description": "Computer hardware, software, networking, cyber security, IT Act 2000.",
+    "sub_categories": [
+      "Cyber Laws & Security",
+      "Computer Fundamentals & Networking"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "current-affairs",
+    "name": "Current Affairs & Schemes",
+    "icon": "Newspaper",
+    "description": "Government flagship schemes, Awards, Summits, Kerala development initiatives.",
+    "sub_categories": [
+      "Kerala State Government Schemes",
+      "National & International Summits",
+      "Major Awards & Sports"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023
+    ]
+  }
+]
