@@ -13,17 +13,15 @@ import {
   BarChart3, 
   Menu, 
   X, 
-  ChevronRight,
-  Zap,
+  Calendar, 
+  ArrowRight,
   Home,
-  CheckCircle2,
-  Calendar,
-  Layers,
-  ArrowRight
+  Megaphone
 } from 'lucide-react';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [bannerVisible, setBannerVisible] = useState(true);
   const pathname = usePathname();
 
   // Close mobile drawer on route change
@@ -55,7 +53,7 @@ export default function Navbar() {
 
   const bottomNavItems = [
     { href: '/', label: 'Questions', icon: Home },
-    { href: '/quiz', label: 'Mock Test', icon: Sparkles, highlight: true },
+    { href: '/quiz', label: 'Live Mock', icon: Sparkles, highlight: true },
     { href: '/notifications', label: 'Exams', icon: Bell, badge: 'New' },
     { href: '/previous-papers', label: 'Papers', icon: FileText },
     { href: '/banking', label: 'Banking', icon: Landmark },
@@ -63,47 +61,64 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Top Banner (Compact on mobile) */}
-      <div className="bg-gradient-to-r from-emerald-900 via-teal-900 to-emerald-950 text-white text-[11px] sm:text-xs py-1.5 px-3 sm:px-4 font-medium flex items-center justify-between sm:justify-center gap-2">
-        <div className="flex items-center gap-1.5 truncate">
-          <span className="inline-flex items-center px-1.5 py-0.2 rounded-full text-[9px] font-extrabold bg-amber-400 text-slate-950 uppercase shrink-0">
-            2024-2025
-          </span>
-          <span className="truncate">
-            Kerala PSC Degree Level Prelims & LDC Papers Added! 11,400+ Qs.
-          </span>
-        </div>
-        <Link 
-          href="/notifications" 
-          className="underline font-bold text-amber-300 hover:text-white shrink-0 ml-1"
+      {/* Top Announcement Bar */}
+      {bannerVisible && (
+        <aside 
+          aria-label="Exam Announcement" 
+          className="bg-gradient-to-r from-slate-950 via-emerald-950 to-slate-950 text-white text-[11px] sm:text-xs py-2 px-3 sm:px-4 border-b border-emerald-900/40 relative z-50 shadow-2xs"
         >
-          Notifications &rarr;
-        </Link>
-      </div>
+          <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
+            <Link 
+              href="/notifications" 
+              className="flex items-center gap-2 min-w-0 flex-1 hover:text-emerald-200 transition group"
+            >
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9px] font-extrabold bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 uppercase tracking-wider shrink-0 shadow-xs">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-600 animate-ping inline-block" />
+                2025 ALERT
+              </span>
+              <span className="truncate text-slate-200 group-hover:text-white font-medium">
+                Official Degree Level Prelims, LDC & Kerala Bank Exam Schedule & Model Papers Added!
+              </span>
+              <span className="hidden md:inline-flex items-center gap-1 font-bold text-amber-300 group-hover:text-amber-200 shrink-0 ml-1">
+                View Syllabus &amp; Dates <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+              </span>
+            </Link>
 
-      {/* Main Header */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-2xs">
+            <button
+              onClick={() => setBannerVisible(false)}
+              className="p-1 text-slate-400 hover:text-white rounded-lg hover:bg-white/10 transition shrink-0"
+              aria-label="Dismiss banner"
+              title="Close announcement"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        </aside>
+      )}
+
+      {/* Main Sticky Header */}
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-15 sm:h-16">
-            {/* Brand Logo */}
-            <Link href="/" className="flex items-center space-x-2.5 group shrink-0">
-              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-700 flex items-center justify-center text-white font-extrabold text-lg sm:text-xl shadow-md group-hover:scale-105 transition-transform">
+          <div className="flex justify-between items-center h-14 sm:h-16">
+            {/* Brand Logo & Title */}
+            <Link href="/" className="flex items-center space-x-2.5 group shrink-0 min-w-0">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-emerald-600 via-teal-600 to-emerald-700 flex items-center justify-center text-white font-black text-base sm:text-lg shadow-sm group-hover:scale-105 transition-transform shrink-0">
                 PSC
               </div>
-              <div>
-                <div className="font-extrabold text-slate-900 text-sm sm:text-lg tracking-tight flex items-center gap-1.5">
-                  PSC Master
-                  <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 px-1.5 sm:px-2 py-0.5 rounded-full shrink-0">
+              <div className="min-w-0">
+                <div className="font-extrabold text-slate-900 text-sm sm:text-base tracking-tight flex items-center gap-1.5 leading-tight">
+                  <span className="truncate">Kerala PSC Master</span>
+                  <span className="text-[9px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded-full shrink-0">
                     11.4K Qs
                   </span>
                 </div>
-                <p className="text-[10px] sm:text-xs text-slate-500 font-medium kerala-font leading-none hidden sm:block">
-                  കേരള PSC & ബാങ്കിങ് പരീക്ഷാ സഹായി
+                <p className="text-[10px] text-slate-500 font-medium kerala-font leading-tight truncate hidden sm:block">
+                  കേരള PSC &amp; ബാങ്കിങ് പരീക്ഷാ സഹായി
                 </p>
               </div>
             </Link>
 
-            {/* Desktop Navigation */}
+            {/* Desktop Navigation Links */}
             <nav className="hidden lg:flex items-center space-x-1">
               {navLinks.map((item) => {
                 const Icon = item.icon;
@@ -115,7 +130,7 @@ export default function Navbar() {
                     href={item.href}
                     className={`px-3 py-2 text-xs font-semibold rounded-xl transition flex items-center gap-1.5 ${
                       item.highlight
-                        ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm'
+                        ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-xs font-bold'
                         : isActive
                         ? 'bg-emerald-50 text-emerald-700 font-bold'
                         : 'text-slate-700 hover:text-emerald-700 hover:bg-slate-100'
@@ -133,22 +148,37 @@ export default function Navbar() {
               })}
             </nav>
 
-            {/* Mobile Header Right Actions */}
-            <div className="flex lg:hidden items-center space-x-2">
+            {/* Mobile Header Right Quick Actions */}
+            <div className="flex lg:hidden items-center space-x-1">
               <Link
-                href="/quiz"
-                className="px-2.5 py-1.5 text-xs font-bold text-white bg-emerald-600 rounded-lg shadow-xs flex items-center gap-1"
+                href="/notifications"
+                className="p-2 text-slate-600 hover:text-emerald-700 hover:bg-slate-100 rounded-xl transition relative"
+                title="Exam Notifications"
+                aria-label="Exam Notifications"
               >
-                <Sparkles className="w-3 h-3" />
-                <span>Test</span>
+                <Bell className="w-4 h-4 text-slate-700" />
+                <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-rose-500 rounded-full animate-pulse" />
+              </Link>
+
+              <Link
+                href="/bookmarks"
+                className="p-2 text-slate-600 hover:text-emerald-700 hover:bg-slate-100 rounded-xl transition"
+                title="Saved Bookmarks"
+                aria-label="Bookmarks"
+              >
+                <Bookmark className="w-4 h-4 text-slate-700" />
               </Link>
 
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="p-2 text-slate-700 hover:text-emerald-700 hover:bg-slate-100 rounded-xl transition focus:outline-none"
-                aria-label="Toggle Menu"
+                aria-label="Toggle Navigation Menu"
               >
-                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+                {mobileMenuOpen ? (
+                  <X className="w-5 h-5 text-slate-900" />
+                ) : (
+                  <Menu className="w-5 h-5 text-slate-900" />
+                )}
               </button>
             </div>
           </div>
@@ -161,7 +191,7 @@ export default function Navbar() {
           {/* Backdrop */}
           <div
             onClick={() => setMobileMenuOpen(false)}
-            className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity"
+            className="fixed inset-0 bg-slate-950/60 backdrop-blur-xs transition-opacity"
           />
 
           {/* Drawer Menu */}
@@ -170,17 +200,18 @@ export default function Navbar() {
               {/* Drawer Header */}
               <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                 <div className="flex items-center space-x-2">
-                  <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white font-bold flex items-center justify-center text-sm">
+                  <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white font-black flex items-center justify-center text-sm shadow-xs">
                     PSC
                   </div>
                   <div>
-                    <h3 className="font-extrabold text-slate-900 text-sm">PSC Master Kerala</h3>
-                    <p className="text-[10px] text-slate-500">11,400+ Verified Questions</p>
+                    <h3 className="font-extrabold text-slate-900 text-sm">Kerala PSC Master</h3>
+                    <p className="text-[10px] text-slate-500">keralapsc.xyz &bull; 11.4K Qs</p>
                   </div>
                 </div>
                 <button
                   onClick={() => setMobileMenuOpen(false)}
-                  className="p-1.5 text-slate-400 hover:text-slate-800 rounded-lg"
+                  className="p-1.5 text-slate-400 hover:text-slate-800 rounded-lg hover:bg-slate-100"
+                  aria-label="Close menu"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -199,7 +230,7 @@ export default function Navbar() {
                       onClick={() => setMobileMenuOpen(false)}
                       className={`flex items-center justify-between p-3 rounded-xl text-xs font-bold transition ${
                         item.highlight
-                          ? 'bg-emerald-600 text-white shadow-sm'
+                          ? 'bg-emerald-600 text-white shadow-xs'
                           : isActive
                           ? 'bg-emerald-50 text-emerald-800'
                           : 'text-slate-700 hover:bg-slate-50'
@@ -221,12 +252,12 @@ export default function Navbar() {
                 })}
               </div>
 
-              {/* Quick Exam Calendar Alert Card */}
+              {/* Quick Exam Calendar Alert Card in Drawer */}
               <div className="bg-slate-50 rounded-2xl p-4 border border-slate-100 space-y-2">
                 <div className="flex items-center justify-between text-[11px] font-bold text-slate-800">
                   <span className="flex items-center gap-1.5">
                     <Calendar className="w-3.5 h-3.5 text-amber-500" />
-                    Latest PSC Exams (2024-25)
+                    Latest PSC Exams (2024–2025)
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-600 leading-snug">
@@ -244,14 +275,14 @@ export default function Navbar() {
 
             {/* Drawer Footer */}
             <div className="pt-4 border-t border-slate-100 text-center text-[10px] text-slate-400">
-              PSC Master Kerala &bull; 11,400+ Free Questions
+              keralapsc.xyz &bull; 11,400+ Free Kerala PSC Questions
             </div>
           </div>
         </div>
       )}
 
-      {/* Sticky Mobile Bottom Navigation Bar (app-like experience for phones) */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/80 shadow-lg px-2 py-1 flex items-center justify-around">
+      {/* Sticky Mobile Bottom Navigation Bar */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/80 shadow-lg px-2 py-1.5 flex items-center justify-around safe-bottom">
         {bottomNavItems.map((item) => {
           const Icon = item.icon;
           const isActive = pathname === item.href;
@@ -260,7 +291,7 @@ export default function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl transition min-w-[54px] ${
+              className={`flex flex-col items-center justify-center py-0.5 px-2 rounded-xl transition min-w-[54px] ${
                 item.highlight
                   ? 'text-emerald-700 font-extrabold'
                   : isActive
@@ -282,7 +313,7 @@ export default function Navbar() {
                   <span className="absolute -top-1 -right-2 w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
                 )}
               </div>
-              <span className="text-[9px] tracking-tight mt-0.5">
+              <span className="text-[9px] tracking-tight mt-0.5 font-medium">
                 {item.label}
               </span>
             </Link>
