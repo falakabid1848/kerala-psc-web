@@ -251,6 +251,13 @@ export default function HomePage() {
               2026 Current Affairs 🔥
             </Link>
             <Link
+              href="/quiz?language=ml&type=statement&mode=practice&limit=25"
+              className="inline-flex items-center gap-1.5 bg-rose-600 hover:bg-rose-700 text-white font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-md transition active:scale-95 text-xs sm:text-sm"
+            >
+              <Languages className="w-4 h-4 text-rose-200" />
+              മലയാളം പ്രസ്താവനകൾ 🔥
+            </Link>
+            <Link
               href="/previous-papers"
               className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-800 text-white font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl border border-slate-700 transition text-xs sm:text-sm"
             >
@@ -286,17 +293,17 @@ export default function HomePage() {
         </Link>
 
         <Link
-          href="/quiz?type=statement&mode=practice&limit=25"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-emerald-400 shadow-2xs hover:shadow-sm transition group"
+          href="/quiz?language=ml&type=statement&mode=practice&limit=25"
+          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-rose-400 shadow-2xs hover:shadow-sm transition group"
         >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-700" />
+          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
+            <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-rose-700" />
           </div>
-          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-emerald-700">
-            Statement Master
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-rose-700">
+            മലയാളം പ്രസ്താവനകൾ
           </h3>
           <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            Multi-statement evaluation (1, 2, 3 correct) for KAS & Degree.
+            130+ പുതിയ KPSC മലയാളം സ്റ്റേറ്റ്‌മെന്റ് ചോദ്യങ്ങൾ.
           </p>
         </Link>
 
@@ -467,6 +474,53 @@ export default function HomePage() {
               </button>
             );
           })}
+        </div>
+
+        {/* Quick Language & Type Filter Presets */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-xs">
+          <span className="text-slate-400 text-[11px] font-bold mr-1 shrink-0">Quick Filter:</span>
+          <button
+            onClick={() => {
+              setSelectedLanguage('ml');
+              setSelectedType('statement');
+              setCurrentPage(1);
+            }}
+            className={`px-3 py-1 rounded-lg text-xs font-bold transition shrink-0 ${
+              selectedLanguage === 'ml' && selectedType === 'statement'
+                ? 'bg-rose-600 text-white shadow-xs'
+                : 'bg-rose-50 text-rose-700 hover:bg-rose-100 border border-rose-200/80'
+            }`}
+          >
+            🔥 മലയാളം പ്രസ്താവനകൾ (130 Qs)
+          </button>
+          <button
+            onClick={() => {
+              setSelectedType('statement');
+              setSelectedLanguage('all');
+              setCurrentPage(1);
+            }}
+            className={`px-2.5 py-1 rounded-lg text-xs font-bold transition shrink-0 ${
+              selectedType === 'statement' && selectedLanguage === 'all'
+                ? 'bg-emerald-600 text-white shadow-xs'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+            }`}
+          >
+            All Statements
+          </button>
+          <button
+            onClick={() => {
+              setSelectedLanguage('ml');
+              setSelectedType('all');
+              setCurrentPage(1);
+            }}
+            className={`px-2.5 py-1 rounded-lg text-xs font-bold transition shrink-0 ${
+              selectedLanguage === 'ml' && selectedType === 'all'
+                ? 'bg-slate-900 text-white shadow-xs'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+            }`}
+          >
+            All Malayalam Qs
+          </button>
         </div>
 
         {/* Row 2: Filter Selectors */}
