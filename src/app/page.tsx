@@ -28,12 +28,15 @@ import {
   Award,
   ChevronLeft,
   ChevronRight,
+  ChevronDown,
+  ChevronUp,
   CircleDot,
   Check,
   XCircle,
   GraduationCap,
   X
 } from 'lucide-react';
+import AdBanner from '@/components/AdBanner';
 
 const iconMap: Record<string, any> = {
   ScrollText: History,
@@ -70,6 +73,30 @@ export default function HomePage() {
   const [userSelectedMap, setUserSelectedMap] = useState<Record<string, string>>({});
   const [showExplanationMap, setShowExplanationMap] = useState<Record<string, boolean>>({});
   const [bookmarkedIds, setBookmarkedIds] = useState<string[]>([]);
+  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      q: 'How to practice Kerala PSC questions with negative marking on keralapsc.xyz?',
+      a: 'You can launch the Live Mock / OMR mode with 75-minute timer and official negative marking (-0.33 marks per wrong answer). The system evaluates your attempt instantly with subject-wise analytics.',
+    },
+    {
+      q: 'What are the main exams covered by PSC Master Kerala?',
+      a: 'Our 11,400+ question bank covers Kerala PSC Degree Level Preliminary & Mains, Lower Division Clerk (LDC 2024-2025), Secretariat Assistant, Kerala Administrative Service (KAS), Sub Inspector (SI), Company Board Assistant, and Kerala State Co-operative Bank (Kerala Bank) clerk exams.',
+    },
+    {
+      q: 'Where can I find Kerala PSC previous question papers with official answer keys?',
+      a: 'Navigate to the "Previous Papers" tab in the menu to browse 21 official papers from 2020 through 2025. You can solve them online, reveal answer keys with one click, or use the "Print / Save PDF" feature for offline revision.',
+    },
+    {
+      q: 'Are Kerala PSC 2026 daily current affairs available with Malayalam notes?',
+      a: 'Yes! Our Current Affairs section covers all 11 months of 2026 (January to November 2026) and 2025 archives with Malayalam headlines, key exam points, and practice PSC questions.',
+    },
+    {
+      q: 'Is keralapsc.xyz completely free for all aspirants?',
+      a: 'Yes, 100% free with unlimited access to question banks, previous papers, OMR mock tests, and daily current affairs without any subscription fee or registration barrier.',
+    },
+  ];
   const [loading, setLoading] = useState(true);
   const [questionsLoading, setQuestionsLoading] = useState(false);
 
@@ -177,9 +204,9 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
-            11,400+ Verified Kerala PSC <br className="hidden sm:inline" />
+            Kerala PSC 2026: <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-300">
-              Questions (2020-2025)
+              11,400+ Free Questions, Mock Tests &amp; Previous Papers
             </span>
           </h1>
 
@@ -318,6 +345,9 @@ export default function HomePage() {
           </p>
         </Link>
       </div>
+
+      {/* Responsive In-Feed Ad Banner */}
+      <AdBanner slot="9876543210" className="my-2 sm:my-4" />
 
       {/* Syllabus Categories Bar (Horizontal Scrollable on Mobile) */}
       <div className="space-y-2.5">
@@ -726,6 +756,138 @@ export default function HomePage() {
           </div>
         )}
       </div>
+
+      {/* Ad Space Banner */}
+      <AdBanner slot="1234567890" className="max-w-4xl mx-auto" />
+
+      {/* Comprehensive SEO Authority Guide & FAQ Section */}
+      <section className="bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 p-5 sm:p-8 shadow-xs space-y-6">
+        <div className="border-b border-slate-100 pb-4">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200 mb-2">
+            <GraduationCap className="w-3.5 h-3.5 text-emerald-600" />
+            Kerala PSC 2026 Aspirants Resource Portal (കേരള പി.എസ്.സി പരീക്ഷാ സഹായി)
+          </div>
+          <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            Complete Kerala PSC Exam Preparation Guide &amp; Free Question Bank
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+            Everything you need to crack Kerala Public Service Commission (KPSC) recruitment exams with top rank, including Kerala Renaissance, Indian Constitution, Degree Level Prelims &amp; Mains, LDC, KAS, and Kerala Bank examinations.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
+          <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 space-y-2">
+            <h3 className="font-bold text-slate-900 text-sm flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+              11,400+ Statement Questions
+            </h3>
+            <p className="text-slate-600 leading-relaxed text-xs">
+              Practicing latest statement-type questions (I, II, and III are correct) is mandatory for modern Kerala PSC examinations. Our bank offers topic-wise statement questions with thorough explanations.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 space-y-2">
+            <h3 className="font-bold text-slate-900 text-sm flex items-center gap-1.5">
+              <FileText className="w-4 h-4 text-blue-600" />
+              2020-2025 Solved Question Papers
+            </h3>
+            <p className="text-slate-600 leading-relaxed text-xs">
+              Access 21 authentic previous question papers covering Degree Level Prelims, Lower Division Clerk (LDC), Secretariat Assistant, and KAS with instant answer keys and printable PDF view.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 space-y-2">
+            <h3 className="font-bold text-slate-900 text-sm flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-amber-600" />
+              2026 Daily Current Affairs
+            </h3>
+            <p className="text-slate-600 leading-relaxed text-xs">
+              Updated daily from January 2026 to November 2026 with Malayalam headlines, key exam points, and instant test questions for Degree Level and Tenth Level PSC exams.
+            </p>
+          </div>
+        </div>
+
+        {/* Kerala PSC Exam Pattern Table */}
+        <div className="space-y-3">
+          <h3 className="text-sm sm:text-base font-bold text-slate-900">
+            Kerala PSC Common Exam Pattern &amp; Marking Scheme (Degree Level &amp; LDC)
+          </h3>
+          <div className="overflow-x-auto rounded-xl border border-slate-200">
+            <table className="w-full text-xs text-left">
+              <thead className="bg-slate-100 text-slate-700 font-bold uppercase text-[10px] tracking-wider">
+                <tr>
+                  <th className="p-3">Section / Subject</th>
+                  <th className="p-3">Marks</th>
+                  <th className="p-3">Key Focus Topics</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 text-slate-600 font-medium">
+                <tr className="hover:bg-slate-50">
+                  <td className="p-3 font-semibold text-slate-900">Kerala History &amp; Renaissance</td>
+                  <td className="p-3 text-emerald-700 font-bold">10 Marks</td>
+                  <td className="p-3">Sree Narayana Guru, Ayyankali, Vaikom Satyagraha, Temple Entry Proclamation</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="p-3 font-semibold text-slate-900">Indian Polity &amp; Constitution</td>
+                  <td className="p-3 text-emerald-700 font-bold">10 Marks</td>
+                  <td className="p-3">Fundamental Rights, DPSP, Amendments, Supreme Court Landmark Verdicts</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="p-3 font-semibold text-slate-900">Current Affairs (2025-2026)</td>
+                  <td className="p-3 text-emerald-700 font-bold">15 Marks</td>
+                  <td className="p-3">Kerala Government Schemes, Budget, Awards, National Appointments &amp; Sports</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="p-3 font-semibold text-slate-900">General Science &amp; IT</td>
+                  <td className="p-3 text-emerald-700 font-bold">10 Marks</td>
+                  <td className="p-3">Physics, Chemistry, Biology, Kerala CyberDome, AI &amp; Digital Governance</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="p-3 font-semibold text-slate-900">Simple Arithmetic &amp; Mental Ability</td>
+                  <td className="p-3 text-emerald-700 font-bold">20 Marks</td>
+                  <td className="p-3">Percentage, Time &amp; Work, Ratio, Coding-Decoding, Number Series</td>
+                </tr>
+                <tr className="hover:bg-slate-50">
+                  <td className="p-3 font-semibold text-slate-900">Malayalam &amp; General English</td>
+                  <td className="p-3 text-emerald-700 font-bold">20 Marks</td>
+                  <td className="p-3">ശരിയായ പദം, പര്യായം, വിപരീതം, Idioms, Prepositions, Voice &amp; Tenses</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* Frequently Asked Questions (FAQ) Accordion */}
+        <div className="space-y-3 pt-2">
+          <h3 className="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <HelpCircle className="w-4 h-4 text-emerald-600" />
+            Frequently Asked Questions about Kerala PSC Preparation (FAQ)
+          </h3>
+          <div className="space-y-2">
+            {faqs.map((faq, idx) => {
+              const isOpen = openFaqIndex === idx;
+              return (
+                <div key={idx} className="border border-slate-200 rounded-xl overflow-hidden">
+                  <button
+                    onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
+                    className="w-full p-3.5 text-left text-xs sm:text-sm font-bold text-slate-800 hover:bg-slate-50 flex items-center justify-between gap-3 transition"
+                  >
+                    <span>{faq.q}</span>
+                    <span className="text-slate-400 shrink-0">
+                      {isOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                    </span>
+                  </button>
+                  {isOpen && (
+                    <div className="p-3.5 pt-0 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/50">
+                      {faq.a}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
