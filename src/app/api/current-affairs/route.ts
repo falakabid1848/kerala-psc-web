@@ -11,7 +11,15 @@ export async function GET(request: NextRequest) {
   const yearParam = searchParams.get('year');
   const mode = searchParams.get('mode');
 
-  const year = yearParam ? parseInt(yearParam, 10) : 2025;
+  let year: number | undefined = 2026;
+  if (yearParam) {
+    if (yearParam.toLowerCase() === 'all') {
+      year = undefined;
+    } else {
+      const parsed = parseInt(yearParam, 10);
+      if (!isNaN(parsed)) year = parsed;
+    }
+  }
 
   if (id) {
     const all = getCurrentAffairs();
@@ -32,12 +40,12 @@ export async function GET(request: NextRequest) {
   // If quiz mode is requested, transform each current affair into a standard Question object
   if (mode === 'quiz') {
     const quizQuestions: Question[] = entries.map((entry, idx) => ({
-      id: `CA-2025-${idx + 1}`,
+      id: `CA-${entry.year}-${idx + 1}`,
       year: entry.year,
       category: 'Current Affairs & Schemes',
-      sub_category: `${entry.category} Affairs 2025`,
-      exam_name: `Kerala PSC 2025 Current Affairs - ${entry.month}`,
-      exam_code: 'CA/2025',
+      sub_category: `${entry.category} Affairs ${entry.year}`,
+      exam_name: `Kerala PSC ${entry.year} Current Affairs - ${entry.month}`,
+      exam_code: `CA/${entry.year}`,
       language: 'en',
       question_type: 'mcq',
       question_text: `[${entry.display_date} • ${entry.category}] ${entry.psc_potential_question.question_text}`,
@@ -52,7 +60,7 @@ export async function GET(request: NextRequest) {
 
   return NextResponse.json({
     total: entries.length,
-    year,
+    year: year || 'All',
     month: month || 'All',
     entries
   });

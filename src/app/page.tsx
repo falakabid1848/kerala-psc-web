@@ -221,14 +221,14 @@ export default function HomePage() {
               className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-slate-950 font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-md transition active:scale-95 text-xs sm:text-sm"
             >
               <Sparkles className="w-4 h-4 text-slate-950" />
-              2025 Current Affairs 🔥
+              2026 Current Affairs 🔥
             </Link>
             <Link
               href="/previous-papers"
               className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-800 text-white font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl border border-slate-700 transition text-xs sm:text-sm"
             >
               <FileText className="w-4 h-4 text-blue-400" />
-              2024-2025 Papers
+              2020-2025 Papers
             </Link>
             <Link
               href="/notifications"
@@ -254,7 +254,7 @@ export default function HomePage() {
             Daily Current Affairs
           </h3>
           <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            Daily 2025 exam capsules with instant PSC question test cards.
+            2026 daily exam capsules (Jan–Nov) with instant PSC question test cards.
           </p>
         </Link>
 

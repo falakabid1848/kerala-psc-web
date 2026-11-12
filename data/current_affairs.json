@@ -1,221 +1,79 @@
 [
   {
-    "id": "ca-2025-01-01",
-    "date": "2025-01-01",
-    "display_date": "1 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "Kerala Government Launches K-SMART 2.0 Across All 87 Municipalities and 6 Municipal Corporations",
-    "malayalam_title": "കേരളത്തിലെ എല്ലാ നഗരസഭകളിലും കെ-സ്മാർട്ട് 2.0 പദ്ധതി ആരംഭിച്ചു",
-    "category": "Kerala",
-    "summary": "The Local Self Government Department of Kerala has officially rolled out K-SMART 2.0 (Kerala Solutions for Managing Administrative Reformation and Transformation) to provide 100% paperless civil services including birth/death registration, building permits, and trade licenses through an integrated digital portal.",
-    "key_points": [
-      "K-SMART was developed by the Information Kerala Mission (IKM).",
-      "K-SMART 2.0 integrates AI-powered automated building plan scrutiny for permits within 24 hours.",
-      "Kerala is the first state in India to digitize all municipal services on a unified ERP platform.",
-      "Civil registrations can now be availed from anywhere in the world by non-resident Keralites (Pravasis)."
-    ],
-    "psc_potential_question": {
-      "question_text": "Which digital platform was developed by Information Kerala Mission (IKM) to provide unified paperless civil services across all municipal corporations and municipalities in Kerala?",
-      "options": [
-        {
-          "id": "A",
-          "text": "e-Keralam"
-        },
-        {
-          "id": "B",
-          "text": "K-SMART"
-        },
-        {
-          "id": "C",
-          "text": "Akshaya Seva"
-        },
-        {
-          "id": "D",
-          "text": "Kerala One"
-        }
-      ],
-      "correct_option": "B",
-      "explanation": "K-SMART (Kerala Solutions for Managing Administrative Reformation and Transformation) was developed by the Information Kerala Mission to bring all urban local body services under a single web and mobile application."
-    },
-    "tags": [
-      "#KSMART",
-      "#KeralaGovt",
-      "#EGovernance",
-      "#IKM"
-    ],
-    "is_trending": true
-  },
-  {
-    "id": "ca-2025-01-02",
-    "date": "2025-01-02",
-    "display_date": "2 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "ISRO Successfully Launches Space Docking Experiment (SPADEX) Onboard PSLV-C59",
-    "malayalam_title": "ഐ.എസ്.ആർ.ഒയുടെ സ്പേസ് ഡോക്കിംഗ് പരീക്ഷണം (SPADEX) വിജയകരം",
-    "category": "Science & Tech",
-    "summary": "The Indian Space Research Organisation (ISRO) successfully launched the SPADEX mission from the Satish Dhawan Space Centre, Sriharikota. The mission demonstrates autonomous docking of two small satellites in orbit, a critical technology required for India’s proposed space station (Bharatiya Antariksh Station) and lunar sample return missions.",
-    "key_points": [
-      "SPADEX consists of two satellites: the Chaser and the Target.",
-      "The mission was launched using the reliable PSLV-C59 rocket.",
-      "Successful docking technology makes India only the fourth nation to demonstrate space docking capabilities.",
-      "Technology is essential for the future Gaganyaan mission extensions and Chandrayaan-4."
-    ],
-    "psc_potential_question": {
-      "question_text": "What is the primary objective of ISRO’s SPADEX mission launched via PSLV-C59 in January 2025?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Deep sea sub-surface mapping"
-        },
-        {
-          "id": "B",
-          "text": "Solar corona magnetic field observation"
-        },
-        {
-          "id": "C",
-          "text": "Autonomous space docking of two satellites in orbit"
-        },
-        {
-          "id": "D",
-          "text": "Interplanetary atmospheric re-entry study"
-        }
-      ],
-      "correct_option": "C",
-      "explanation": "SPADEX (Space Docking Experiment) by ISRO successfully demonstrates the capability to rendezvous and dock two spacecraft autonomously in low-Earth orbit."
-    },
-    "tags": [
-      "#ISRO",
-      "#SPADEX",
-      "#PSLV",
-      "#SpaceTech"
-    ],
-    "is_trending": true
-  },
-  {
-    "id": "ca-2025-01-04",
-    "date": "2025-01-04",
-    "display_date": "4 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "Kerala Forest Department Unveils First-Ever AI 'Vanavijayam' Wildlife Early-Warning Corridor in Wayanad",
-    "malayalam_title": "വയനാട്ടിൽ എ.ഐ അധിഷ്ഠിത വന്യജീവി മുന്നറിയിപ്പ് സംവിധാനം 'വനവിജയം' നിലവിൽ വന്നു",
-    "category": "Kerala",
-    "summary": "In a pioneering step to mitigate Human-Wildlife Conflict (HWC), the Kerala Forest & Wildlife Department launched the 'Vanavijayam' early warning network equipped with smart thermal cameras and seismic sensors that send real-time SMS alerts to villagers when wild elephant herds cross designated forest boundaries.",
-    "key_points": [
-      "Project covers the vulnerable forest fringes of Mananthavady, Sulthan Bathery, and Meppadi.",
-      "Employs thermal imaging AI cameras capable of functioning in zero-visibility fog and night.",
-      "Direct integration with WhatsApp and village panchayat siren warning systems.",
-      "Project backed by the Kerala State Disaster Management Authority (KSDMA)."
-    ],
-    "psc_potential_question": {
-      "question_text": "Which district in Kerala piloted the AI-powered 'Vanavijayam' early-warning system to mitigate human-elephant conflict in forest borders?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Idukki"
-        },
-        {
-          "id": "B",
-          "text": "Wayanad"
-        },
-        {
-          "id": "C",
-          "text": "Palakkad"
-        },
-        {
-          "id": "D",
-          "text": "Pathanamthitta"
-        }
-      ],
-      "correct_option": "B",
-      "explanation": "Wayanad district was chosen as the pilot site for the 'Vanavijayam' AI wildlife corridor due to its high elephant migration density and recurring human-wildlife encounters."
-    },
-    "tags": [
-      "#Wayanad",
-      "#KeralaForest",
-      "#AI",
-      "#WildlifeConflict"
-    ]
-  },
-  {
-    "id": "ca-2025-01-08",
-    "date": "2025-01-08",
-    "display_date": "8 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "18th Pravasi Bharatiya Divas Convention Celebrated: NORKA Roots Enhances Welfare Umbrella",
-    "malayalam_title": "18-ാമത് പ്രവാസി ഭാരതീയ ദിവസിൽ ആഗോള മലയാളി പവലിയൻ ശ്രദ്ധേയമായി",
+    "id": "ca-2026-11-12",
+    "date": "2026-11-12",
+    "display_date": "12 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Public Service Broadcasting Day: Commemorating Mahatma Gandhi's Lone All India Radio Address",
+    "malayalam_title": "പബ്ലിക് സർവീസ് ബ്രോഡ്കാസ്റ്റിംഗ് ദിനം: ഗാന്ധിജിയുടെ റേഡിയോ പ്രഭാഷണം അനുസ്മരിച്ചു",
     "category": "National",
-    "summary": "The 18th Pravasi Bharatiya Divas (PBD) convention was celebrated to recognize the contributions of the overseas Indian community. The Non-Resident Keralites Affairs department (NORKA Roots) established a special pavilion showcasing Kerala’s 'Care Economy' and overseas student welfare initiatives.",
+    "summary": "Celebrated on 12 November, Public Service Broadcasting Day marks the historic day in 1947 when Mahatma Gandhi visited the studio of All India Radio, New Delhi, to deliver his only live radio broadcast addressing refugees from Kurukshetra following the partition of India.",
     "key_points": [
-      "Pravasi Bharatiya Divas commemorates the return of Mahatma Gandhi from South Africa to Mumbai on 9 January 1915.",
-      "Theme for 2025 focused on Diaspora Innovation, Skill Mobility, and Ethical Recruitment.",
-      "NORKA Roots announced an enhanced insurance shield of Rs 5 Lakhs for Pravasis returning during emergencies.",
-      "Kerala accounts for the highest outward remittance recipient state in India (RBI Study)."
+      "Mahatma Gandhi visited All India Radio on 12 November 1947.",
+      "The day was designated as Public Service Broadcasting Day in the year 2000.",
+      "Akashvani Thiruvananthapuram re-broadcast the digitized archival recording across Kerala.",
+      "Prasar Bharati is India's autonomous public service broadcaster established under the Prasar Bharati Act, 1990."
     ],
     "psc_potential_question": {
-      "question_text": "Pravasi Bharatiya Divas is celebrated every year to commemorate which historic event?",
+      "question_text": "Public Service Broadcasting Day is celebrated on 12 November in commemoration of which historic event?",
       "options": [
         {
           "id": "A",
-          "text": "The signing of the Indian Constitution in 1950"
+          "text": "First radio broadcast in India from Bombay in 1927"
         },
         {
           "id": "B",
-          "text": "Mahatma Gandhi’s return to India from South Africa on 9 January 1915"
+          "text": "Mahatma Gandhi's only live address from the All India Radio studio in 1947"
         },
         {
           "id": "C",
-          "text": "The launch of the Non-Cooperation Movement in 1920"
+          "text": "Establishment of Doordarshan in 1959"
         },
         {
           "id": "D",
-          "text": "The establishment of the Ministry of Overseas Indian Affairs"
+          "text": "Formation of Prasar Bharati Corporation in 1997"
         }
       ],
       "correct_option": "B",
-      "explanation": "Pravasi Bharatiya Divas is observed on 9 January to mark the return of Mahatma Gandhi from South Africa to Mumbai in 1915, leading India’s freedom movement."
+      "explanation": "Public Service Broadcasting Day is celebrated every year on 12 November to commemorate the only live radio address delivered by Mahatma Gandhi from the All India Radio studios, New Delhi, in 1947."
     },
     "tags": [
-      "#PravasiBharatiyaDivas",
-      "#NORKA",
-      "#NationalGK",
-      "#KeralaEconomy"
-    ]
+      "#BroadcastingDay",
+      "#MahatmaGandhi",
+      "#Akashvani",
+      "#ImportantDays"
+    ],
+    "is_trending": true
   },
   {
-    "id": "ca-2025-01-12",
-    "date": "2025-01-12",
-    "display_date": "12 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "National Youth Day 2025: Kerala Youth Commission Announces 'Samagra Yuva' Skill Grants",
-    "malayalam_title": "ദേശീയ യുവജന ദിനത്തിൽ 'സമഗ്ര യുവ' നൈപുണ്യ ഗ്രാന്റ് പ്രഖ്യാപിച്ചു",
-    "category": "Kerala",
-    "summary": "Commemorating the 162nd birth anniversary of Swami Vivekananda, celebrated nationally as National Youth Day, the Kerala State Youth Commission launched the 'Samagra Yuva' venture grant to empower rural youth in digital marketing, artificial intelligence, and organic agribusiness.",
+    "id": "ca-2026-11-11",
+    "date": "2026-11-11",
+    "display_date": "11 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "National Education Day: Honoring Maulana Abul Kalam Azad; Kerala NEP Skill Framework Rolled Out",
+    "malayalam_title": "ദേശീയ വിദ്യാഭ്യാസ ദിനം: മൗലാനാ അബുൽ കലാം ആസാദ് സ്മരണയിൽ ഡിജിറ്റൽ പാഠ്യപദ്ധതി",
+    "category": "National",
+    "summary": "India celebrated National Education Day on 11 November commemorating the birth anniversary of Maulana Abul Kalam Azad, independent India's first Education Minister (1947–1958). Kerala Higher Education Council launched advanced AI skill modules across all universities.",
     "key_points": [
-      "Celebrated on 12 January every year since 1985.",
-      "Swami Vivekananda represented India at the 1893 Parliament of the World’s Religions in Chicago.",
-      "Kerala Youth Commission was established under the Kerala State Youth Commission Act, 2014.",
-      "Grant provides interest-free collateral subsidies up to Rs 2 Lakhs for rural cooperatives."
+      "Maulana Abul Kalam Azad spearheaded the founding of IIT Kharagpur (1951), UGC, Sahitya Akademi, and Sangeet Natak Akademi.",
+      "Posthumously awarded the Bharat Ratna in 1992.",
+      "Authored the seminal historical work 'India Wins Freedom'.",
+      "National Education Day has been celebrated annually on 11 November since 2008."
     ],
     "psc_potential_question": {
-      "question_text": "National Youth Day in India is celebrated on 12 January in honor of whose birth anniversary?",
+      "question_text": "Who was the author of the famous freedom movement autobiography 'India Wins Freedom'?",
       "options": [
         {
           "id": "A",
-          "text": "Bhagat Singh"
+          "text": "Jawaharlal Nehru"
         },
         {
           "id": "B",
-          "text": "Swami Vivekananda"
+          "text": "Maulana Abul Kalam Azad"
         },
         {
           "id": "C",
@@ -223,320 +81,980 @@
         },
         {
           "id": "D",
-          "text": "Rabindranath Tagore"
+          "text": "Dr. B.R. Ambedkar"
         }
       ],
       "correct_option": "B",
-      "explanation": "National Youth Day is celebrated on 12 January every year to commemorate the birth anniversary of Swami Vivekananda (born 12 January 1863)."
+      "explanation": "Maulana Abul Kalam Azad, India's first Education Minister, authored the influential historical book 'India Wins Freedom'."
     },
     "tags": [
-      "#NationalYouthDay",
-      "#SwamiVivekananda",
-      "#KeralaYouth",
-      "#PSCImportant"
+      "#NationalEducationDay",
+      "#MaulanaAzad",
+      "#IndiaWinsFreedom",
+      "#Education"
     ]
   },
   {
-    "id": "ca-2025-01-16",
-    "date": "2025-01-16",
-    "display_date": "16 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "India Crosses 195 GW Renewable Milestone: International Solar Alliance Expands Headquarters",
-    "malayalam_title": "ഇന്ത്യ പുനരുപയോഗ ഊർജത്തിൽ 195 ജിഗാവാട്ട് നാഴികക്കല്ല് പിന്നിട്ടു",
-    "category": "National",
-    "summary": "India has cemented its position among the world’s top 3 nations in solar and wind capacity addition, crossing 195 GW of renewable installations toward its 2030 target of 500 GW. The International Solar Alliance (ISA) headquartered in Gurugram launched new solar mini-grid grants.",
-    "key_points": [
-      "India’s target: 500 GW of non-fossil electricity capacity by 2030 as per COP26 Panchamrit pledges.",
-      "Pradhan Mantri Surya Ghar: Muft Bijli Yojana has surpassed 1.2 crore household solar rooftop registrations.",
-      "Kerala’s ANERT achieved 100 MW rooftop solar in Thiruvananthapuram.",
-      "International Solar Alliance (ISA) headquarters is situated in Gurugram, Haryana."
-    ],
-    "psc_potential_question": {
-      "question_text": "Where is the global headquarters of the International Solar Alliance (ISA) located?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Paris, France"
-        },
-        {
-          "id": "B",
-          "text": "Gurugram, India"
-        },
-        {
-          "id": "C",
-          "text": "Geneva, Switzerland"
-        },
-        {
-          "id": "D",
-          "text": "Nairobi, Kenya"
-        }
-      ],
-      "correct_option": "B",
-      "explanation": "The International Solar Alliance (ISA), initiated jointly by India and France in 2015, has its permanent secretariat and headquarters in Gurugram, Haryana, India."
-    },
-    "tags": [
-      "#RenewableEnergy",
-      "#ISA",
-      "#SolarIndia",
-      "#ANERT"
-    ]
-  },
-  {
-    "id": "ca-2025-01-20",
-    "date": "2025-01-20",
-    "display_date": "20 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "Padma Awards 2025: Eminent Personalities from Kerala Honored for Literature and Arts",
-    "malayalam_title": "2025-ലെ പത്മ പുരസ്കാരങ്ങൾ പ്രഖ്യാപിച്ചു; കേരളത്തിന് അഭിമാന നേട്ടങ്ങൾ",
+    "id": "ca-2026-11-03",
+    "date": "2026-11-03",
+    "display_date": "3 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Kerala State Highest Civilian Honors 2026: Kerala Jyothi, Kerala Prabha & Kerala Sree Announced",
+    "malayalam_title": "2026-ലെ കേരള പുരസ്കാരങ്ങൾ പ്രഖ്യാപിച്ചു: കേരള ജ്യോതി, കേരള പ്രഭ, കേരള ശ്രീ",
     "category": "Awards & Honors",
-    "summary": "The Government of India announced the prestigious Padma Awards on the eve of the 76th Republic Day. Eminent contributors from Kerala in traditional Kathakali, Malayalam literature, Sanskrit scholarship, and organic agriculture were conferred with Padma Shri and Padma Bhushan honors.",
+    "summary": "The Government of Kerala announced the 2026 Kerala State Civilian Awards (instituted on the model of the Padma Awards). Eminent personalities in public service, social science, classical arts, and literature were conferred with Kerala Jyothi, Kerala Prabha, and Kerala Sree honours.",
     "key_points": [
-      "Padma Awards were instituted in the year 1954.",
-      "Three categories: Padma Vibhushan, Padma Bhushan, and Padma Shri.",
-      "Awards do not amount to a title under Article 18(1) of the Indian Constitution (Balaji Raghavan vs Union of India, 1995).",
-      "Kerala recipients highlighted achievements in folk arts and tribal medicinal plant preservation."
+      "Kerala Civilian Awards were instituted by the Government of Kerala in 2021 and first awarded in 2022.",
+      "Three tiers: Kerala Jyothi (highest, given to 1 person), Kerala Prabha (to 2 persons), and Kerala Sree (to up to 5 persons).",
+      "First recipient of the inaugural Kerala Jyothi award was legendary writer M.T. Vasudevan Nair (2022).",
+      "Announced annually on the occasion of Kerala Piravi (1 November)."
     ],
     "psc_potential_question": {
-      "question_text": "Which landmark Supreme Court judgment ruled that national awards like Bharat Ratna and Padma Awards are not 'titles' under Article 18(1) of the Constitution of India?",
+      "question_text": "Who was the first recipient of the prestigious 'Kerala Jyothi' award instituted by the Government of Kerala in 2022?",
       "options": [
         {
           "id": "A",
-          "text": "Kesavananda Bharati Case (1973)"
+          "text": "Mammootty"
         },
         {
           "id": "B",
-          "text": "Balaji Raghavan vs Union of India (1995)"
+          "text": "M.T. Vasudevan Nair"
         },
         {
           "id": "C",
-          "text": "Minerva Mills Case (1980)"
+          "text": "Adoor Gopalakrishnan"
         },
         {
           "id": "D",
-          "text": "Maneka Gandhi Case (1978)"
+          "text": "Dr. M.S. Valiathan"
         }
       ],
       "correct_option": "B",
-      "explanation": "In Balaji Raghavan vs Union of India (1995), the Supreme Court held that National Awards do not violate Article 18(1) because they are decorations and not titles."
+      "explanation": "Jnanpith laureate M.T. Vasudevan Nair was conferred the inaugural Kerala Jyothi award in 2022 for his exceptional contributions to literature and cinema."
     },
     "tags": [
-      "#PadmaAwards2025",
-      "#IndianPolity",
-      "#Article18",
-      "#Awards"
-    ]
+      "#KeralaJyothi",
+      "#KeralaPrabha",
+      "#KeralaSree",
+      "#Awards2026"
+    ],
+    "is_trending": true
   },
   {
-    "id": "ca-2025-01-24",
-    "date": "2025-01-24",
-    "display_date": "24 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "National Girl Child Day 2025: Kerala Retains Top Spot in Human Development and Health Metrics",
-    "malayalam_title": "ദേശീയ ബാലികാ ദിനത്തിൽ കേരളത്തിന് മികച്ച ലിംഗാനുപാത നേട്ടം",
+    "id": "ca-2026-11-01",
+    "date": "2026-11-01",
+    "display_date": "1 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Kerala Piravi Dinam: 70th Anniversary of the Formation of Kerala State (1956–2026)",
+    "malayalam_title": "കേരളപ്പിറവി 70-ാം വാർഷികം: ഐക്യകേരള രൂപീകരണ നേട്ടം ആഘോഷിച്ചു",
     "category": "Kerala",
-    "summary": "Observed annually on 24 January, the 2025 National Girl Child Day highlighted Kerala’s continued leadership in child health metrics. According to NITI Aayog’s 2025 report, Kerala retains the lowest Infant Mortality Rate (6 per 1,000 live births) and highest sex ratio (1,084 females per 1,000 males).",
+    "summary": "Kerala celebrated the historic 70th anniversary of its formation on 1 November 2026. The state of Kerala was formed on 1 November 1956 by merging Travancore-Cochin with the Malabar district of Madras State and the Kasaragod taluk of South Canara under the States Reorganisation Act, 1956.",
     "key_points": [
-      "National Girl Child Day was initiated in 2008 by the Ministry of Women and Child Development.",
-      "Theme for 2025: 'Empowering Girls for a Sustainable and Equal Tomorrow'.",
-      "Kerala’s Maternal Mortality Ratio (MMR) stands at 19 per 1 lakh live births.",
-      "Kanyashree and Nirbhaya shelters in Kerala received enhanced modernization grants."
+      "The Fazal Ali Commission (States Reorganisation Commission 1953) recommended the linguistic formation of Kerala.",
+      "Members of the Commission: Justice Fazal Ali (Chairman), K.M. Panikkar, and H.N. Kunzru.",
+      "First Governor of Kerala: Dr. B. Ramakrishna Rao (assumed office 1 November 1956).",
+      "First Chief Minister of Kerala: E.M.S. Namboodiripad (ministry formed on 5 April 1957)."
     ],
     "psc_potential_question": {
-      "question_text": "When is National Girl Child Day observed annually in India?",
+      "question_text": "Who was the first Governor of Kerala following the formation of the state on 1 November 1956?",
       "options": [
         {
           "id": "A",
-          "text": "24 January"
+          "text": "P.S. Rao (Acting)"
         },
         {
           "id": "B",
-          "text": "8 March"
+          "text": "Dr. B. Ramakrishna Rao"
         },
         {
           "id": "C",
-          "text": "11 October"
+          "text": "V.V. Giri"
         },
         {
           "id": "D",
-          "text": "14 November"
-        }
-      ],
-      "correct_option": "A",
-      "explanation": "National Girl Child Day is celebrated in India every year on 24 January, whereas International Day of the Girl Child is observed globally on 11 October."
-    },
-    "tags": [
-      "#GirlChildDay",
-      "#KeralaHealth",
-      "#NITIAayog",
-      "#SexRatio"
-    ]
-  },
-  {
-    "id": "ca-2025-01-26",
-    "date": "2025-01-26",
-    "display_date": "26 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "76th Republic Day Celebrations: Grand Parade Held on Kartavya Path",
-    "malayalam_title": "76-ാമത് റിപ്പബ്ലിക് ദിന പരേഡിൽ വനിതാ പ്രാതിനിധ്യം ശ്രദ്ധേയമായി",
-    "category": "National",
-    "summary": "India celebrated its 76th Republic Day on 26 January 2025 with ceremonial parades on Kartavya Path, New Delhi. The parade highlighted India’s military prowess and cultural diversity with tri-services all-women contingents.",
-    "key_points": [
-      "The Constitution of India came into effect on 26 January 1950, replacing the Government of India Act 1935.",
-      "26 January was chosen because on this day in 1930, the Indian National Congress declared Purna Swaraj.",
-      "Tableau of Kerala showcased traditional water transport, Vallam Kali, and social reform leaders.",
-      "President Droupadi Murmu took the salute at the grand ceremonial march."
-    ],
-    "psc_potential_question": {
-      "question_text": "Why was 26 January specifically chosen as the date for bringing the Constitution of India into force in 1950?",
-      "options": [
-        {
-          "id": "A",
-          "text": "It was Mahatma Gandhi’s return anniversary"
-        },
-        {
-          "id": "B",
-          "text": "Purna Swaraj Day was celebrated on 26 January 1930 following the Lahore Congress session"
-        },
-        {
-          "id": "C",
-          "text": "The Constituent Assembly held its very first session on that date"
-        },
-        {
-          "id": "D",
-          "text": "The Cabinet Mission arrived in India on that date"
+          "text": "A.P. Jain"
         }
       ],
       "correct_option": "B",
-      "explanation": "26 January was chosen to honor the anniversary of Purna Swaraj Declaration proclaimed by the Indian National Congress on 26 January 1930."
+      "explanation": "Dr. B. Ramakrishna Rao assumed office as the first full Governor of Kerala on 1 November 1956, after P.S. Rao acted as interim head during the merger transition."
     },
     "tags": [
-      "#RepublicDay2025",
-      "#ConstitutionOfIndia",
-      "#PurnaSwaraj",
-      "#Polity"
-    ]
+      "#KeralaPiravi",
+      "#StatesReorganisation",
+      "#FazalAliCommission",
+      "#KeralaHistory"
+    ],
+    "is_trending": true
   },
   {
-    "id": "ca-2025-01-30",
-    "date": "2025-01-30",
-    "display_date": "30 January 2025",
-    "year": 2025,
-    "month": "January 2025",
-    "month_slug": "2025-01",
-    "title": "Australian Open 2025: Grand Slam Singles Champions Crowned in Melbourne",
-    "malayalam_title": "ഓസ്ട്രേലിയൻ ഓപ്പൺ 2025 ഗ്രാൻഡ്സ്ലാം കിരീടങ്ങൾ പ്രഖ്യാപിച്ചു",
-    "category": "Sports",
-    "summary": "The 113th edition of the Australian Open tennis tournament concluded at Melbourne Park. The tournament showcased high-octane battles in hard-court conditions, marking the first Grand Slam tournament of the 2025 tennis calendar.",
+    "id": "ca-2026-10-31",
+    "date": "2026-10-31",
+    "display_date": "31 October 2026",
+    "year": 2026,
+    "month": "October 2026",
+    "month_slug": "2026-10",
+    "title": "National Unity Day (Rashtriya Ekta Diwas): Honoring Sardar Vallabhbhai Patel",
+    "malayalam_title": "ദേശീയ ഐക്യ ദിനം: സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ ജന്മദിനം ആഘോഷിച്ചു",
+    "category": "National",
+    "summary": "India celebrated National Unity Day on 31 October commemorating the 151st birth anniversary of Sardar Vallabhbhai Patel, the Iron Man of India who integrated over 560 princely states into the Indian Union.",
     "key_points": [
-      "The four Grand Slams in order: Australian Open (Hard), French Open (Clay), Wimbledon (Grass), US Open (Hard).",
-      "Australian Open was first held in 1905 in Melbourne.",
-      "Often referred to as the 'Happy Slam'.",
-      "Mixed doubles witnessed high participation from Asian pairs."
+      "Sardar Patel served as the first Deputy Prime Minister and Home Minister of independent India.",
+      "Statue of Unity (182 meters), the world's tallest statue, is dedicated to him at Kevadia, Gujarat along the Narmada river.",
+      "National Unity Day was instituted in 2014.",
+      "Posthumously awarded the Bharat Ratna in 1991."
     ],
     "psc_potential_question": {
-      "question_text": "Which is the first Grand Slam tennis tournament held in a calendar year?",
+      "question_text": "On the banks of which river is the Statue of Unity, dedicated to Sardar Vallabhbhai Patel, situated?",
       "options": [
         {
           "id": "A",
-          "text": "Wimbledon"
+          "text": "Sabarmati"
         },
         {
           "id": "B",
-          "text": "French Open"
+          "text": "Narmada"
         },
         {
           "id": "C",
-          "text": "Australian Open"
+          "text": "Tapi"
         },
         {
           "id": "D",
-          "text": "US Open"
+          "text": "Godavari"
         }
       ],
-      "correct_option": "C",
-      "explanation": "The Australian Open is the first of the four annual Grand Slam tennis events, played in mid-January."
+      "correct_option": "B",
+      "explanation": "The Statue of Unity (182 meters) is located facing the Sardar Sarovar Dam on the river Narmada in Kevadia, Gujarat."
     },
     "tags": [
-      "#AustralianOpen",
-      "#Tennis",
-      "#GrandSlam",
+      "#RashtriyaEktaDiwas",
+      "#SardarPatel",
+      "#StatueOfUnity",
+      "#Narmada"
+    ]
+  },
+  {
+    "id": "ca-2026-10-24",
+    "date": "2026-10-24",
+    "display_date": "24 October 2026",
+    "year": 2026,
+    "month": "October 2026",
+    "month_slug": "2026-10",
+    "title": "United Nations Day (81st Anniversary) and World Polio Day Celebrated",
+    "malayalam_title": "ഐക്യരാഷ്ട്രസഭാ ദിനവും ലോക പോളിയോ ദിനവും ആചരിച്ചു",
+    "category": "International",
+    "summary": "24 October marks the 81st anniversary of the entry into force of the UN Charter in 1945. Simultaneously, World Polio Day highlighted India's 12 consecutive years as a certified polio-free nation (declared by WHO in March 2014).",
+    "key_points": [
+      "UN Charter was signed on 26 June 1945 in San Francisco and came into effect on 24 October 1945.",
+      "India was an original founding member of the United Nations (signing on 26 June 1945).",
+      "World Polio Day commemorates the birth of Jonas Salk, developer of the first successful polio vaccine.",
+      "Six official languages of the UN: Arabic, Chinese, English, French, Russian, and Spanish."
+    ],
+    "psc_potential_question": {
+      "question_text": "In which year was India officially declared a 'Polio-Free' country by the World Health Organization (WHO)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2011"
+        },
+        {
+          "id": "B",
+          "text": "2014"
+        },
+        {
+          "id": "C",
+          "text": "2018"
+        },
+        {
+          "id": "D",
+          "text": "2020"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "On 27 March 2014, the World Health Organization (WHO) officially declared India and the entire South-East Asia Region free of polio."
+    },
+    "tags": [
+      "#UNDay",
+      "#WorldPolioDay",
+      "#WHO",
+      "#InternationalGK"
+    ]
+  },
+  {
+    "id": "ca-2026-10-02",
+    "date": "2026-10-02",
+    "display_date": "2 October 2026",
+    "year": 2026,
+    "month": "October 2026",
+    "month_slug": "2026-06",
+    "title": "157th Gandhi Jayanti & International Day of Non-Violence Observed",
+    "malayalam_title": "157-ാമത് ഗാന്ധി ജയന്തിയും അന്താരാഷ്ട്ര അഹിംസാ ദിനവും ആചരിച്ചു",
+    "category": "National",
+    "summary": "The nation observed the 157th birth anniversary of Mahatma Gandhi and the birth anniversary of India's second Prime Minister Lal Bahadur Shastri. United Nations observed the day as the International Day of Non-Violence.",
+    "key_points": [
+      "Mahatma Gandhi was born on 2 October 1869 in Porbandar, Gujarat.",
+      "UN General Assembly unanimously established 2 October as the International Day of Non-Violence in 2007.",
+      "Mahatma Gandhi visited Kerala five times: 1920 (Khilafat/Non-Cooperation), 1925 (Vaikom Satyagraha), 1927 (Khadi tour), 1934 (Harijan tour), and 1937 (Temple Entry Proclamation).",
+      "Lal Bahadur Shastri gave the famous slogan 'Jai Jawan, Jai Kisan' during the 1965 war."
+    ],
+    "psc_potential_question": {
+      "question_text": "How many times did Mahatma Gandhi officially visit Kerala during India's freedom struggle?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 Times"
+        },
+        {
+          "id": "B",
+          "text": "5 Times"
+        },
+        {
+          "id": "C",
+          "text": "7 Times"
+        },
+        {
+          "id": "D",
+          "text": "2 Times"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Mahatma Gandhi visited Kerala a total of 5 times: in August 1920, March 1925 (during Vaikom Satyagraha), October 1927, January 1934, and January 1937."
+    },
+    "tags": [
+      "#GandhiJayanti",
+      "#NonViolenceDay",
+      "#GandhiKeralaVisits",
+      "#History"
+    ]
+  },
+  {
+    "id": "ca-2026-09-21",
+    "date": "2026-09-21",
+    "display_date": "21 September 2026",
+    "year": 2026,
+    "month": "September 2026",
+    "month_slug": "2026-09",
+    "title": "Sree Narayana Guru 98th Samadhi Anniversary Observed Across Kerala",
+    "malayalam_title": "ശ്രീനാരായണ ഗുരു സമാധി ദിനം കേരളം ഭക്തിസാന്ദ്രമായി ആചരിച്ചു",
+    "category": "Kerala",
+    "summary": "The 98th Samadhi anniversary of spiritual leader and social reformer Sree Narayana Guru was observed on 21 September (Kanni 5 in Malayalam calendar). Devotees gathered at Sivagiri Mutt, Varkala, where Guru attained Samadhi in 1928.",
+    "key_points": [
+      "Sree Narayana Guru was born on 20 August 1856 at Chempazhanthy, Thiruvananthapuram.",
+      "Historic Aruvippuram Shiva Pratishtha was conducted on Shivaratri night in 1888 ('One Caste, One Religion, One God for Man').",
+      "Founded the Sree Narayana Dharma Paripalana (SNDP) Yogam in 1903; Kumaran Asan was the first General Secretary.",
+      "Attained Samadhi at Sivagiri, Varkala on 20 September 1928 (Kanni 5, 1104 ME)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who served as the first General Secretary of the SNDP Yogam founded by Sree Narayana Guru in 1903?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Palpu"
+        },
+        {
+          "id": "B",
+          "text": "Kumaran Asan"
+        },
+        {
+          "id": "C",
+          "text": "T.K. Madhavan"
+        },
+        {
+          "id": "D",
+          "text": "Sahodaran Ayyappan"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Mahakavi Kumaran Asan was appointed the first General Secretary of the SNDP Yogam in 1903, while Sree Narayana Guru was the permanent President."
+    },
+    "tags": [
+      "#SreeNarayanaGuru",
+      "#Sivagiri",
+      "#SNDP",
+      "#KeralaRenaissance"
+    ]
+  },
+  {
+    "id": "ca-2026-09-05",
+    "date": "2026-09-05",
+    "display_date": "5 September 2026",
+    "year": 2026,
+    "month": "September 2026",
+    "month_slug": "2026-09",
+    "title": "National Teachers' Day: Kerala State Best Teacher Awards 2026 Conferred",
+    "malayalam_title": "ദേശീയ അധ്യാപക ദിനത്തിൽ സംസ്ഥാന മികച്ച അധ്യാപക പുരസ്കാരങ്ങൾ സമ്മാനിച്ചു",
+    "category": "Kerala",
+    "summary": "Observed on 5 September on the birth anniversary of philosopher, scholar, and India's second President Dr. Sarvepalli Radhakrishnan. The General Education Department awarded 40 school teachers for innovations in inclusive digital pedagogy.",
+    "key_points": [
+      "Teachers' Day has been observed in India on 5 September since 1962.",
+      "Dr. S. Radhakrishnan was the first Vice President of India (1952–1962) and second President (1962–1967).",
+      "First recipient of Bharat Ratna in 1954 alongside C. Rajagopalachari and C.V. Raman.",
+      "World Teachers' Day is celebrated internationally on 5 October."
+    ],
+    "psc_potential_question": {
+      "question_text": "Dr. Sarvepalli Radhakrishnan served as the first Vice President of India. Who was India's first recipient of the Bharat Ratna in 1954 along with him?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jawaharlal Nehru and Sardar Patel"
+        },
+        {
+          "id": "B",
+          "text": "C. Rajagopalachari and Sir C.V. Raman"
+        },
+        {
+          "id": "C",
+          "text": "Dr. B.R. Ambedkar and Maulana Azad"
+        },
+        {
+          "id": "D",
+          "text": "Zakier Husain and V.V. Giri"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "In 1954, the Bharat Ratna was awarded to three distinguished personalities: C. Rajagopalachari, Dr. Sarvepalli Radhakrishnan, and Sir C.V. Raman."
+    },
+    "tags": [
+      "#TeachersDay",
+      "#Radhakrishnan",
+      "#BharatRatna1954",
+      "#KeralaEducation"
+    ]
+  },
+  {
+    "id": "ca-2026-08-29",
+    "date": "2026-08-29",
+    "display_date": "29 August 2026",
+    "year": 2026,
+    "month": "August 2026",
+    "month_slug": "2026-08",
+    "title": "National Sports Day: Major Dhyan Chand Birth Anniversary Celebrated; Kerala Sports Honors Announced",
+    "malayalam_title": "ദേശീയ കായിക ദിനം: മേജർ ധ്യാൻചന്ദ് ജന്മദിനത്തിൽ സംസ്ഥാന കായിക പുരസ്കാരങ്ങൾ",
+    "category": "Sports",
+    "summary": "National Sports Day was celebrated on 29 August in memory of hockey legend Major Dhyan Chand. In Thiruvananthapuram, the Kerala State Sports Council announced the G.V. Raja Awards and fellowships for emerging athletes in athletics and rowing.",
+    "key_points": [
+      "Major Dhyan Chand (29 August 1905 – 3 December 1979) won three Olympic gold medals in hockey (1928 Amsterdam, 1932 Los Angeles, 1936 Berlin).",
+      "Khel Ratna Award was renamed as Major Dhyan Chand Khel Ratna Award in August 2021.",
+      "Godavarma Raja (Lt. Col. P.R. Godavarma Raja) is known as the 'Father of Tourism and Modern Sports in Kerala'.",
+      "First recipient of the Rajiv Gandhi Khel Ratna Award was Viswanathan Anand (1991–92)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who was the first recipient of India's highest sporting honor, the Khel Ratna Award (1991-92)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sachin Tendulkar"
+        },
+        {
+          "id": "B",
+          "text": "Viswanathan Anand"
+        },
+        {
+          "id": "C",
+          "text": "P.T. Usha"
+        },
+        {
+          "id": "D",
+          "text": "Geet Sethi"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Chess Grandmaster Viswanathan Anand was the inaugural recipient of the Khel Ratna Award in 1991–92."
+    },
+    "tags": [
+      "#NationalSportsDay",
+      "#MajorDhyanChand",
+      "#GVRaja",
       "#SportsGK"
     ]
   },
   {
-    "id": "ca-2025-02-01",
-    "date": "2025-02-01",
-    "display_date": "1 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "Union Budget 2025-26: Key Allocations for Infrastructure and Green Energy",
-    "malayalam_title": "കേന്ദ്ര ബജറ്റ് 2025-26 പാർലമെന്റിൽ അവതരിപ്പിച്ചു",
+    "id": "ca-2026-08-15",
+    "date": "2026-08-15",
+    "display_date": "15 August 2026",
+    "year": 2026,
+    "month": "August 2026",
+    "month_slug": "2026-08",
+    "title": "80th Independence Day Celebrated: Prime Minister Addresses Nation from Red Fort",
+    "malayalam_title": "രാജ്യം 80-ാമത് സ്വാതന്ത്ര്യദിനം ആഘോഷിച്ചു; ചെങ്കോട്ടയിൽ ത്രിവർണ്ണ പതാക ഉയർന്നു",
     "category": "National",
-    "summary": "Union Minister for Finance Nirmala Sitharaman presented the Union Budget for fiscal year 2025-26 in Parliament. Key highlights include capital expenditure allocation over Rs 11.5 Lakh Crore and dedicated regional connectivity packages.",
+    "summary": "India celebrated its 80th Independence Day on 15 August 2026 with ceremonial flag-hoisting at the ramparts of Red Fort, New Delhi. The address outlined the 2047 Viksit Bharat vision, indigenization in deep tech, and self-reliance in aerospace manufacturing.",
     "key_points": [
-      "Article 112 of the Indian Constitution refers to the Union Budget as the 'Annual Financial Statement'.",
-      "Nirmala Sitharaman presented seven consecutive Union Budgets.",
-      "Enhanced standard deduction under the New Tax Regime.",
-      "Green Hydrogen Mission and Semiconductor PLI schemes received increased capital outlays."
+      "India achieved independence from British colonial rule on 15 August 1947.",
+      "Jawaharlal Nehru delivered the historic 'Tryst with Destiny' speech at midnight on 14–15 August 1947.",
+      "Pingali Venkayya designed the basic framework of the Indian National Flag.",
+      "The National Flag was adopted by the Constituent Assembly on 22 July 1947."
     ],
     "psc_potential_question": {
-      "question_text": "Which Article of the Constitution of India mandates the President to cause to be laid before Parliament the 'Annual Financial Statement' (Union Budget)?",
+      "question_text": "On which date did the Constituent Assembly of India officially adopt the National Flag (Tricolour)?",
       "options": [
         {
           "id": "A",
-          "text": "Article 110"
+          "text": "22 July 1947"
         },
         {
           "id": "B",
-          "text": "Article 112"
+          "text": "15 August 1947"
         },
         {
           "id": "C",
-          "text": "Article 117"
+          "text": "26 November 1949"
         },
         {
           "id": "D",
-          "text": "Article 280"
+          "text": "24 January 1950"
         }
       ],
-      "correct_option": "B",
-      "explanation": "Under Article 112 of the Constitution, the budget is referred to as the 'Annual Financial Statement'."
+      "correct_option": "A",
+      "explanation": "The National Flag of India was formally adopted by the Constituent Assembly on 22 July 1947, shortly before India gained independence."
     },
     "tags": [
-      "#UnionBudget2025",
-      "#IndianEconomy",
-      "#Article112",
-      "#Finance"
+      "#IndependenceDay2026",
+      "#NationalFlag",
+      "#ConstituentAssembly",
+      "#Polity"
     ]
   },
   {
-    "id": "ca-2025-02-05",
-    "date": "2025-02-05",
-    "display_date": "5 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "Kerala State Budget 2025-26 Presented: Focus on Vizhinjam Industrial Corridor and Higher Education",
-    "malayalam_title": "കേരള ബജറ്റ് 2025-26 ധനമന്ത്രി കെ.എൻ ബാലഗോപാൽ നിയമസഭയിൽ അവതരിപ്പിച്ചു",
+    "id": "ca-2026-07-29",
+    "date": "2026-07-29",
+    "display_date": "29 July 2026",
+    "year": 2026,
+    "month": "July 2026",
+    "month_slug": "2026-07",
+    "title": "International Tiger Day 2026: Periyar Tiger Reserve Named Best Managed Reserve in India",
+    "malayalam_title": "ലോക കടുവാ ദിനം: പെരിയാർ ടൈഗർ റിസർവിന് ദേശീയ തലത്തിൽ ഒന്നാം സ്ഥാനം",
     "category": "Kerala",
-    "summary": "Kerala Finance Minister KN Balagopal presented the State Budget 2025-26 in the Kerala Legislative Assembly. The budget emphasized industrial logistics around the Vizhinjam International Seaport and higher education funding.",
+    "summary": "On Global Tiger Day (29 July), the National Tiger Conservation Authority (NTCA) released the 2026 Management Effectiveness Evaluation (MEE) ranking Periyar Tiger Reserve in Thekkady as the top-managed tiger reserve in India for eco-development and anti-poaching community engagement.",
     "key_points": [
-      "Article 202 of the Indian Constitution deals with the Annual Financial Statement of State Governments.",
-      "Dedicated Vizhinjam-Kollam-Kottayam industrial growth corridor announced.",
-      "Allocation for digital university and translational research hubs across Kerala.",
-      "Kudumbashree micro-enterprises and KASP health insurance received expanded funding."
+      "Periyar Tiger Reserve was declared a sanctuary in 1950 (initially Nellikkampatty Game Sanctuary, 1934) and brought under Project Tiger in 1978.",
+      "Project Tiger was launched by the Government of India in 1973 from Jim Corbett National Park, Uttarakhand.",
+      "Periyar river originates from the Sivagiri Hills inside the reserve.",
+      "Kerala has two Tiger Reserves: Periyar Tiger Reserve and Parambikulam Tiger Reserve."
     ],
     "psc_potential_question": {
-      "question_text": "Which Article of the Indian Constitution mandates the presentation of the Annual Financial Statement (Budget) before the State Legislature?",
+      "question_text": "Which are the two designated Tiger Reserves located in the state of Kerala?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Silent Valley and Eravikulam"
+        },
+        {
+          "id": "B",
+          "text": "Periyar and Parambikulam"
+        },
+        {
+          "id": "C",
+          "text": "Wayanad and Shendurney"
+        },
+        {
+          "id": "D",
+          "text": "Peechi and Neyyar"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Kerala has two official Tiger Reserves: Periyar Tiger Reserve (Idukki) and Parambikulam Tiger Reserve (Palakkad)."
+    },
+    "tags": [
+      "#TigerDay2026",
+      "#PeriyarTigerReserve",
+      "#ProjectTiger",
+      "#KeralaWildlife"
+    ]
+  },
+  {
+    "id": "ca-2026-07-26",
+    "date": "2026-07-26",
+    "display_date": "26 July 2026",
+    "year": 2026,
+    "month": "July 2026",
+    "month_slug": "2026-07",
+    "title": "27th Kargil Vijay Diwas: India Commemorates Operation Vijay Victory",
+    "malayalam_title": "27-ാമത് കാർഗിൽ വിജയ് ദിവസ്: ധീര സൈനികരെ രാജ്യം അനുസ്മരിച്ചു",
+    "category": "National",
+    "summary": "The nation observed the 27th anniversary of Kargil Vijay Diwas on 26 July 2026, paying tribute to the brave soldiers who recaptured heights occupied by Pakistani infiltrators during the 1999 Kargil conflict (Operation Vijay).",
+    "key_points": [
+      "Operation Vijay concluded successfully on 26 July 1999.",
+      "Param Vir Chakra awardees of Kargil War: Captain Vikram Batra, Lieutenant Manoj Kumar Pandey, Subedar Major Yogendra Singh Yadav, Subedar Sanjay Kumar.",
+      "Indian Air Force's complementary operation was code-named 'Operation Safed Sagar'.",
+      "Kargil War Memorial is located at Dras, Ladakh."
+    ],
+    "psc_potential_question": {
+      "question_text": "What was the code name of the Indian Air Force operation launched in support of the Army during the 1999 Kargil conflict?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Operation Safed Sagar"
+        },
+        {
+          "id": "B",
+          "text": "Operation Meghdoot"
+        },
+        {
+          "id": "C",
+          "text": "Operation Bandar"
+        },
+        {
+          "id": "D",
+          "text": "Operation Rahat"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "Operation Safed Sagar was the code name for the Indian Air Force's air strikes supporting ground troops in Operation Vijay during the Kargil War in 1999."
+    },
+    "tags": [
+      "#KargilVijayDiwas",
+      "#OperationVijay",
+      "#SafedSagar",
+      "#Defense"
+    ]
+  },
+  {
+    "id": "ca-2026-06-19",
+    "date": "2026-06-19",
+    "display_date": "19 June 2026",
+    "year": 2026,
+    "month": "June 2026",
+    "month_slug": "2026-06",
+    "title": "Reading Day (Vayanadinam) Celebrated Across Kerala: Honoring P.N. Panicker",
+    "malayalam_title": "കേരളത്തിൽ വായനാദിനം ആചരിച്ചു; പി.എൻ പണിക്കർ സ്മരണ പുതുക്കി",
+    "category": "Kerala",
+    "summary": "Kerala observed Reading Day (Vayanadinam) on 19 June, marking the death anniversary of P.N. Panicker, the father of the library movement in Kerala. The week from 19 to 25 June was celebrated as 'Vayanavaram' (Reading Week) in all schools and libraries.",
+    "key_points": [
+      "P.N. Panicker founded the Thiruvithaamkoor Granthasala Sangham (Travancore Library Association) in 1945.",
+      "Famous slogan: 'Vayichu Valaruka, Chinthichu Vivikikuka' (Read and Grow, Think and Enlighten).",
+      "Kerala Granthasala Sangham was awarded the prestigious 'Krupskaya' literacy award by UNESCO in 1975.",
+      "Kerala was the first state in India to achieve complete literacy (declared at Kozhikode on 18 April 1991)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who is revered as the 'Father of the Library Movement in Kerala'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kumaran Asan"
+        },
+        {
+          "id": "B",
+          "text": "P.N. Panicker"
+        },
+        {
+          "id": "C",
+          "text": "K. Kelappan"
+        },
+        {
+          "id": "D",
+          "text": "Vakkom Moulavi"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "P.N. Panicker (1909–1995) is revered as the Father of the Library Movement in Kerala. His death anniversary on 19 June is commemorated annually as Reading Day."
+    },
+    "tags": [
+      "#Vayanadinam",
+      "#PNPanicker",
+      "#ReadingDay",
+      "#KeralaCulture"
+    ]
+  },
+  {
+    "id": "ca-2026-06-05",
+    "date": "2026-06-05",
+    "display_date": "5 June 2026",
+    "year": 2026,
+    "month": "June 2026",
+    "month_slug": "2026-06",
+    "title": "World Environment Day 2026: Kerala Launches 'Prakrithi Keralam' Afforestation Drive",
+    "malayalam_title": "ലോക പരിസ്ഥിതി ദിനം: 'പ്രകൃതി കേരളം' ഹരിതവൽക്കരണ പദ്ധതി ആരംഭിച്ചു",
+    "category": "Kerala",
+    "summary": "On World Environment Day, the Department of Environment and Climate Change launched 'Prakrithi Keralam' planting 1 crore indigenous endemic trees in riparian corridors and degraded Western Ghats slopes.",
+    "key_points": [
+      "World Environment Day is observed on 5 June since 1973 under the United Nations Environment Programme (UNEP).",
+      "Marked following the 1972 Stockholm Conference on the Human Environment.",
+      "Kerala has a recorded forest cover of over 29.6% of its geographical area.",
+      "Haritha Karma Sena celebrated collection of over 50,000 tonnes of non-biodegradable plastic."
+    ],
+    "psc_potential_question": {
+      "question_text": "Where was the landmark 1972 United Nations Conference on the Human Environment held?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stockholm, Sweden"
+        },
+        {
+          "id": "B",
+          "text": "Rio de Janeiro, Brazil"
+        },
+        {
+          "id": "C",
+          "text": "Kyoto, Japan"
+        },
+        {
+          "id": "D",
+          "text": "Paris, France"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "The 1972 Stockholm Conference in Sweden was the UN's first major conference on international environmental issues, leading to the creation of UNEP."
+    },
+    "tags": [
+      "#EnvironmentDay2026",
+      "#Stockholm1972",
+      "#PrakrithiKeralam",
+      "#UNEP"
+    ]
+  },
+  {
+    "id": "ca-2026-05-23",
+    "date": "2026-05-23",
+    "display_date": "23 May 2026",
+    "year": 2026,
+    "month": "May 2026",
+    "month_slug": "2026-05",
+    "title": "13th Anniversary of Malayalam Classical Language Status Observed Across Kerala",
+    "malayalam_title": "മലയാളത്തിന് ശ്രേഷ്ഠഭാഷാ പദവി ലഭിച്ചതിന്റെ 13-ാം വാർഷികം ആഘോഷിച്ചു",
+    "category": "Kerala",
+    "summary": "Cultural forums celebrated the 13th anniversary of Malayalam being officially declared a Classical Language (ശ്രേഷ്ഠഭാഷ) by the Union Cabinet on 23 May 2013.",
+    "key_points": [
+      "Malayalam was the 5th language in India to be recognized as a Classical Language.",
+      "Criteria for classical status include high antiquity of early texts over 1,500-2,000 years and original literary tradition.",
+      "Other classical languages: Tamil (2004), Sanskrit (2005), Telugu (2008), Kannada (2008), Odia (2014), and Marathi, Pali, Prakrit, Assamese, Bengali (2024 additions).",
+      "Malayalam University (Thunchath Ezhuthachan Malayalam University) was established in 2012 at Tirur, Malappuram."
+    ],
+    "psc_potential_question": {
+      "question_text": "Where is the headquarters of the Thunchath Ezhuthachan Malayalam University located?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kalady, Ernakulam"
+        },
+        {
+          "id": "B",
+          "text": "Tirur, Malappuram"
+        },
+        {
+          "id": "C",
+          "text": "Ponnani, Malappuram"
+        },
+        {
+          "id": "D",
+          "text": "Kalamassery, Ernakulam"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Thunchath Ezhuthachan Malayalam University was inaugurated on 1 November 2012 at Tirur in Malappuram district, the birthplace of Ezhuthachan."
+    },
+    "tags": [
+      "#MalayalamClassical",
+      "#Tirur",
+      "#Ezhuthachan",
+      "#KeralaCulture"
+    ]
+  },
+  {
+    "id": "ca-2026-05-11",
+    "date": "2026-05-11",
+    "display_date": "11 May 2026",
+    "year": 2026,
+    "month": "May 2026",
+    "month_slug": "2026-05",
+    "title": "National Technology Day 2026: Commemorating Operation Shakti Nuclear Tests",
+    "malayalam_title": "ദേശീയ സാങ്കേതിക ദിനം: പൊഖ്റാൻ-2 ആണവ പരീക്ഷണങ്ങളുടെ ഓർമ്മ പുതുക്കി",
+    "category": "Science & Tech",
+    "summary": "National Technology Day was celebrated on 11 May to commemorate the anniversary of the successful nuclear tests conducted in Pokhran, Rajasthan on 11 May 1998 (Operation Shakti), under the leadership of Prime Minister Atal Bihari Vajpayee and Dr. A.P.J. Abdul Kalam.",
+    "key_points": [
+      "On 11 May 1998, India successfully test-fired five nuclear devices at the Pokhran test range.",
+      "Also on 11 May 1998, India test-flew the first indigenous aircraft 'Hansa-3' and test-fired the Trishul missile.",
+      "Designated as National Technology Day by Prime Minister Vajpayee in 1999.",
+      "First nuclear test (Smiling Buddha) was conducted on 18 May 1974."
+    ],
+    "psc_potential_question": {
+      "question_text": "What was the official code name of the Pokhran-II nuclear tests conducted by India in May 1998?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Operation Smiling Buddha"
+        },
+        {
+          "id": "B",
+          "text": "Operation Shakti"
+        },
+        {
+          "id": "C",
+          "text": "Operation Vijay"
+        },
+        {
+          "id": "D",
+          "text": "Operation Meghdoot"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Operation Shakti was the code name of the five nuclear tests conducted by India on 11 and 13 May 1998 at Pokhran, Rajasthan."
+    },
+    "tags": [
+      "#NationalTechDay",
+      "#OperationShakti",
+      "#Pokhran",
+      "#DefenseGK"
+    ]
+  },
+  {
+    "id": "ca-2026-04-24",
+    "date": "2026-04-24",
+    "display_date": "24 April 2026",
+    "year": 2026,
+    "month": "April 2026",
+    "month_slug": "2026-04",
+    "title": "National Panchayati Raj Day: Kerala Local Bodies Sweep National Governance Awards",
+    "malayalam_title": "ദേശീയ പഞ്ചായത്തിരാജ് ദിനത്തിൽ കേരളത്തിന് മികച്ച പുരസ്കാരങ്ങൾ",
+    "category": "Kerala",
+    "summary": "Observed on 24 April to mark the enactment of the 73rd Constitutional Amendment Act, 1992, Kerala Panchayats won premier honours in the Deen Dayal Upadhyay Panchayat Sashaktikaran Puraskar for grassroots participatory planning and waste management.",
+    "key_points": [
+      "The 73rd Amendment Act, 1992 came into effect on 24 April 1993.",
+      "Added Part IX (Articles 243 to 243-O) and the Eleventh Schedule (29 functional subjects).",
+      "Kerala passed the Kerala Panchayat Raj Act in 1994, followed by the historic People’s Plan Campaign (Janakeeya Asoothranam) in 1996.",
+      "Kerala was a pioneer in devolution of 35-40% of plan funds directly to local self-governments."
+    ],
+    "psc_potential_question": {
+      "question_text": "In which year was the historic People's Plan Campaign (ജനകീയാസൂത്രണം) launched in Kerala?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1994"
+        },
+        {
+          "id": "B",
+          "text": "1996"
+        },
+        {
+          "id": "C",
+          "text": "1998"
+        },
+        {
+          "id": "D",
+          "text": "2000"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The People’s Plan Campaign was formally launched on 17 August 1996 by the Government of Kerala to ensure decentralized planning through grassroots local bodies."
+    },
+    "tags": [
+      "#PanchayatiRajDay",
+      "#73rdAmendment",
+      "#PeoplesPlan",
+      "#LocalGovernance"
+    ]
+  },
+  {
+    "id": "ca-2026-04-14",
+    "date": "2026-04-14",
+    "display_date": "14 April 2026",
+    "year": 2026,
+    "month": "April 2026",
+    "month_slug": "2026-04",
+    "title": "135th Dr. B.R. Ambedkar Jayanti Observed as 'Samata Diwas' Across India",
+    "malayalam_title": "135-ാമത് ഡോ. ബി.ആർ അംബേദ്കർ ജയന്തി സമതാ ദിവസ് ആയി ആചരിച്ചു",
+    "category": "National",
+    "summary": "Nation observed the 135th birth anniversary of the Father of the Indian Constitution, Dr. Bhimrao Ramji Ambedkar. Ceremonial floral tributes were paid at Parliament House and Deekshabhoomi, Nagpur.",
+    "key_points": [
+      "Dr. Ambedkar was born on 14 April 1891 in Mhow, Central Provinces (now Madhya Pradesh).",
+      "Chairman of the Drafting Committee of the Constituent Assembly.",
+      "First Law and Justice Minister of independent India.",
+      "Posthumously conferred the Bharat Ratna in 1990."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who was the Chairman of the Drafting Committee of the Constituent Assembly of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Rajendra Prasad"
+        },
+        {
+          "id": "B",
+          "text": "Dr. B.R. Ambedkar"
+        },
+        {
+          "id": "C",
+          "text": "Jawaharlal Nehru"
+        },
+        {
+          "id": "D",
+          "text": "B.N. Rau"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Dr. B.R. Ambedkar was appointed Chairman of the Drafting Committee on 29 August 1947, tasked with preparing the draft of the Constitution."
+    },
+    "tags": [
+      "#AmbedkarJayanti",
+      "#DraftingCommittee",
+      "#Polity",
+      "#BharatRatna"
+    ]
+  },
+  {
+    "id": "ca-2026-03-22",
+    "date": "2026-03-22",
+    "display_date": "22 March 2026",
+    "year": 2026,
+    "month": "March 2026",
+    "month_slug": "2026-03",
+    "title": "World Water Day: Kerala Water Authority Completes Bharathapuzha Rejuvenation Phase 2",
+    "malayalam_title": "ലോക ജലദിനം: ഭാരതപ്പുഴ പുനരുജ്ജീവന രണ്ടാം ഘട്ടം പൂർത്തിയായി",
+    "category": "Kerala",
+    "summary": "On World Water Day (22 March), Kerala Water Authority and the Water Resources Department announced the completion of 12 check dams and sub-surface dykes along the Bharathapuzha basin in Palakkad and Malappuram, restoring summer base-flows.",
+    "key_points": [
+      "Bharathapuzha (also known as Nila) is the second longest river in Kerala (209 km).",
+      "Originates from the Anaimalai Hills in Tamil Nadu.",
+      "Major tributaries: Kalpathipuzha, Gayathripuzha, Thuthapuzha, and Chitturpuzha.",
+      "Empties into the Arabian Sea at Ponnani in Malappuram district."
+    ],
+    "psc_potential_question": {
+      "question_text": "At which historic coastal town does the Bharathapuzha (Nila) river empty into the Arabian Sea?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Beypore"
+        },
+        {
+          "id": "B",
+          "text": "Ponnani"
+        },
+        {
+          "id": "C",
+          "text": "Kollam"
+        },
+        {
+          "id": "D",
+          "text": "Kodungallur"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The Bharathapuzha drains into the Arabian Sea at Ponnani in Malappuram district."
+    },
+    "tags": [
+      "#WorldWaterDay",
+      "#Bharathapuzha",
+      "#Ponnani",
+      "#KeralaRivers"
+    ]
+  },
+  {
+    "id": "ca-2026-03-08",
+    "date": "2026-03-08",
+    "display_date": "8 March 2026",
+    "year": 2026,
+    "month": "March 2026",
+    "month_slug": "2026-03",
+    "title": "International Women’s Day 2026: State 'Vanitha Ratna' Awards Presented in Thiruvananthapuram",
+    "malayalam_title": "സംസ്ഥാന വനിതാ രത്ന പുരസ്കാരങ്ങൾ വിതരണം ചെയ്തു",
+    "category": "Kerala",
+    "summary": "On International Women’s Day, the Women and Child Development Department conferred the state's highest women honor upon leaders in public health, rural literacy, and environmental activism.",
+    "key_points": [
+      "Theme for 2026 focused on inclusive digital literacy and wage parity.",
+      "Kerala has the highest sex ratio in India (1,084 females per 1,000 males as per Census).",
+      "Kudumbashree celebrated crossing 46 Lakh active members.",
+      "Gender budgeting is integrated into local body annual plans across Kerala."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which district in Kerala was the birthplace of the Kudumbashree Mission launched in May 1998?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alappuzha"
+        },
+        {
+          "id": "B",
+          "text": "Malappuram"
+        },
+        {
+          "id": "C",
+          "text": "Palakkad"
+        },
+        {
+          "id": "D",
+          "text": "Thiruvananthapuram"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Kudumbashree was formally launched on 17 May 1998 at Malappuram by Prime Minister Atal Bihari Vajpayee."
+    },
+    "tags": [
+      "#WomensDay2026",
+      "#VanithaRatna",
+      "#Kudumbashree",
+      "#GenderBudgeting"
+    ]
+  },
+  {
+    "id": "ca-2026-02-28",
+    "date": "2026-02-28",
+    "display_date": "28 February 2026",
+    "year": 2026,
+    "month": "February 2026",
+    "month_slug": "2026-02",
+    "title": "National Science Day 2026: VSSC Celebrates Advanced Cryogenic Engine Testing Milestones",
+    "malayalam_title": "ദേശീയ ശാസ്ത്ര ദിനം: വിക്രം സാരാഭായ് സ്പേസ് സെന്ററിൽ റോക്കറ്റ് എൻജിൻ പ്രദർശനം",
+    "category": "Science & Tech",
+    "summary": "Observed on 28 February to commemorate Sir C.V. Raman's discovery of the Raman Effect (1928), the Vikram Sarabhai Space Centre (VSSC) Thumba unveiled advancements in semi-cryogenic rocket propulsion and carbon-composite satellite casings.",
+    "key_points": [
+      "Sir C.V. Raman won the Nobel Prize in Physics in 1930.",
+      "VSSC is the lead center of ISRO for launch vehicle design and development.",
+      "First sounding rocket (Nike-Apache) was launched from Thumba on 21 November 1963.",
+      "St. Mary Magdalene Church at Thumba was the birthplace of India's early rocket laboratory."
+    ],
+    "psc_potential_question": {
+      "question_text": "From which location in Kerala was India's first sounding rocket Nike-Apache launched on 21 November 1963?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sriharikota"
+        },
+        {
+          "id": "B",
+          "text": "Thumba, Thiruvananthapuram"
+        },
+        {
+          "id": "C",
+          "text": "Valiamala"
+        },
+        {
+          "id": "D",
+          "text": "Mahe"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "India's space odyssey began on 21 November 1963 with the launch of the Nike-Apache sounding rocket from Thumba Equatorial Rocket Launching Station (TERLS) in Thiruvananthapuram."
+    },
+    "tags": [
+      "#NationalScienceDay",
+      "#VSSC",
+      "#Thumba",
+      "#SpaceHistory"
+    ]
+  },
+  {
+    "id": "ca-2026-02-06",
+    "date": "2026-02-06",
+    "display_date": "6 February 2026",
+    "year": 2026,
+    "month": "February 2026",
+    "month_slug": "2026-02",
+    "title": "Kerala State Budget 2026-27: Major Allocations for Knowledge Economy and Vizhinjam Outer Ring Road",
+    "malayalam_title": "കേരള ബജറ്റ് 2026-27 നിയമസഭയിൽ അവതരിപ്പിച്ചു; വിഴിഞ്ഞം റിംഗ് റോഡിന് ഫണ്ട്",
+    "category": "Kerala",
+    "summary": "Kerala Finance Minister presented the State Budget 2026-27 in the Legislative Assembly. The budget provided major thrust for the 78-km Vizhinjam-Navaikulam Outer Ring Road, higher education translational research, and climate-resilient agriculture.",
+    "key_points": [
+      "Article 202 of the Indian Constitution governs State Government budgets.",
+      "Outer Ring Road will serve as the commercial transport spine for the Vizhinjam Port.",
+      "Karunya Arogya Suraksha Padhathi (KASP) annual limit sustained at Rs 5 Lakhs per family.",
+      "Special allocation for Kudumbashree Micro-Nutrient Food manufacturing plants."
+    ],
+    "psc_potential_question": {
+      "question_text": "Under which Article of the Constitution of India is the Annual Financial Statement (Budget) of a State Government laid before the Legislative Assembly?",
       "options": [
         {
           "id": "A",
@@ -548,397 +1066,304 @@
         },
         {
           "id": "C",
-          "text": "Article 213"
+          "text": "Article 214"
         },
         {
           "id": "D",
-          "text": "Article 243I"
+          "text": "Article 243H"
         }
       ],
       "correct_option": "B",
-      "explanation": "Article 202 deals with the Annual Financial Statement (State Budget) of State Governments."
+      "explanation": "Article 202 governs the presentation of the Annual Financial Statement (Budget) of State Governments."
     },
     "tags": [
-      "#KeralaBudget",
+      "#KeralaBudget2026",
       "#Article202",
-      "#VizhinjamCorridor",
-      "#KeralaEconomy"
+      "#VizhinjamRingRoad",
+      "#Economy"
     ]
   },
   {
-    "id": "ca-2025-02-09",
-    "date": "2025-02-09",
-    "display_date": "9 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "Vizhinjam International Seaport Surpasses 100,000 TEU Transshipment Milestone",
-    "malayalam_title": "വിഴിഞ്ഞം അന്താരാഷ്ട്ര തുറമുഖം ചരിത്രപരമായ 1 ലക്ഷം ടി.ഇ.യു നാഴികക്കല്ല് പിന്നിട്ടു",
-    "category": "Kerala",
-    "summary": "India’s first automated deepwater transshipment port at Vizhinjam, Thiruvananthapuram, achieved a landmark milestone by handling over 100,000 TEUs of container cargo, cementing Kerala’s position on international shipping routes.",
-    "key_points": [
-      "Vizhinjam port has a natural water depth of 18-20 meters.",
-      "Developed under a Public-Private Partnership (PPP) model between Government of Kerala and Adani Vizhinjam Port.",
-      "Located just 10 nautical miles from the international East-West shipping channel.",
-      "The first mothership to dock during trials was 'San Fernando' in July 2024."
-    ],
-    "psc_potential_question": {
-      "question_text": "What was the name of the first international container mothership that docked at Vizhinjam International Seaport during trial operations in July 2024?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Ever Given"
-        },
-        {
-          "id": "B",
-          "text": "San Fernando"
-        },
-        {
-          "id": "C",
-          "text": "MSC Anna"
-        },
-        {
-          "id": "D",
-          "text": "Zhen Hua 15"
-        }
-      ],
-      "correct_option": "B",
-      "explanation": "The container vessel 'San Fernando', owned by Maersk, was the first official mothership to berth at Vizhinjam Seaport on 11 July 2024."
-    },
-    "tags": [
-      "#Vizhinjam",
-      "#KeralaPorts",
-      "#SanFernando",
-      "#Infrastructure"
-    ]
-  },
-  {
-    "id": "ca-2025-02-13",
-    "date": "2025-02-13",
-    "display_date": "13 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "World Radio Day 2025: Akashvani Thiruvananthapuram Marks Milestone Broadcasts",
-    "malayalam_title": "ലോക റേഡിയോ ദിനം ആഘോഷിച്ചു; ആകാശവാണി തിരുവനന്തപുരം ശ്രദ്ധേയമായ നേട്ടത്തിൽ",
+    "id": "ca-2026-02-01",
+    "date": "2026-02-01",
+    "display_date": "1 February 2026",
+    "year": 2026,
+    "month": "February 2026",
+    "month_slug": "2026-02",
+    "title": "Union Budget 2026-27: Capital Outlay for High-Speed Rail and National Semiconductor Corridor",
+    "malayalam_title": "കേന്ദ്ര ബജറ്റ് 2026-27 പാർലമെന്റിൽ അവതരിപ്പിച്ചു",
     "category": "National",
-    "summary": "Observed globally on 13 February, World Radio Day 2025 celebrated the enduring power of radio as a vital medium for education and cultural preservation. Akashvani Thiruvananthapuram broadcast special archival documentaries.",
+    "summary": "Union Minister for Finance presented the Union Budget for fiscal year 2026-27. Key priorities included dedicated freight corridors, expansion of Vande Bharat sleeper networks, and incentives for semiconductor fabrication units.",
     "key_points": [
-      "Proclaimed by UNESCO in 2011 and adopted by the UN General Assembly in 2012.",
-      "13 February marks the establishment of United Nations Radio in 1946.",
-      "The first radio station in Kerala was inaugurated in Thiruvananthapuram on 12 March 1943.",
-      "All India Radio motto: 'Bahujan Hitaya, Bahujan Sukhaya'."
+      "Article 112 mandates the Annual Financial Statement of the Central Government.",
+      "Fiscal deficit target targeted under the Fiscal Responsibility and Budget Management (FRBM) roadmap.",
+      "Capital expenditure allocation maintained above 3.4% of GDP.",
+      "Substantial funds allocated for coastal climate adaptation in peninsular states."
     ],
     "psc_potential_question": {
-      "question_text": "In which year was the first radio broadcasting station inaugurated in Travancore (Kerala)?",
+      "question_text": "Which statutory committee of Parliament examines whether the expenditure conforms to the authority and purposes authorized by the budget?",
       "options": [
         {
           "id": "A",
-          "text": "1936"
+          "text": "Estimates Committee"
         },
         {
           "id": "B",
-          "text": "1943"
+          "text": "Public Accounts Committee (PAC)"
         },
         {
           "id": "C",
-          "text": "1950"
+          "text": "Committee on Public Undertakings"
         },
         {
           "id": "D",
-          "text": "1956"
+          "text": "Rules Committee"
         }
       ],
       "correct_option": "B",
-      "explanation": "The Travancore State Broadcasting Station was formally inaugurated on 12 March 1943 by Sir C.P. Ramaswami Iyer during the reign of Sree Chithira Thirunal Balarama Varma."
+      "explanation": "The Public Accounts Committee (PAC), set up in 1921, examines the annual audit reports of the Comptroller and Auditor General (CAG) regarding government expenditure."
     },
     "tags": [
-      "#WorldRadioDay",
-      "#Akashvani",
-      "#KeralaHistory",
-      "#ImportantDays"
+      "#UnionBudget2026",
+      "#PublicAccountsCommittee",
+      "#IndianPolity",
+      "#FRBM"
     ]
   },
   {
-    "id": "ca-2025-02-18",
-    "date": "2025-02-18",
-    "display_date": "18 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "Kerala Assembly Passes Strict Public Examinations Bill 2025 Against Malpractice",
-    "malayalam_title": "പരീക്ഷാ ക്രമക്കേടുകൾ തടയാൻ കേരള നിയമസഭ കർശന നിയമം പാസാക്കി",
-    "category": "Kerala",
-    "summary": "The Kerala Legislative Assembly passed the Kerala Public Examinations (Measures for Prevention of Unfair Means) Bill 2025, prescribing punishments up to 10 years imprisonment for question leaks and electronic tampering in competitive exams.",
+    "id": "ca-2026-01-26",
+    "date": "2026-01-26",
+    "display_date": "26 January 2026",
+    "year": 2026,
+    "month": "January 2026",
+    "month_slug": "2026-01",
+    "title": "77th Republic Day Celebrated: Kerala Tableau Showcases Responsible Tourism and Renaissance",
+    "malayalam_title": "77-ാമത് റിപ്പബ്ലിക് ദിന പരേഡിൽ കേരളത്തിന്റെ ഉത്തരവാദിത്ത ടൂറിസം നിശ്ചലദൃശ്യം",
+    "category": "National",
+    "summary": "India celebrated its 77th Republic Day with grand ceremonial parades on Kartavya Path, New Delhi. Kerala's tableau depicted the rural Responsible Tourism model of Kumarakom and Maravanthuruthu alongside prominent renaissance figures.",
     "key_points": [
-      "Covers examinations conducted by Kerala PSC, Universities, and DGE.",
-      "Offenses are made non-bailable, cognizable, and non-compoundable.",
-      "High-level cybersecurity and digital watermarking mandated for question transmission.",
-      "Follows national anti-paper leak legislation enacted in 2024."
+      "Constitution of India came into effect on 26 January 1950.",
+      "Theme for 2026: 'Samarth Bharat, Sashakt Nagarik'.",
+      "Padma Awards 2026 announced on Republic Day eve honoring eminent contributors in literature, arts, and science.",
+      "Kerala Governor presided over the ceremonial parade at Central Stadium, Thiruvananthapuram."
     ],
     "psc_potential_question": {
-      "question_text": "The Public Examinations (Prevention of Unfair Means) Act passed by Parliament in 2024 prescribes a maximum imprisonment of up to how many years for organized paper leak cartels?",
+      "question_text": "Which village in Kerala was the first to implement the 'Water Street' project under the Responsible Tourism mission?",
       "options": [
         {
           "id": "A",
-          "text": "3 Years"
+          "text": "Kumarakom"
         },
         {
           "id": "B",
-          "text": "5 Years"
+          "text": "Maravanthuruthu"
         },
         {
           "id": "C",
-          "text": "10 Years"
+          "text": "Kovalam"
         },
         {
           "id": "D",
-          "text": "Life Imprisonment"
+          "text": "Kakkathuruthu"
         }
       ],
-      "correct_option": "C",
-      "explanation": "Organized crimes involving question paper leaks carry a minimum prison term of 5 years extendable up to 10 years, alongside fines up to Rs 1 Crore."
+      "correct_option": "B",
+      "explanation": "Maravanthuruthu in Kottayam district created history as the pilot destination for the 'Water STREET' (Sustainable, Tangible, Responsible, Experiential, Ethnic, Tourism) project, winning international acclaim."
     },
     "tags": [
-      "#KPSC",
-      "#ExamReforms",
-      "#KeralaAssembly",
-      "#CurrentAffairs"
-    ]
-  },
-  {
-    "id": "ca-2025-02-21",
-    "date": "2025-02-21",
-    "display_date": "21 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "International Mother Language Day: Kerala Celebrates Malayalam Classical Language Heritage",
-    "malayalam_title": "അന്താരാഷ്ട്ര മാതൃഭാഷാ ദിനം: മലയാളത്തിന് ശ്രേഷ്ഠഭാഷാ പദവി നേട്ടം സ്മരിച്ചു",
-    "category": "Kerala",
-    "summary": "On International Mother Language Day (21 February), cultural forums across Kerala celebrated the linguistic heritage of Malayalam. The State Culture Department organized seminars on Thunjan Smriti and Malayalam classical language research.",
-    "key_points": [
-      "UNESCO declared 21 February as International Mother Language Day in 1999.",
-      "Malayalam was officially granted Classical Language status on 23 May 2013.",
-      "Thunchaththu Ramanujan Ezhuthachan is revered as the Father of Modern Malayalam Literature.",
-      "Kumaran Asan, Vallathol, and Ulloor constitute the Great Triumvirate (Kavithrayam) of modern Malayalam poetry."
-    ],
-    "psc_potential_question": {
-      "question_text": "In which year did the Government of India officially grant Classical Language (ശ്രേഷ്ഠഭാഷ) status to Malayalam?",
-      "options": [
-        {
-          "id": "A",
-          "text": "2004"
-        },
-        {
-          "id": "B",
-          "text": "2008"
-        },
-        {
-          "id": "C",
-          "text": "2013"
-        },
-        {
-          "id": "D",
-          "text": "2016"
-        }
-      ],
-      "correct_option": "C",
-      "explanation": "Malayalam was accorded the status of Classical Language on 23 May 2013, becoming the fifth language in India to receive this recognition."
-    },
-    "tags": [
-      "#MotherLanguageDay",
-      "#MalayalamClassical",
-      "#Ezhuthachan",
+      "#RepublicDay2026",
+      "#ResponsibleTourism",
+      "#Maravanthuruthu",
       "#KeralaCulture"
     ]
   },
   {
-    "id": "ca-2025-02-28",
-    "date": "2025-02-28",
-    "display_date": "28 February 2025",
-    "year": 2025,
-    "month": "February 2025",
-    "month_slug": "2025-02",
-    "title": "National Science Day 2025: Commemorating Discovery of the 'Raman Effect'",
-    "malayalam_title": "ദേശീയ ശാസ്ത്ര ദിനം 2025: രാമൻ ഇഫക്ട് കണ്ടെത്തലിന്റെ ഓർമ്മ പുതുക്കി",
-    "category": "Science & Tech",
-    "summary": "India observed National Science Day on 28 February. The day commemorates the historic discovery of the 'Raman Effect' by Sir C.V. Raman on 28 February 1928, which earned him the Nobel Prize in Physics in 1930.",
+    "id": "ca-2026-01-09",
+    "date": "2026-01-09",
+    "display_date": "9 January 2026",
+    "year": 2026,
+    "month": "January 2026",
+    "month_slug": "2026-01",
+    "title": "19th Pravasi Bharatiya Divas: Global Kerala Diaspora Conclave Concludes in Kochi",
+    "malayalam_title": "19-ാമത് പ്രവാസി ഭാരതീയ ദിനം: കൊച്ചിയിൽ ആഗോള മലയാളി പ്രവാസി സംഗമം",
+    "category": "National",
+    "summary": "The 19th Pravasi Bharatiya Divas was celebrated across India, marking Mahatma Gandhi's return from South Africa to Mumbai on 9 January 1915. In Kochi, NORKA Roots convened the Global Diaspora Conclave highlighting ethical recruitment and diaspora investments in healthcare.",
     "key_points": [
-      "Sir C.V. Raman was the first Asian scientist to receive a Nobel Prize in Science (1930).",
-      "Raman Effect deals with the inelastic scattering of photons by molecules in a medium.",
-      "National Science Day was designated by the Government of India in 1986.",
-      "VSSC at Thumba, Thiruvananthapuram held exhibitions of satellite launch vehicle technology."
+      "Pravasi Bharatiya Divas was instituted by the Government of India in 2003.",
+      "NORKA (Non-Resident Keralites Affairs) was the first dedicated diaspora department created by any Indian state (1996).",
+      "Kerala accounts for the largest proportion of inward foreign exchange remittances in India.",
+      "Special 'Pravasi Legal Aid Cells' announced for Gulf returnees."
     ],
     "psc_potential_question": {
-      "question_text": "National Science Day in India is celebrated on 28 February to commemorate which landmark scientific milestone?",
+      "question_text": "In which year was the Department of Non-Resident Keralites Affairs (NORKA) established by the Government of Kerala?",
       "options": [
         {
           "id": "A",
-          "text": "Launch of India’s first satellite Aryabhata"
+          "text": "1996"
         },
         {
           "id": "B",
-          "text": "Sir C.V. Raman’s discovery of the 'Raman Effect' in 1928"
+          "text": "2000"
         },
         {
           "id": "C",
-          "text": "Homi J. Bhabha’s founding of the Atomic Energy Commission"
+          "text": "2003"
         },
         {
           "id": "D",
-          "text": "Dr. A.P.J. Abdul Kalam’s Pokhran-II tests in 1998"
-        }
-      ],
-      "correct_option": "B",
-      "explanation": "National Science Day is celebrated every year on 28 February to commemorate the discovery of the Raman Effect by Sir C.V. Raman in 1928."
-    },
-    "tags": [
-      "#NationalScienceDay",
-      "#RamanEffect",
-      "#VSSC",
-      "#PhysicsNobel"
-    ]
-  },
-  {
-    "id": "ca-2025-03-03",
-    "date": "2025-03-03",
-    "display_date": "3 March 2025",
-    "year": 2025,
-    "month": "March 2025",
-    "month_slug": "2025-03",
-    "title": "World Wildlife Day: Kerala’s Silent Valley National Park Reports Healthy Lion-Tailed Macaque Census",
-    "malayalam_title": "ലോക വന്യജീവി ദിനം: സൈലന്റ് വാലിയിൽ സിംഹവാലൻ കുരങ്ങുകളുടെ എണ്ണത്തിൽ വർധനവ്",
-    "category": "Kerala",
-    "summary": "On World Wildlife Day (3 March), the Department of Forests & Wildlife announced that the biennial arboreal census in Silent Valley National Park, Palakkad, recorded a healthy increase in the endangered Lion-Tailed Macaque population.",
-    "key_points": [
-      "Silent Valley National Park was declared a National Park in 1984.",
-      "The 'Save Silent Valley' movement was one of India’s earliest grassroots environmental protests against a proposed dam across the Kunthipuzha river.",
-      "Kunthipuzha river is a perennial tributary of the Bharathapuzha.",
-      "Forms an integral core of the Nilgiri Biosphere Reserve (1986)."
-    ],
-    "psc_potential_question": {
-      "question_text": "Which perennial river flows through the core undisturbed valley of Silent Valley National Park in Kerala?",
-      "options": [
-        {
-          "id": "A",
-          "text": "Periyar"
-        },
-        {
-          "id": "B",
-          "text": "Kunthipuzha"
-        },
-        {
-          "id": "C",
-          "text": "Pamba"
-        },
-        {
-          "id": "D",
-          "text": "Chaliyar"
-        }
-      ],
-      "correct_option": "B",
-      "explanation": "The Kunthipuzha river flows through the entire length of Silent Valley National Park before joining the Thuthapuzha, a tributary of Bharathapuzha."
-    },
-    "tags": [
-      "#SilentValley",
-      "#Kunthipuzha",
-      "#LionTailedMacaque",
-      "#KeralaGeography"
-    ]
-  },
-  {
-    "id": "ca-2025-03-08",
-    "date": "2025-03-08",
-    "display_date": "8 March 2025",
-    "year": 2025,
-    "month": "March 2025",
-    "month_slug": "2025-03",
-    "title": "International Women’s Day: Kerala Government Confers State 'Vanitha Ratna' Awards 2025",
-    "malayalam_title": "അന്താരാഷ്ട്ര വനിതാ ദിനം: സംസ്ഥാന വനിതാ രത്ന പുരസ്കാരങ്ങൾ സമ്മാനിച്ചു",
-    "category": "Kerala",
-    "summary": "On International Women’s Day (8 March), the Women and Child Development Department conferred the 'Vanitha Ratna Puraskaram' upon pioneering women in education, ASHA community healthcare, and social leadership.",
-    "key_points": [
-      "Theme for 2025: 'Accelerate Action: Rights, Leadership & Opportunity'.",
-      "Kerala has the highest female literacy rate in the country.",
-      "Kudumbashree was launched on 17 May 1998 in Malappuram by Prime Minister Atal Bihari Vajpayee.",
-      "Kerala was the first state in India to reserve 50% seats for women in local self-government bodies."
-    ],
-    "psc_potential_question": {
-      "question_text": "In which year and at which district was the Kudumbashree State Poverty Eradication Mission inaugurated?",
-      "options": [
-        {
-          "id": "A",
-          "text": "1998, Malappuram"
-        },
-        {
-          "id": "B",
-          "text": "2000, Alappuzha"
-        },
-        {
-          "id": "C",
-          "text": "1995, Kozhikode"
-        },
-        {
-          "id": "D",
-          "text": "2002, Thiruvananthapuram"
+          "text": "2011"
         }
       ],
       "correct_option": "A",
-      "explanation": "Kudumbashree was formally inaugurated on 17 May 1998 at Malappuram by the then Prime Minister of India, Atal Bihari Vajpayee."
+      "explanation": "NORKA was formed on 6 December 1996 by the Government of Kerala, making Kerala the first Indian state to establish a dedicated department for non-resident citizens."
     },
     "tags": [
-      "#WomensDay",
-      "#Kudumbashree",
-      "#VanithaRatna",
-      "#KeralaSchemes"
+      "#PBD2026",
+      "#NORKA",
+      "#Pravasi",
+      "#KeralaHistory"
     ]
   },
   {
-    "id": "ca-2025-03-15",
-    "date": "2025-03-15",
-    "display_date": "15 March 2025",
-    "year": 2025,
-    "month": "March 2025",
-    "month_slug": "2025-03",
-    "title": "World Consumer Rights Day: National Consumer Commission Rolls Out 'e-Daakhil 2.0'",
-    "malayalam_title": "ലോക ഉപഭോക്തൃ അവകാശ ദിനം: 'ഇ-ദാഖിൽ 2.0' ഡിജിറ്റൽ പരാതി പോർട്ടൽ ആരംഭിച്ചു",
-    "category": "National",
-    "summary": "Celebrated on 15 March, World Consumer Rights Day 2025 witnessed the nationwide rollout of e-Daakhil 2.0, allowing citizens to file and track consumer grievances online across all Consumer Commissions without physical court visits.",
+    "id": "ca-2026-01-05",
+    "date": "2026-01-05",
+    "display_date": "5 January 2026",
+    "year": 2026,
+    "month": "January 2026",
+    "month_slug": "2026-01",
+    "title": "ISRO Unveils Bharatiya Antariksh Station (BAS-1) Base Module Architecture",
+    "malayalam_title": "ഇന്ത്യൻ ബഹിരാകാശ നിലയം (BAS-1) ആദ്യ ഘട്ട രൂപരേഖ ഐ.എസ്.ആർ.ഒ പുറത്തിറക്കി",
+    "category": "Science & Tech",
+    "summary": "The Indian Space Research Organisation (ISRO) unveiled the final structural architecture of BAS-1 (Bharatiya Antariksh Station Module 1) scheduled for low-Earth orbit deployment. The 52-tonne modular space station represents India’s long-term human spaceflight goal.",
     "key_points": [
-      "The Consumer Protection Act 2019 replaced the older 1986 Act.",
-      "Introduced the Central Consumer Protection Authority (CCPA) and product liability.",
-      "National Consumer Day in India is celebrated separately on 24 December.",
-      "Kerala State Consumer Commission is headquartered in Thiruvananthapuram."
+      "BAS-1 is planned for launch aboard India's Next Generation Launch Vehicle (NGLV / Surya).",
+      "Follows successful space rendezvous and docking demonstrations achieved under SPADEX.",
+      "Orbital inclination of 51.5 degrees at an altitude of approximately 400-450 km.",
+      "Complements the Gaganyaan human crewed mission roadmap."
     ],
     "psc_potential_question": {
-      "question_text": "When is National Consumer Rights Day celebrated in India every year?",
+      "question_text": "What is the official name of India's planned indigenous orbital space station spearheaded by ISRO?",
       "options": [
         {
           "id": "A",
-          "text": "15 March"
+          "text": "Akashganga Orbital Lab"
         },
         {
           "id": "B",
-          "text": "24 December"
+          "text": "Bharatiya Antariksh Station (BAS)"
         },
         {
           "id": "C",
-          "text": "1 May"
+          "text": "Gaganyaan Space Base"
         },
         {
           "id": "D",
-          "text": "10 December"
+          "text": "Aryabhata Space Station"
         }
       ],
       "correct_option": "B",
-      "explanation": "National Consumer Rights Day is celebrated in India on 24 December to mark the enactment of the Consumer Protection Act, 1986. World Consumer Rights Day is observed on 15 March."
+      "explanation": "Bharatiya Antariksh Station (BAS) is the official nomenclature for India's upcoming indigenous modular space station."
     },
     "tags": [
-      "#ConsumerProtection",
-      "#NationalConsumerDay",
-      "#eDaakhil",
-      "#Polity"
+      "#ISRO",
+      "#BharatiyaAntarikshStation",
+      "#SpaceTech",
+      "#Gaganyaan"
+    ]
+  },
+  {
+    "id": "ca-2026-01-01",
+    "date": "2026-01-01",
+    "display_date": "1 January 2026",
+    "year": 2026,
+    "month": "January 2026",
+    "month_slug": "2026-01",
+    "title": "Kerala Government Launches K-SMART 3.0: Integrated AI Panchayat Governance",
+    "malayalam_title": "ഗ്രാമപഞ്ചായത്തുകളിലേക്കും വ്യാപിപ്പിച്ച് കെ-സ്മാർട്ട് 3.0 നിലവിൽ വന്നു",
+    "category": "Kerala",
+    "summary": "Following the successful digitisation of all municipalities, the Kerala Local Self Government Department extended K-SMART 3.0 to all 941 Grama Panchayats in the state, establishing single-window paperless civil delivery, building permissions, and welfare pension disbursals.",
+    "key_points": [
+      "K-SMART was conceptualised by the Information Kerala Mission (IKM).",
+      "K-SMART 3.0 incorporates automated GIS-based land parcel mapping.",
+      "Kerala is the first state to achieve 100% unified digital governance from Grama Panchayats to Municipal Corporations.",
+      "Pravasi Keralites can register marriages and procure civil certificates from any global location."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which government agency developed the K-SMART digital governance software implemented across Kerala's local bodies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keltron"
+        },
+        {
+          "id": "B",
+          "text": "Information Kerala Mission (IKM)"
+        },
+        {
+          "id": "C",
+          "text": "C-DIT"
+        },
+        {
+          "id": "D",
+          "text": "Kerala State IT Mission"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "K-SMART was designed and implemented by the Information Kerala Mission (IKM) under the Local Self Government Department."
+    },
+    "tags": [
+      "#KSMART",
+      "#KeralaGovt",
+      "#IKM",
+      "#EGovernance"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2025-03-25",
+    "date": "2025-03-25",
+    "display_date": "25 March 2025",
+    "year": 2025,
+    "month": "March 2025",
+    "month_slug": "2025-03",
+    "title": "ISRO & NASA Joint Satellite NISAR Ready for Historic Earth Observation Launch",
+    "malayalam_title": "ഐ.എസ്.ആർ.ഒ - നാസ സംയുക്ത ഉപഗ്രഹം നിസാർ (NISAR) വിക്ഷേപണത്തിനൊരുങ്ങി",
+    "category": "Science & Tech",
+    "summary": "The NASA-ISRO Synthetic Aperture Radar (NISAR) satellite, a monumental joint earth-observation venture between India and the United States, completed pre-launch testing. NISAR is the first satellite radar to use dual frequencies (L-band and S-band) to map land and ice changes with millimeter accuracy.",
+    "key_points": [
+      "NISAR is an acronym for NASA-ISRO Synthetic Aperture Radar.",
+      "NASA provided the L-band radar and high-rate telecommunication subsystem.",
+      "ISRO provided the S-band radar, spacecraft bus, and GSLV launch vehicle.",
+      "Recognized as one of the most sophisticated Earth-observing satellites ever constructed."
+    ],
+    "psc_potential_question": {
+      "question_text": "The NISAR satellite is a prestigious joint Earth-observation mission developed by ISRO in collaboration with which space agency?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Roscosmos (Russia)"
+        },
+        {
+          "id": "B",
+          "text": "NASA (USA)"
+        },
+        {
+          "id": "C",
+          "text": "ESA (European Space Agency)"
+        },
+        {
+          "id": "D",
+          "text": "JAXA (Japan)"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "NISAR is a collaborative earth-observation satellite project between NASA (USA) and ISRO (India)."
+    },
+    "tags": [
+      "#NISAR",
+      "#ISRO",
+      "#NASA",
+      "#SpaceTech"
     ]
   },
   {
@@ -989,50 +1414,945 @@
     ]
   },
   {
-    "id": "ca-2025-03-25",
-    "date": "2025-03-25",
-    "display_date": "25 March 2025",
+    "id": "ca-2025-03-15",
+    "date": "2025-03-15",
+    "display_date": "15 March 2025",
     "year": 2025,
     "month": "March 2025",
     "month_slug": "2025-03",
-    "title": "ISRO & NASA Joint Satellite NISAR Ready for Historic Earth Observation Launch",
-    "malayalam_title": "ഐ.എസ്.ആർ.ഒ - നാസ സംയുക്ത ഉപഗ്രഹം നിസാർ (NISAR) വിക്ഷേപണത്തിനൊരുങ്ങി",
-    "category": "Science & Tech",
-    "summary": "The NASA-ISRO Synthetic Aperture Radar (NISAR) satellite, a monumental joint earth-observation venture between India and the United States, completed pre-launch testing. NISAR is the first satellite radar to use dual frequencies (L-band and S-band) to map land and ice changes with millimeter accuracy.",
+    "title": "World Consumer Rights Day: National Consumer Commission Rolls Out 'e-Daakhil 2.0'",
+    "malayalam_title": "ലോക ഉപഭോക്തൃ അവകാശ ദിനം: 'ഇ-ദാഖിൽ 2.0' ഡിജിറ്റൽ പരാതി പോർട്ടൽ ആരംഭിച്ചു",
+    "category": "National",
+    "summary": "Celebrated on 15 March, World Consumer Rights Day 2025 witnessed the nationwide rollout of e-Daakhil 2.0, allowing citizens to file and track consumer grievances online across all Consumer Commissions without physical court visits.",
     "key_points": [
-      "NISAR is an acronym for NASA-ISRO Synthetic Aperture Radar.",
-      "NASA provided the L-band radar and high-rate telecommunication subsystem.",
-      "ISRO provided the S-band radar, spacecraft bus, and GSLV launch vehicle.",
-      "Recognized as one of the most sophisticated Earth-observing satellites ever constructed."
+      "The Consumer Protection Act 2019 replaced the older 1986 Act.",
+      "Introduced the Central Consumer Protection Authority (CCPA) and product liability.",
+      "National Consumer Day in India is celebrated separately on 24 December.",
+      "Kerala State Consumer Commission is headquartered in Thiruvananthapuram."
     ],
     "psc_potential_question": {
-      "question_text": "The NISAR satellite is a prestigious joint Earth-observation mission developed by ISRO in collaboration with which space agency?",
+      "question_text": "When is National Consumer Rights Day celebrated in India every year?",
       "options": [
         {
           "id": "A",
-          "text": "Roscosmos (Russia)"
+          "text": "15 March"
         },
         {
           "id": "B",
-          "text": "NASA (USA)"
+          "text": "24 December"
         },
         {
           "id": "C",
-          "text": "ESA (European Space Agency)"
+          "text": "1 May"
         },
         {
           "id": "D",
-          "text": "JAXA (Japan)"
+          "text": "10 December"
         }
       ],
       "correct_option": "B",
-      "explanation": "NISAR is a collaborative earth-observation satellite project between NASA (USA) and ISRO (India)."
+      "explanation": "National Consumer Rights Day is celebrated in India on 24 December to mark the enactment of the Consumer Protection Act, 1986. World Consumer Rights Day is observed on 15 March."
     },
     "tags": [
-      "#NISAR",
-      "#ISRO",
-      "#NASA",
-      "#SpaceTech"
+      "#ConsumerProtection",
+      "#NationalConsumerDay",
+      "#eDaakhil",
+      "#Polity"
     ]
+  },
+  {
+    "id": "ca-2025-03-08",
+    "date": "2025-03-08",
+    "display_date": "8 March 2025",
+    "year": 2025,
+    "month": "March 2025",
+    "month_slug": "2025-03",
+    "title": "International Women’s Day: Kerala Government Confers State 'Vanitha Ratna' Awards 2025",
+    "malayalam_title": "അന്താരാഷ്ട്ര വനിതാ ദിനം: സംസ്ഥാന വനിതാ രത്ന പുരസ്കാരങ്ങൾ സമ്മാനിച്ചു",
+    "category": "Kerala",
+    "summary": "On International Women’s Day (8 March), the Women and Child Development Department conferred the 'Vanitha Ratna Puraskaram' upon pioneering women in education, ASHA community healthcare, and social leadership.",
+    "key_points": [
+      "Theme for 2025: 'Accelerate Action: Rights, Leadership & Opportunity'.",
+      "Kerala has the highest female literacy rate in the country.",
+      "Kudumbashree was launched on 17 May 1998 in Malappuram by Prime Minister Atal Bihari Vajpayee.",
+      "Kerala was the first state in India to reserve 50% seats for women in local self-government bodies."
+    ],
+    "psc_potential_question": {
+      "question_text": "In which year and at which district was the Kudumbashree State Poverty Eradication Mission inaugurated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1998, Malappuram"
+        },
+        {
+          "id": "B",
+          "text": "2000, Alappuzha"
+        },
+        {
+          "id": "C",
+          "text": "1995, Kozhikode"
+        },
+        {
+          "id": "D",
+          "text": "2002, Thiruvananthapuram"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "Kudumbashree was formally inaugurated on 17 May 1998 at Malappuram by the then Prime Minister of India, Atal Bihari Vajpayee."
+    },
+    "tags": [
+      "#WomensDay",
+      "#Kudumbashree",
+      "#VanithaRatna",
+      "#KeralaSchemes"
+    ]
+  },
+  {
+    "id": "ca-2025-03-03",
+    "date": "2025-03-03",
+    "display_date": "3 March 2025",
+    "year": 2025,
+    "month": "March 2025",
+    "month_slug": "2025-03",
+    "title": "World Wildlife Day: Kerala’s Silent Valley National Park Reports Healthy Lion-Tailed Macaque Census",
+    "malayalam_title": "ലോക വന്യജീവി ദിനം: സൈലന്റ് വാലിയിൽ സിംഹവാലൻ കുരങ്ങുകളുടെ എണ്ണത്തിൽ വർധനവ്",
+    "category": "Kerala",
+    "summary": "On World Wildlife Day (3 March), the Department of Forests & Wildlife announced that the biennial arboreal census in Silent Valley National Park, Palakkad, recorded a healthy increase in the endangered Lion-Tailed Macaque population.",
+    "key_points": [
+      "Silent Valley National Park was declared a National Park in 1984.",
+      "The 'Save Silent Valley' movement was one of India’s earliest grassroots environmental protests against a proposed dam across the Kunthipuzha river.",
+      "Kunthipuzha river is a perennial tributary of the Bharathapuzha.",
+      "Forms an integral core of the Nilgiri Biosphere Reserve (1986)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which perennial river flows through the core undisturbed valley of Silent Valley National Park in Kerala?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Periyar"
+        },
+        {
+          "id": "B",
+          "text": "Kunthipuzha"
+        },
+        {
+          "id": "C",
+          "text": "Pamba"
+        },
+        {
+          "id": "D",
+          "text": "Chaliyar"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The Kunthipuzha river flows through the entire length of Silent Valley National Park before joining the Thuthapuzha, a tributary of Bharathapuzha."
+    },
+    "tags": [
+      "#SilentValley",
+      "#Kunthipuzha",
+      "#LionTailedMacaque",
+      "#KeralaGeography"
+    ]
+  },
+  {
+    "id": "ca-2025-02-28",
+    "date": "2025-02-28",
+    "display_date": "28 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "National Science Day 2025: Commemorating Discovery of the 'Raman Effect'",
+    "malayalam_title": "ദേശീയ ശാസ്ത്ര ദിനം 2025: രാമൻ ഇഫക്ട് കണ്ടെത്തലിന്റെ ഓർമ്മ പുതുക്കി",
+    "category": "Science & Tech",
+    "summary": "India observed National Science Day on 28 February. The day commemorates the historic discovery of the 'Raman Effect' by Sir C.V. Raman on 28 February 1928, which earned him the Nobel Prize in Physics in 1930.",
+    "key_points": [
+      "Sir C.V. Raman was the first Asian scientist to receive a Nobel Prize in Science (1930).",
+      "Raman Effect deals with the inelastic scattering of photons by molecules in a medium.",
+      "National Science Day was designated by the Government of India in 1986.",
+      "VSSC at Thumba, Thiruvananthapuram held exhibitions of satellite launch vehicle technology."
+    ],
+    "psc_potential_question": {
+      "question_text": "National Science Day in India is celebrated on 28 February to commemorate which landmark scientific milestone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Launch of India’s first satellite Aryabhata"
+        },
+        {
+          "id": "B",
+          "text": "Sir C.V. Raman’s discovery of the 'Raman Effect' in 1928"
+        },
+        {
+          "id": "C",
+          "text": "Homi J. Bhabha’s founding of the Atomic Energy Commission"
+        },
+        {
+          "id": "D",
+          "text": "Dr. A.P.J. Abdul Kalam’s Pokhran-II tests in 1998"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "National Science Day is celebrated every year on 28 February to commemorate the discovery of the Raman Effect by Sir C.V. Raman in 1928."
+    },
+    "tags": [
+      "#NationalScienceDay",
+      "#RamanEffect",
+      "#VSSC",
+      "#PhysicsNobel"
+    ]
+  },
+  {
+    "id": "ca-2025-02-21",
+    "date": "2025-02-21",
+    "display_date": "21 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "International Mother Language Day: Kerala Celebrates Malayalam Classical Language Heritage",
+    "malayalam_title": "അന്താരാഷ്ട്ര മാതൃഭാഷാ ദിനം: മലയാളത്തിന് ശ്രേഷ്ഠഭാഷാ പദവി നേട്ടം സ്മരിച്ചു",
+    "category": "Kerala",
+    "summary": "On International Mother Language Day (21 February), cultural forums across Kerala celebrated the linguistic heritage of Malayalam. The State Culture Department organized seminars on Thunjan Smriti and Malayalam classical language research.",
+    "key_points": [
+      "UNESCO declared 21 February as International Mother Language Day in 1999.",
+      "Malayalam was officially granted Classical Language status on 23 May 2013.",
+      "Thunchaththu Ramanujan Ezhuthachan is revered as the Father of Modern Malayalam Literature.",
+      "Kumaran Asan, Vallathol, and Ulloor constitute the Great Triumvirate (Kavithrayam) of modern Malayalam poetry."
+    ],
+    "psc_potential_question": {
+      "question_text": "In which year did the Government of India officially grant Classical Language (ശ്രേഷ്ഠഭാഷ) status to Malayalam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2004"
+        },
+        {
+          "id": "B",
+          "text": "2008"
+        },
+        {
+          "id": "C",
+          "text": "2013"
+        },
+        {
+          "id": "D",
+          "text": "2016"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "Malayalam was accorded the status of Classical Language on 23 May 2013, becoming the fifth language in India to receive this recognition."
+    },
+    "tags": [
+      "#MotherLanguageDay",
+      "#MalayalamClassical",
+      "#Ezhuthachan",
+      "#KeralaCulture"
+    ]
+  },
+  {
+    "id": "ca-2025-02-18",
+    "date": "2025-02-18",
+    "display_date": "18 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "Kerala Assembly Passes Strict Public Examinations Bill 2025 Against Malpractice",
+    "malayalam_title": "പരീക്ഷാ ക്രമക്കേടുകൾ തടയാൻ കേരള നിയമസഭ കർശന നിയമം പാസാക്കി",
+    "category": "Kerala",
+    "summary": "The Kerala Legislative Assembly passed the Kerala Public Examinations (Measures for Prevention of Unfair Means) Bill 2025, prescribing punishments up to 10 years imprisonment for question leaks and electronic tampering in competitive exams.",
+    "key_points": [
+      "Covers examinations conducted by Kerala PSC, Universities, and DGE.",
+      "Offenses are made non-bailable, cognizable, and non-compoundable.",
+      "High-level cybersecurity and digital watermarking mandated for question transmission.",
+      "Follows national anti-paper leak legislation enacted in 2024."
+    ],
+    "psc_potential_question": {
+      "question_text": "The Public Examinations (Prevention of Unfair Means) Act passed by Parliament in 2024 prescribes a maximum imprisonment of up to how many years for organized paper leak cartels?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 Years"
+        },
+        {
+          "id": "B",
+          "text": "5 Years"
+        },
+        {
+          "id": "C",
+          "text": "10 Years"
+        },
+        {
+          "id": "D",
+          "text": "Life Imprisonment"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "Organized crimes involving question paper leaks carry a minimum prison term of 5 years extendable up to 10 years, alongside fines up to Rs 1 Crore."
+    },
+    "tags": [
+      "#KPSC",
+      "#ExamReforms",
+      "#KeralaAssembly",
+      "#CurrentAffairs"
+    ]
+  },
+  {
+    "id": "ca-2025-02-13",
+    "date": "2025-02-13",
+    "display_date": "13 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "World Radio Day 2025: Akashvani Thiruvananthapuram Marks Milestone Broadcasts",
+    "malayalam_title": "ലോക റേഡിയോ ദിനം ആഘോഷിച്ചു; ആകാശവാണി തിരുവനന്തപുരം ശ്രദ്ധേയമായ നേട്ടത്തിൽ",
+    "category": "National",
+    "summary": "Observed globally on 13 February, World Radio Day 2025 celebrated the enduring power of radio as a vital medium for education and cultural preservation. Akashvani Thiruvananthapuram broadcast special archival documentaries.",
+    "key_points": [
+      "Proclaimed by UNESCO in 2011 and adopted by the UN General Assembly in 2012.",
+      "13 February marks the establishment of United Nations Radio in 1946.",
+      "The first radio station in Kerala was inaugurated in Thiruvananthapuram on 12 March 1943.",
+      "All India Radio motto: 'Bahujan Hitaya, Bahujan Sukhaya'."
+    ],
+    "psc_potential_question": {
+      "question_text": "In which year was the first radio broadcasting station inaugurated in Travancore (Kerala)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1936"
+        },
+        {
+          "id": "B",
+          "text": "1943"
+        },
+        {
+          "id": "C",
+          "text": "1950"
+        },
+        {
+          "id": "D",
+          "text": "1956"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The Travancore State Broadcasting Station was formally inaugurated on 12 March 1943 by Sir C.P. Ramaswami Iyer during the reign of Sree Chithira Thirunal Balarama Varma."
+    },
+    "tags": [
+      "#WorldRadioDay",
+      "#Akashvani",
+      "#KeralaHistory",
+      "#ImportantDays"
+    ]
+  },
+  {
+    "id": "ca-2025-02-09",
+    "date": "2025-02-09",
+    "display_date": "9 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "Vizhinjam International Seaport Surpasses 100,000 TEU Transshipment Milestone",
+    "malayalam_title": "വിഴിഞ്ഞം അന്താരാഷ്ട്ര തുറമുഖം ചരിത്രപരമായ 1 ലക്ഷം ടി.ഇ.യു നാഴികക്കല്ല് പിന്നിട്ടു",
+    "category": "Kerala",
+    "summary": "India’s first automated deepwater transshipment port at Vizhinjam, Thiruvananthapuram, achieved a landmark milestone by handling over 100,000 TEUs of container cargo, cementing Kerala’s position on international shipping routes.",
+    "key_points": [
+      "Vizhinjam port has a natural water depth of 18-20 meters.",
+      "Developed under a Public-Private Partnership (PPP) model between Government of Kerala and Adani Vizhinjam Port.",
+      "Located just 10 nautical miles from the international East-West shipping channel.",
+      "The first mothership to dock during trials was 'San Fernando' in July 2024."
+    ],
+    "psc_potential_question": {
+      "question_text": "What was the name of the first international container mothership that docked at Vizhinjam International Seaport during trial operations in July 2024?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ever Given"
+        },
+        {
+          "id": "B",
+          "text": "San Fernando"
+        },
+        {
+          "id": "C",
+          "text": "MSC Anna"
+        },
+        {
+          "id": "D",
+          "text": "Zhen Hua 15"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The container vessel 'San Fernando', owned by Maersk, was the first official mothership to berth at Vizhinjam Seaport on 11 July 2024."
+    },
+    "tags": [
+      "#Vizhinjam",
+      "#KeralaPorts",
+      "#SanFernando",
+      "#Infrastructure"
+    ]
+  },
+  {
+    "id": "ca-2025-02-05",
+    "date": "2025-02-05",
+    "display_date": "5 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "Kerala State Budget 2025-26 Presented: Focus on Vizhinjam Industrial Corridor and Higher Education",
+    "malayalam_title": "കേരള ബജറ്റ് 2025-26 ധനമന്ത്രി കെ.എൻ ബാലഗോപാൽ നിയമസഭയിൽ അവതരിപ്പിച്ചു",
+    "category": "Kerala",
+    "summary": "Kerala Finance Minister KN Balagopal presented the State Budget 2025-26 in the Kerala Legislative Assembly. The budget emphasized industrial logistics around the Vizhinjam International Seaport and higher education funding.",
+    "key_points": [
+      "Article 202 of the Indian Constitution deals with the Annual Financial Statement of State Governments.",
+      "Dedicated Vizhinjam-Kollam-Kottayam industrial growth corridor announced.",
+      "Allocation for digital university and translational research hubs across Kerala.",
+      "Kudumbashree micro-enterprises and KASP health insurance received expanded funding."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which Article of the Indian Constitution mandates the presentation of the Annual Financial Statement (Budget) before the State Legislature?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 112"
+        },
+        {
+          "id": "B",
+          "text": "Article 202"
+        },
+        {
+          "id": "C",
+          "text": "Article 213"
+        },
+        {
+          "id": "D",
+          "text": "Article 243I"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Article 202 deals with the Annual Financial Statement (State Budget) of State Governments."
+    },
+    "tags": [
+      "#KeralaBudget",
+      "#Article202",
+      "#VizhinjamCorridor",
+      "#KeralaEconomy"
+    ]
+  },
+  {
+    "id": "ca-2025-02-01",
+    "date": "2025-02-01",
+    "display_date": "1 February 2025",
+    "year": 2025,
+    "month": "February 2025",
+    "month_slug": "2025-02",
+    "title": "Union Budget 2025-26: Key Allocations for Infrastructure and Green Energy",
+    "malayalam_title": "കേന്ദ്ര ബജറ്റ് 2025-26 പാർലമെന്റിൽ അവതരിപ്പിച്ചു",
+    "category": "National",
+    "summary": "Union Minister for Finance Nirmala Sitharaman presented the Union Budget for fiscal year 2025-26 in Parliament. Key highlights include capital expenditure allocation over Rs 11.5 Lakh Crore and dedicated regional connectivity packages.",
+    "key_points": [
+      "Article 112 of the Indian Constitution refers to the Union Budget as the 'Annual Financial Statement'.",
+      "Nirmala Sitharaman presented seven consecutive Union Budgets.",
+      "Enhanced standard deduction under the New Tax Regime.",
+      "Green Hydrogen Mission and Semiconductor PLI schemes received increased capital outlays."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which Article of the Constitution of India mandates the President to cause to be laid before Parliament the 'Annual Financial Statement' (Union Budget)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 110"
+        },
+        {
+          "id": "B",
+          "text": "Article 112"
+        },
+        {
+          "id": "C",
+          "text": "Article 117"
+        },
+        {
+          "id": "D",
+          "text": "Article 280"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Under Article 112 of the Constitution, the budget is referred to as the 'Annual Financial Statement'."
+    },
+    "tags": [
+      "#UnionBudget2025",
+      "#IndianEconomy",
+      "#Article112",
+      "#Finance"
+    ]
+  },
+  {
+    "id": "ca-2025-01-30",
+    "date": "2025-01-30",
+    "display_date": "30 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "Australian Open 2025: Grand Slam Singles Champions Crowned in Melbourne",
+    "malayalam_title": "ഓസ്ട്രേലിയൻ ഓപ്പൺ 2025 ഗ്രാൻഡ്സ്ലാം കിരീടങ്ങൾ പ്രഖ്യാപിച്ചു",
+    "category": "Sports",
+    "summary": "The 113th edition of the Australian Open tennis tournament concluded at Melbourne Park. The tournament showcased high-octane battles in hard-court conditions, marking the first Grand Slam tournament of the 2025 tennis calendar.",
+    "key_points": [
+      "The four Grand Slams in order: Australian Open (Hard), French Open (Clay), Wimbledon (Grass), US Open (Hard).",
+      "Australian Open was first held in 1905 in Melbourne.",
+      "Often referred to as the 'Happy Slam'.",
+      "Mixed doubles witnessed high participation from Asian pairs."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which is the first Grand Slam tennis tournament held in a calendar year?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wimbledon"
+        },
+        {
+          "id": "B",
+          "text": "French Open"
+        },
+        {
+          "id": "C",
+          "text": "Australian Open"
+        },
+        {
+          "id": "D",
+          "text": "US Open"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "The Australian Open is the first of the four annual Grand Slam tennis events, played in mid-January."
+    },
+    "tags": [
+      "#AustralianOpen",
+      "#Tennis",
+      "#GrandSlam",
+      "#SportsGK"
+    ]
+  },
+  {
+    "id": "ca-2025-01-26",
+    "date": "2025-01-26",
+    "display_date": "26 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "76th Republic Day Celebrations: Grand Parade Held on Kartavya Path",
+    "malayalam_title": "76-ാമത് റിപ്പബ്ലിക് ദിന പരേഡിൽ വനിതാ പ്രാതിനിധ്യം ശ്രദ്ധേയമായി",
+    "category": "National",
+    "summary": "India celebrated its 76th Republic Day on 26 January 2025 with ceremonial parades on Kartavya Path, New Delhi. The parade highlighted India’s military prowess and cultural diversity with tri-services all-women contingents.",
+    "key_points": [
+      "The Constitution of India came into effect on 26 January 1950, replacing the Government of India Act 1935.",
+      "26 January was chosen because on this day in 1930, the Indian National Congress declared Purna Swaraj.",
+      "Tableau of Kerala showcased traditional water transport, Vallam Kali, and social reform leaders.",
+      "President Droupadi Murmu took the salute at the grand ceremonial march."
+    ],
+    "psc_potential_question": {
+      "question_text": "Why was 26 January specifically chosen as the date for bringing the Constitution of India into force in 1950?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It was Mahatma Gandhi’s return anniversary"
+        },
+        {
+          "id": "B",
+          "text": "Purna Swaraj Day was celebrated on 26 January 1930 following the Lahore Congress session"
+        },
+        {
+          "id": "C",
+          "text": "The Constituent Assembly held its very first session on that date"
+        },
+        {
+          "id": "D",
+          "text": "The Cabinet Mission arrived in India on that date"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "26 January was chosen to honor the anniversary of Purna Swaraj Declaration proclaimed by the Indian National Congress on 26 January 1930."
+    },
+    "tags": [
+      "#RepublicDay2025",
+      "#ConstitutionOfIndia",
+      "#PurnaSwaraj",
+      "#Polity"
+    ]
+  },
+  {
+    "id": "ca-2025-01-24",
+    "date": "2025-01-24",
+    "display_date": "24 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "National Girl Child Day 2025: Kerala Retains Top Spot in Human Development and Health Metrics",
+    "malayalam_title": "ദേശീയ ബാലികാ ദിനത്തിൽ കേരളത്തിന് മികച്ച ലിംഗാനുപാത നേട്ടം",
+    "category": "Kerala",
+    "summary": "Observed annually on 24 January, the 2025 National Girl Child Day highlighted Kerala’s continued leadership in child health metrics. According to NITI Aayog’s 2025 report, Kerala retains the lowest Infant Mortality Rate (6 per 1,000 live births) and highest sex ratio (1,084 females per 1,000 males).",
+    "key_points": [
+      "National Girl Child Day was initiated in 2008 by the Ministry of Women and Child Development.",
+      "Theme for 2025: 'Empowering Girls for a Sustainable and Equal Tomorrow'.",
+      "Kerala’s Maternal Mortality Ratio (MMR) stands at 19 per 1 lakh live births.",
+      "Kanyashree and Nirbhaya shelters in Kerala received enhanced modernization grants."
+    ],
+    "psc_potential_question": {
+      "question_text": "When is National Girl Child Day observed annually in India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 January"
+        },
+        {
+          "id": "B",
+          "text": "8 March"
+        },
+        {
+          "id": "C",
+          "text": "11 October"
+        },
+        {
+          "id": "D",
+          "text": "14 November"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "National Girl Child Day is celebrated in India every year on 24 January, whereas International Day of the Girl Child is observed globally on 11 October."
+    },
+    "tags": [
+      "#GirlChildDay",
+      "#KeralaHealth",
+      "#NITIAayog",
+      "#SexRatio"
+    ]
+  },
+  {
+    "id": "ca-2025-01-20",
+    "date": "2025-01-20",
+    "display_date": "20 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "Padma Awards 2025: Eminent Personalities from Kerala Honored for Literature and Arts",
+    "malayalam_title": "2025-ലെ പത്മ പുരസ്കാരങ്ങൾ പ്രഖ്യാപിച്ചു; കേരളത്തിന് അഭിമാന നേട്ടങ്ങൾ",
+    "category": "Awards & Honors",
+    "summary": "The Government of India announced the prestigious Padma Awards on the eve of the 76th Republic Day. Eminent contributors from Kerala in traditional Kathakali, Malayalam literature, Sanskrit scholarship, and organic agriculture were conferred with Padma Shri and Padma Bhushan honors.",
+    "key_points": [
+      "Padma Awards were instituted in the year 1954.",
+      "Three categories: Padma Vibhushan, Padma Bhushan, and Padma Shri.",
+      "Awards do not amount to a title under Article 18(1) of the Indian Constitution (Balaji Raghavan vs Union of India, 1995).",
+      "Kerala recipients highlighted achievements in folk arts and tribal medicinal plant preservation."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which landmark Supreme Court judgment ruled that national awards like Bharat Ratna and Padma Awards are not 'titles' under Article 18(1) of the Constitution of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kesavananda Bharati Case (1973)"
+        },
+        {
+          "id": "B",
+          "text": "Balaji Raghavan vs Union of India (1995)"
+        },
+        {
+          "id": "C",
+          "text": "Minerva Mills Case (1980)"
+        },
+        {
+          "id": "D",
+          "text": "Maneka Gandhi Case (1978)"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "In Balaji Raghavan vs Union of India (1995), the Supreme Court held that National Awards do not violate Article 18(1) because they are decorations and not titles."
+    },
+    "tags": [
+      "#PadmaAwards2025",
+      "#IndianPolity",
+      "#Article18",
+      "#Awards"
+    ]
+  },
+  {
+    "id": "ca-2025-01-16",
+    "date": "2025-01-16",
+    "display_date": "16 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "India Crosses 195 GW Renewable Milestone: International Solar Alliance Expands Headquarters",
+    "malayalam_title": "ഇന്ത്യ പുനരുപയോഗ ഊർജത്തിൽ 195 ജിഗാവാട്ട് നാഴികക്കല്ല് പിന്നിട്ടു",
+    "category": "National",
+    "summary": "India has cemented its position among the world’s top 3 nations in solar and wind capacity addition, crossing 195 GW of renewable installations toward its 2030 target of 500 GW. The International Solar Alliance (ISA) headquartered in Gurugram launched new solar mini-grid grants.",
+    "key_points": [
+      "India’s target: 500 GW of non-fossil electricity capacity by 2030 as per COP26 Panchamrit pledges.",
+      "Pradhan Mantri Surya Ghar: Muft Bijli Yojana has surpassed 1.2 crore household solar rooftop registrations.",
+      "Kerala’s ANERT achieved 100 MW rooftop solar in Thiruvananthapuram.",
+      "International Solar Alliance (ISA) headquarters is situated in Gurugram, Haryana."
+    ],
+    "psc_potential_question": {
+      "question_text": "Where is the global headquarters of the International Solar Alliance (ISA) located?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paris, France"
+        },
+        {
+          "id": "B",
+          "text": "Gurugram, India"
+        },
+        {
+          "id": "C",
+          "text": "Geneva, Switzerland"
+        },
+        {
+          "id": "D",
+          "text": "Nairobi, Kenya"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The International Solar Alliance (ISA), initiated jointly by India and France in 2015, has its permanent secretariat and headquarters in Gurugram, Haryana, India."
+    },
+    "tags": [
+      "#RenewableEnergy",
+      "#ISA",
+      "#SolarIndia",
+      "#ANERT"
+    ]
+  },
+  {
+    "id": "ca-2025-01-12",
+    "date": "2025-01-12",
+    "display_date": "12 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "National Youth Day 2025: Kerala Youth Commission Announces 'Samagra Yuva' Skill Grants",
+    "malayalam_title": "ദേശീയ യുവജന ദിനത്തിൽ 'സമഗ്ര യുവ' നൈപുണ്യ ഗ്രാന്റ് പ്രഖ്യാപിച്ചു",
+    "category": "Kerala",
+    "summary": "Commemorating the 162nd birth anniversary of Swami Vivekananda, celebrated nationally as National Youth Day, the Kerala State Youth Commission launched the 'Samagra Yuva' venture grant to empower rural youth in digital marketing, artificial intelligence, and organic agribusiness.",
+    "key_points": [
+      "Celebrated on 12 January every year since 1985.",
+      "Swami Vivekananda represented India at the 1893 Parliament of the World’s Religions in Chicago.",
+      "Kerala Youth Commission was established under the Kerala State Youth Commission Act, 2014.",
+      "Grant provides interest-free collateral subsidies up to Rs 2 Lakhs for rural cooperatives."
+    ],
+    "psc_potential_question": {
+      "question_text": "National Youth Day in India is celebrated on 12 January in honor of whose birth anniversary?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bhagat Singh"
+        },
+        {
+          "id": "B",
+          "text": "Swami Vivekananda"
+        },
+        {
+          "id": "C",
+          "text": "Subhas Chandra Bose"
+        },
+        {
+          "id": "D",
+          "text": "Rabindranath Tagore"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "National Youth Day is celebrated on 12 January every year to commemorate the birth anniversary of Swami Vivekananda (born 12 January 1863)."
+    },
+    "tags": [
+      "#NationalYouthDay",
+      "#SwamiVivekananda",
+      "#KeralaYouth",
+      "#PSCImportant"
+    ]
+  },
+  {
+    "id": "ca-2025-01-08",
+    "date": "2025-01-08",
+    "display_date": "8 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "18th Pravasi Bharatiya Divas Convention Celebrated: NORKA Roots Enhances Welfare Umbrella",
+    "malayalam_title": "18-ാമത് പ്രവാസി ഭാരതീയ ദിവസിൽ ആഗോള മലയാളി പവലിയൻ ശ്രദ്ധേയമായി",
+    "category": "National",
+    "summary": "The 18th Pravasi Bharatiya Divas (PBD) convention was celebrated to recognize the contributions of the overseas Indian community. The Non-Resident Keralites Affairs department (NORKA Roots) established a special pavilion showcasing Kerala’s 'Care Economy' and overseas student welfare initiatives.",
+    "key_points": [
+      "Pravasi Bharatiya Divas commemorates the return of Mahatma Gandhi from South Africa to Mumbai on 9 January 1915.",
+      "Theme for 2025 focused on Diaspora Innovation, Skill Mobility, and Ethical Recruitment.",
+      "NORKA Roots announced an enhanced insurance shield of Rs 5 Lakhs for Pravasis returning during emergencies.",
+      "Kerala accounts for the highest outward remittance recipient state in India (RBI Study)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Pravasi Bharatiya Divas is celebrated every year to commemorate which historic event?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The signing of the Indian Constitution in 1950"
+        },
+        {
+          "id": "B",
+          "text": "Mahatma Gandhi’s return to India from South Africa on 9 January 1915"
+        },
+        {
+          "id": "C",
+          "text": "The launch of the Non-Cooperation Movement in 1920"
+        },
+        {
+          "id": "D",
+          "text": "The establishment of the Ministry of Overseas Indian Affairs"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Pravasi Bharatiya Divas is observed on 9 January to mark the return of Mahatma Gandhi from South Africa to Mumbai in 1915, leading India’s freedom movement."
+    },
+    "tags": [
+      "#PravasiBharatiyaDivas",
+      "#NORKA",
+      "#NationalGK",
+      "#KeralaEconomy"
+    ]
+  },
+  {
+    "id": "ca-2025-01-04",
+    "date": "2025-01-04",
+    "display_date": "4 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "Kerala Forest Department Unveils First-Ever AI 'Vanavijayam' Wildlife Early-Warning Corridor in Wayanad",
+    "malayalam_title": "വയനാട്ടിൽ എ.ഐ അധിഷ്ഠിത വന്യജീവി മുന്നറിയിപ്പ് സംവിധാനം 'വനവിജയം' നിലവിൽ വന്നു",
+    "category": "Kerala",
+    "summary": "In a pioneering step to mitigate Human-Wildlife Conflict (HWC), the Kerala Forest & Wildlife Department launched the 'Vanavijayam' early warning network equipped with smart thermal cameras and seismic sensors that send real-time SMS alerts to villagers when wild elephant herds cross designated forest boundaries.",
+    "key_points": [
+      "Project covers the vulnerable forest fringes of Mananthavady, Sulthan Bathery, and Meppadi.",
+      "Employs thermal imaging AI cameras capable of functioning in zero-visibility fog and night.",
+      "Direct integration with WhatsApp and village panchayat siren warning systems.",
+      "Project backed by the Kerala State Disaster Management Authority (KSDMA)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which district in Kerala piloted the AI-powered 'Vanavijayam' early-warning system to mitigate human-elephant conflict in forest borders?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Idukki"
+        },
+        {
+          "id": "B",
+          "text": "Wayanad"
+        },
+        {
+          "id": "C",
+          "text": "Palakkad"
+        },
+        {
+          "id": "D",
+          "text": "Pathanamthitta"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Wayanad district was chosen as the pilot site for the 'Vanavijayam' AI wildlife corridor due to its high elephant migration density and recurring human-wildlife encounters."
+    },
+    "tags": [
+      "#Wayanad",
+      "#KeralaForest",
+      "#AI",
+      "#WildlifeConflict"
+    ]
+  },
+  {
+    "id": "ca-2025-01-02",
+    "date": "2025-01-02",
+    "display_date": "2 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "ISRO Successfully Launches Space Docking Experiment (SPADEX) Onboard PSLV-C59",
+    "malayalam_title": "ഐ.എസ്.ആർ.ഒയുടെ സ്പേസ് ഡോക്കിംഗ് പരീക്ഷണം (SPADEX) വിജയകരം",
+    "category": "Science & Tech",
+    "summary": "The Indian Space Research Organisation (ISRO) successfully launched the SPADEX mission from the Satish Dhawan Space Centre, Sriharikota. The mission demonstrates autonomous docking of two small satellites in orbit, a critical technology required for India’s proposed space station (Bharatiya Antariksh Station) and lunar sample return missions.",
+    "key_points": [
+      "SPADEX consists of two satellites: the Chaser and the Target.",
+      "The mission was launched using the reliable PSLV-C59 rocket.",
+      "Successful docking technology makes India only the fourth nation to demonstrate space docking capabilities.",
+      "Technology is essential for the future Gaganyaan mission extensions and Chandrayaan-4."
+    ],
+    "psc_potential_question": {
+      "question_text": "What is the primary objective of ISRO’s SPADEX mission launched via PSLV-C59 in January 2025?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deep sea sub-surface mapping"
+        },
+        {
+          "id": "B",
+          "text": "Solar corona magnetic field observation"
+        },
+        {
+          "id": "C",
+          "text": "Autonomous space docking of two satellites in orbit"
+        },
+        {
+          "id": "D",
+          "text": "Interplanetary atmospheric re-entry study"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "SPADEX (Space Docking Experiment) by ISRO successfully demonstrates the capability to rendezvous and dock two spacecraft autonomously in low-Earth orbit."
+    },
+    "tags": [
+      "#ISRO",
+      "#SPADEX",
+      "#PSLV",
+      "#SpaceTech"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2025-01-01",
+    "date": "2025-01-01",
+    "display_date": "1 January 2025",
+    "year": 2025,
+    "month": "January 2025",
+    "month_slug": "2025-01",
+    "title": "Kerala Government Launches K-SMART 2.0 Across All 87 Municipalities and 6 Municipal Corporations",
+    "malayalam_title": "കേരളത്തിലെ എല്ലാ നഗരസഭകളിലും കെ-സ്മാർട്ട് 2.0 പദ്ധതി ആരംഭിച്ചു",
+    "category": "Kerala",
+    "summary": "The Local Self Government Department of Kerala has officially rolled out K-SMART 2.0 (Kerala Solutions for Managing Administrative Reformation and Transformation) to provide 100% paperless civil services including birth/death registration, building permits, and trade licenses through an integrated digital portal.",
+    "key_points": [
+      "K-SMART was developed by the Information Kerala Mission (IKM).",
+      "K-SMART 2.0 integrates AI-powered automated building plan scrutiny for permits within 24 hours.",
+      "Kerala is the first state in India to digitize all municipal services on a unified ERP platform.",
+      "Civil registrations can now be availed from anywhere in the world by non-resident Keralites (Pravasis)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which digital platform was developed by Information Kerala Mission (IKM) to provide unified paperless civil services across all municipal corporations and municipalities in Kerala?",
+      "options": [
+        {
+          "id": "A",
+          "text": "e-Keralam"
+        },
+        {
+          "id": "B",
+          "text": "K-SMART"
+        },
+        {
+          "id": "C",
+          "text": "Akshaya Seva"
+        },
+        {
+          "id": "D",
+          "text": "Kerala One"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "K-SMART (Kerala Solutions for Managing Administrative Reformation and Transformation) was developed by the Information Kerala Mission to bring all urban local body services under a single web and mobile application."
+    },
+    "tags": [
+      "#KSMART",
+      "#KeralaGovt",
+      "#EGovernance",
+      "#IKM"
+    ],
+    "is_trending": true
   }
 ]

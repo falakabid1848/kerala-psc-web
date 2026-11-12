@@ -35,6 +35,7 @@ function CurrentAffairsContent() {
 
   const [entries, setEntries] = useState<CurrentAffairEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [selectedYear, setSelectedYear] = useState<'2026' | '2025'>('2026');
   const [selectedMonth, setSelectedMonth] = useState<string>(initialMonth);
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCat);
   const [search, setSearch] = useState('');
@@ -42,12 +43,34 @@ function CurrentAffairsContent() {
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, string>>({});
   const [copied, setCopied] = useState(false);
 
-  const months = [
-    { label: 'All 2025 🔥', value: 'All' },
-    { label: 'January 2025', value: 'January 2025' },
-    { label: 'February 2025', value: 'February 2025' },
-    { label: 'March 2025', value: 'March 2025' },
+  const months2026 = [
+    { label: 'All 2026 🔥', value: 'All' },
+    { label: 'November 2026 (Latest)', value: 'November 2026' },
+    { label: 'October 2026', value: 'October 2026' },
+    { label: 'September 2026', value: 'September 2026' },
+    { label: 'August 2026', value: 'August 2026' },
+    { label: 'July 2026', value: 'July 2026' },
+    { label: 'June 2026', value: 'June 2026' },
+    { label: 'May 2026', value: 'May 2026' },
+    { label: 'April 2026', value: 'April 2026' },
+    { label: 'March 2026', value: 'March 2026' },
+    { label: 'February 2026', value: 'February 2026' },
+    { label: 'January 2026', value: 'January 2026' },
   ];
+
+  const months2025 = [
+    { label: 'All 2025', value: 'All' },
+    { label: 'March 2025', value: 'March 2025' },
+    { label: 'February 2025', value: 'February 2025' },
+    { label: 'January 2025', value: 'January 2025' },
+  ];
+
+  const months = selectedYear === '2026' ? months2026 : months2025;
+
+  const handleYearChange = (year: '2026' | '2025') => {
+    setSelectedYear(year);
+    setSelectedMonth('All');
+  };
 
   const categories = [
     { label: 'All', value: 'All', icon: Layers },
@@ -63,6 +86,7 @@ function CurrentAffairsContent() {
       setLoading(true);
       try {
         const query = new URLSearchParams();
+        query.set('year', selectedYear);
         if (selectedMonth !== 'All') query.set('month', selectedMonth);
         if (selectedCategory !== 'All') query.set('category', selectedCategory);
         if (search.trim()) query.set('search', search.trim());
@@ -77,7 +101,7 @@ function CurrentAffairsContent() {
       }
     }
     loadCurrentAffairs();
-  }, [selectedMonth, selectedCategory, search]);
+  }, [selectedYear, selectedMonth, selectedCategory, search]);
 
   const toggleQuestionExpand = (id: string) => {
     setExpandedQuestions((prev) => ({
@@ -132,22 +156,22 @@ function CurrentAffairsContent() {
         <div className="relative z-10 max-w-3xl">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            2025 Daily Current Affairs &amp; PSC Question Bank
+            2026 &amp; 2025 Daily Current Affairs &amp; PSC Question Bank
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight mb-2">
-            Kerala PSC Daily Current Affairs (2025)
+            Kerala PSC Daily Current Affairs ({selectedYear})
           </h1>
           <p className="text-slate-300 text-xs sm:text-base leading-relaxed mb-4">
-            Curated daily exam facts from January 2025 onwards with Malayalam translations, key bullet points, and expected PSC practice questions designed for Degree Level, LDC, KAS, and Kerala Bank exams.
+            Curated daily exam facts from January 2026 to November 2026 (+ 2025 Archive) with Malayalam translations, key bullet points, and expected PSC practice questions designed for Degree Level, LDC, KAS, and Kerala Bank exams.
           </p>
 
           <div className="flex flex-wrap items-center gap-3 pt-1">
             <Link
-              href="/quiz?category=Current+Affairs+%26+Schemes&year=2025&mode=exam"
+              href={`/quiz?category=Current+Affairs+%26+Schemes&year=${selectedYear}&mode=exam`}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs sm:text-sm rounded-xl shadow-md transition transform active:scale-98"
             >
               <PlayCircle className="w-4 h-4" />
-              <span>Practice 2025 Current Affairs Mock Quiz</span>
+              <span>Practice {selectedYear} Current Affairs Mock Quiz</span>
             </Link>
 
             <button
@@ -166,6 +190,40 @@ function CurrentAffairsContent() {
               <span>{copied ? 'Link Copied!' : 'Share'}</span>
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* Year Switcher Selector */}
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-4 rounded-2xl border border-slate-200 shadow-2xs print:hidden">
+        <div className="flex items-center gap-2">
+          <Calendar className="w-4 h-4 text-emerald-600" />
+          <span className="text-xs sm:text-sm font-bold text-slate-800">Select Exam Year:</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => handleYearChange('2026')}
+            className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs sm:text-sm font-extrabold transition shadow-2xs ${
+              selectedYear === '2026'
+                ? 'bg-emerald-600 text-white shadow-emerald-600/20'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200'
+            }`}
+          >
+            <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+            <span>2026 (Jan – Nov)</span>
+            <span className="text-[10px] bg-emerald-800/80 text-emerald-100 px-1.5 py-0.5 rounded-full font-bold ml-1">Latest 🔥</span>
+          </button>
+
+          <button
+            onClick={() => handleYearChange('2025')}
+            className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-2xs ${
+              selectedYear === '2025'
+                ? 'bg-slate-900 text-white shadow-slate-900/20'
+                : 'bg-slate-100 text-slate-600 hover:bg-slate-200 border border-slate-200'
+            }`}
+          >
+            <BookOpen className="w-3.5 h-3.5 text-slate-400" />
+            <span>2025 Archive</span>
+          </button>
         </div>
       </div>
 
@@ -193,7 +251,7 @@ function CurrentAffairsContent() {
           <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
           <input
             type="text"
-            placeholder="Search 2025 events, schemes, awards, personalities (e.g. K-SMART, Vizhinjam, ISRO, Budget)..."
+            placeholder={`Search ${selectedYear} events, schemes, awards, personalities (e.g. K-SMART, Vizhinjam, ISRO, Gaganyaan, Budget)...`}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-10 pr-4 py-2.5 text-xs sm:text-sm border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500"
@@ -226,15 +284,15 @@ function CurrentAffairsContent() {
 
       {/* Printable Heading */}
       <div className="hidden print:block text-center border-b pb-4 mb-4">
-        <h2 className="text-xl font-bold uppercase">Kerala PSC Daily Current Affairs Digest (2025)</h2>
-        <p className="text-xs text-slate-600">keralapsc.xyz &bull; Curated Exam Capsule from January 2025 onwards</p>
+        <h2 className="text-xl font-bold uppercase">Kerala PSC Daily Current Affairs Digest ({selectedYear})</h2>
+        <p className="text-xs text-slate-600">keralapsc.xyz &bull; Curated Exam Capsule from January {selectedYear} onwards</p>
       </div>
 
       {/* Current Affairs Stream */}
       {loading ? (
         <div className="flex flex-col items-center justify-center py-20">
           <div className="w-10 h-10 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin mb-4" />
-          <p className="text-slate-500 text-sm">Loading 2025 daily current affairs...</p>
+          <p className="text-slate-500 text-sm">Loading {selectedYear} daily current affairs...</p>
         </div>
       ) : entries.length === 0 ? (
         <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center">

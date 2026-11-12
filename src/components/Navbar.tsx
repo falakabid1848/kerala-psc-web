@@ -43,7 +43,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Question Bank', icon: BookOpen, badge: '11.4K' },
-    { href: '/current-affairs', label: 'Current Affairs', icon: Calendar, badge: '2025 🔥' },
+    { href: '/current-affairs', label: 'Current Affairs', icon: Calendar, badge: '2026 🔥' },
     { href: '/quiz', label: 'Live Mock / OMR', icon: Sparkles, badge: 'New', highlight: true },
     { href: '/notifications', label: 'Exam Notifications', icon: Bell, badge: '2024-25' },
     { href: '/previous-papers', label: 'Previous Papers', icon: FileText, badge: '2020-25' },
