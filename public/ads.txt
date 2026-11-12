@@ -1,3 +1,2 @@
-# Google AdSense Publisher Authorization File
-# Replace pub-0000000000000000 with your actual Google AdSense Publisher ID
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Google AdSense Publisher Authorization File for keralapsc.xyz
+google.com, pub-8633936066750748, DIRECT, f08c47fec0942fa0

@@ -22,7 +22,7 @@ export default function AdBanner({
   className = '',
 }: AdBannerProps) {
   const adRef = useRef<HTMLModElement>(null);
-  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || 'ca-pub-8633936066750748';
 
   useEffect(() => {
     // Only attempt to push when client ID is configured and window.adsbygoogle is ready
