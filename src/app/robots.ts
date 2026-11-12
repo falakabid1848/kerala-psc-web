@@ -14,7 +14,10 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://www.keralapsc.xyz/sitemap.xml',
-    host: 'https://www.keralapsc.xyz',
+    sitemap: [
+      'https://keralapsc.xyz/sitemap.xml',
+      'https://www.keralapsc.xyz/sitemap.xml',
+    ],
+    host: 'https://keralapsc.xyz',
   };
 }

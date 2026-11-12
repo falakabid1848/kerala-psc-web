@@ -6,6 +6,14 @@ const nextConfig = {
       '/api/**/*': ['./data/**/*'],
     },
   },
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap',
+        destination: '/sitemap.xml',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
