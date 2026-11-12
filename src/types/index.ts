@@ -78,3 +78,27 @@ export interface QuestionBankStats {
   matchCount: number;
   assertionCount: number;
 }
+
+export interface PSCQuestionPreview {
+  question_text: string;
+  options: { id: string; text: string }[];
+  correct_option: string;
+  explanation: string;
+}
+
+export interface CurrentAffairEntry {
+  id: string;
+  date: string;
+  display_date: string;
+  year: number;
+  month: string;
+  month_slug: string;
+  title: string;
+  malayalam_title: string;
+  category: 'Kerala' | 'National' | 'International' | 'Sports' | 'Science & Tech' | 'Awards & Honors';
+  summary: string;
+  key_points: string[];
+  psc_potential_question: PSCQuestionPreview;
+  tags: string[];
+  is_trending?: boolean;
+}

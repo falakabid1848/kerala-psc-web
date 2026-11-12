@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Question, Category, ExamNotification, PreviousPaper, QuestionBankStats } from '@/types';
+import { Question, Category, ExamNotification, PreviousPaper, QuestionBankStats, CurrentAffairEntry } from '@/types';
 
 function getDataDir(): string {
   const candidates = [
@@ -20,6 +20,7 @@ const QUESTIONS_FILE = path.join(DATA_DIR, 'questions.json');
 const CATEGORIES_FILE = path.join(DATA_DIR, 'categories.json');
 const NOTIFICATIONS_FILE = path.join(DATA_DIR, 'notifications.json');
 const PREVIOUS_PAPERS_FILE = path.join(DATA_DIR, 'previous_papers.json');
+const CURRENT_AFFAIRS_FILE = path.join(DATA_DIR, 'current_affairs.json');
 
 // Memory Cache
 let cachedQuestions: Question[] | null = null;
@@ -27,6 +28,7 @@ let cachedStats: QuestionBankStats | null = null;
 let cachedCategories: Category[] | null = null;
 let cachedNotifications: ExamNotification[] | null = null;
 let cachedPreviousPapers: PreviousPaper[] | null = null;
+let cachedCurrentAffairs: CurrentAffairEntry[] | null = null;
 
 export function getQuestions(): Question[] {
   if (cachedQuestions) {
@@ -249,4 +251,59 @@ export function getPreviousPapers(): PreviousPaper[] {
     console.error('Error reading previous_papers.json:', error);
     return [];
   }
+}
+
+export function getCurrentAffairs(): CurrentAffairEntry[] {
+  if (cachedCurrentAffairs) return cachedCurrentAffairs;
+  try {
+    if (!fs.existsSync(CURRENT_AFFAIRS_FILE)) return [];
+    const data = fs.readFileSync(CURRENT_AFFAIRS_FILE, 'utf-8');
+    cachedCurrentAffairs = JSON.parse(data);
+    return cachedCurrentAffairs || [];
+  } catch (error) {
+    console.error('Error reading current_affairs.json:', error);
+    return [];
+  }
+}
+
+export function queryCurrentAffairs(filters: {
+  month?: string | null;
+  category?: string | null;
+  search?: string | null;
+  year?: number | null;
+}): CurrentAffairEntry[] {
+  let list = getCurrentAffairs();
+
+  if (filters.year) {
+    list = list.filter((e) => e.year === filters.year);
+  }
+
+  if (filters.month && filters.month !== 'All') {
+    const m = filters.month.toLowerCase();
+    list = list.filter(
+      (e) => e.month.toLowerCase().includes(m) || e.month_slug.toLowerCase() === m
+    );
+  }
+
+  if (filters.category && filters.category !== 'All') {
+    const c = filters.category.toLowerCase();
+    list = list.filter((e) => e.category.toLowerCase() === c);
+  }
+
+  if (filters.search && filters.search.trim() !== '') {
+    const s = filters.search.toLowerCase();
+    list = list.filter(
+      (e) =>
+        e.title.toLowerCase().includes(s) ||
+        e.malayalam_title.toLowerCase().includes(s) ||
+        e.summary.toLowerCase().includes(s) ||
+        e.tags.some((t) => t.toLowerCase().includes(s)) ||
+        e.key_points.some((k) => k.toLowerCase().includes(s))
+    );
+  }
+
+  // Sort descending by date (latest first)
+  list.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  return list;
 }

@@ -110,6 +110,7 @@ export default function RootLayout({
               <div>
                 <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-3">Exam Resources</h4>
                 <ul className="space-y-1.5 text-xs">
+                  <li><Link href="/current-affairs" className="text-amber-300 font-semibold hover:text-white transition">Daily Current Affairs (2025) 🔥</Link></li>
                   <li><Link href="/notifications" className="hover:text-emerald-400 transition">Official PSC Exam Notifications (2024-25)</Link></li>
                   <li><Link href="/previous-papers" className="hover:text-emerald-400 transition">Previous Question Papers (2020-2025)</Link></li>
                   <li><Link href="/quiz?mode=exam" className="hover:text-emerald-400 transition">100-Mark OMR Simulator Mode</Link></li>

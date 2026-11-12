@@ -217,6 +217,13 @@ export default function HomePage() {
               Start Full 100-Mark OMR Mock
             </Link>
             <Link
+              href="/current-affairs"
+              className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-slate-950 font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-md transition active:scale-95 text-xs sm:text-sm"
+            >
+              <Sparkles className="w-4 h-4 text-slate-950" />
+              2025 Current Affairs 🔥
+            </Link>
+            <Link
               href="/previous-papers"
               className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-800 text-white font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl border border-slate-700 transition text-xs sm:text-sm"
             >
@@ -235,7 +242,22 @@ export default function HomePage() {
       </div>
 
       {/* Quick Mobile Feature Navigation Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-4">
+        <Link
+          href="/current-affairs"
+          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-amber-400 shadow-2xs hover:shadow-sm transition group"
+        >
+          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
+            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-amber-700" />
+          </div>
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-amber-700">
+            Daily Current Affairs
+          </h3>
+          <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
+            Daily 2025 exam capsules with instant PSC question test cards.
+          </p>
+        </Link>
+
         <Link
           href="/quiz?type=statement&mode=practice&limit=25"
           className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-emerald-400 shadow-2xs hover:shadow-sm transition group"
@@ -268,12 +290,12 @@ export default function HomePage() {
 
         <Link
           href="/notifications"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-amber-400 shadow-2xs hover:shadow-sm transition group"
+          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-rose-400 shadow-2xs hover:shadow-sm transition group"
         >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-amber-700" />
+          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
+            <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-rose-700" />
           </div>
-          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-amber-700">
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-rose-700">
             PSC Notifications
           </h3>
           <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
