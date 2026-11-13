@@ -303,7 +303,7 @@ export default function HomePage() {
             മലയാളം പ്രസ്താവനകൾ
           </h3>
           <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            130+ പുതിയ KPSC മലയാളം സ്റ്റേറ്റ്‌മെന്റ് ചോദ്യങ്ങൾ.
+            195+ പുതിയ KPSC മലയാളം സ്റ്റേറ്റ്‌മെന്റ് ചോദ്യങ്ങൾ.
           </p>
         </Link>
 
@@ -483,24 +483,41 @@ export default function HomePage() {
             onClick={() => {
               setSelectedLanguage('ml');
               setSelectedType('statement');
+              setSelectedCategory('All');
               setCurrentPage(1);
             }}
             className={`px-3 py-1 rounded-lg text-xs font-bold transition shrink-0 ${
-              selectedLanguage === 'ml' && selectedType === 'statement'
+              selectedLanguage === 'ml' && selectedType === 'statement' && selectedCategory === 'All'
                 ? 'bg-rose-600 text-white shadow-xs'
                 : 'bg-rose-50 text-rose-700 hover:bg-rose-100 border border-rose-200/80'
             }`}
           >
-            🔥 മലയാളം പ്രസ്താവനകൾ (130 Qs)
+            🔥 മലയാളം പ്രസ്താവനകൾ (195 Qs)
+          </button>
+          <button
+            onClick={() => {
+              setSelectedLanguage('ml');
+              setSelectedType('statement');
+              setSelectedCategory('Malayalam Language & Literature');
+              setCurrentPage(1);
+            }}
+            className={`px-3 py-1 rounded-lg text-xs font-bold transition shrink-0 ${
+              selectedLanguage === 'ml' && selectedType === 'statement' && selectedCategory === 'Malayalam Language & Literature'
+                ? 'bg-amber-600 text-white shadow-xs'
+                : 'bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200/80'
+            }`}
+          >
+            📚 മലയാള ഭാഷ & സാഹിത്യം (72 Qs)
           </button>
           <button
             onClick={() => {
               setSelectedType('statement');
               setSelectedLanguage('all');
+              setSelectedCategory('All');
               setCurrentPage(1);
             }}
             className={`px-2.5 py-1 rounded-lg text-xs font-bold transition shrink-0 ${
-              selectedType === 'statement' && selectedLanguage === 'all'
+              selectedType === 'statement' && selectedLanguage === 'all' && selectedCategory === 'All'
                 ? 'bg-emerald-600 text-white shadow-xs'
                 : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
             }`}
