@@ -303,7 +303,7 @@ export default function HomePage() {
             മലയാളം പ്രസ്താവനകൾ
           </h3>
           <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            195+ പുതിയ KPSC മലയാളം സ്റ്റേറ്റ്‌മെന്റ് ചോദ്യങ്ങൾ.
+            590+ പുതിയ KPSC മലയാളം സ്റ്റേറ്റ്‌മെന്റ് ചോദ്യങ്ങൾ.
           </p>
         </Link>
 
@@ -492,7 +492,7 @@ export default function HomePage() {
                 : 'bg-rose-50 text-rose-700 hover:bg-rose-100 border border-rose-200/80'
             }`}
           >
-            🔥 മലയാളം പ്രസ്താവനകൾ (195 Qs)
+            🔥 മലയാളം പ്രസ്താവനകൾ (595 Qs)
           </button>
           <button
             onClick={() => {
@@ -507,7 +507,7 @@ export default function HomePage() {
                 : 'bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200/80'
             }`}
           >
-            📚 മലയാള ഭാഷ & സാഹിത്യം (72 Qs)
+            📚 മലയാള ഭാഷ & സാഹിത്യം (472 Statements / 2,100+ Qs)
           </button>
           <button
             onClick={() => {
