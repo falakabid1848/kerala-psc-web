@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Award, Timer, ShieldCheck, CheckCircle2, Play, Users, BarChart3, BookOpen } from 'lucide-react';
+import ResumeQuizBanner from '@/components/ResumeQuizBanner';
 
 export const metadata: Metadata = {
   title: 'Kerala PSC Mock Test 2026: Free 100-Mark OMR Exam Simulator & Answer Keys',
@@ -58,6 +59,8 @@ export default function MockTestLandingPage() {
           <span>/</span>
           <span className="text-slate-900 font-semibold">Mock Test 2026</span>
         </nav>
+
+        <ResumeQuizBanner className="mb-6" />
 
         {/* Hero Section */}
         <div className="bg-gradient-to-br from-slate-900 via-emerald-950 to-slate-900 text-white rounded-3xl p-6 sm:p-10 shadow-xl mb-8">

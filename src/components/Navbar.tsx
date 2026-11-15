@@ -16,14 +16,23 @@ import {
   Calendar, 
   ArrowRight,
   Home,
-  Megaphone
+  Megaphone,
+  Play
 } from 'lucide-react';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [bannerVisible, setBannerVisible] = useState(true);
   const [isNativeApp, setIsNativeApp] = useState(false);
+  const [hasSavedQuiz, setHasSavedQuiz] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('kerala_psc_saved_quiz');
+      if (saved) setHasSavedQuiz(true);
+    } catch (e) {}
+  }, [pathname]);
 
   useEffect(() => {
     if (typeof navigator !== 'undefined' && /KeralaPSCApp/i.test(navigator.userAgent)) {
@@ -154,10 +163,29 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+
+              {hasSavedQuiz && (
+                <Link
+                  href="/quiz?resume=true&mode=exam"
+                  className="ml-2 px-3 py-1.5 text-xs font-bold rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 flex items-center gap-1.5 shadow-sm animate-pulse shrink-0"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>Resume Quiz</span>
+                </Link>
+              )}
             </nav>
 
             {/* Mobile Header Right Quick Actions */}
             <div className="flex lg:hidden items-center space-x-1">
+              {hasSavedQuiz && (
+                <Link
+                  href="/quiz?resume=true&mode=exam"
+                  className="px-2 py-1 text-[11px] font-bold rounded-lg bg-amber-500 text-slate-950 flex items-center gap-1 shadow-sm shrink-0"
+                >
+                  <Play className="w-3 h-3 fill-current" />
+                  <span>Resume</span>
+                </Link>
+              )}
               <Link
                 href="/notifications"
                 className="p-2 text-slate-600 hover:text-emerald-700 hover:bg-slate-100 rounded-xl transition relative"

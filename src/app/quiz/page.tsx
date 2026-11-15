@@ -40,6 +40,7 @@ function QuizPlayerContent() {
   const paperCodeParam = searchParams.get('paper_code') || '';
   const initialMode = (searchParams.get('mode') as 'practice' | 'exam' | 'banking') || (paperIdParam || paperCodeParam ? 'exam' : 'practice');
   const limitParam = parseInt(searchParams.get('limit') || (paperIdParam || paperCodeParam ? '100' : '25'), 10);
+  const resumeParam = searchParams.get('resume') === 'true';
 
   const [mode, setMode] = useState<'practice' | 'exam' | 'banking'>(initialMode);
   const [mobileTab, setMobileTab] = useState<'question' | 'omr'>('question');
@@ -70,6 +71,24 @@ function QuizPlayerContent() {
   useEffect(() => {
     async function init() {
       try {
+        if (resumeParam && typeof window !== 'undefined') {
+          const savedStr = localStorage.getItem('kerala_psc_saved_quiz');
+          if (savedStr) {
+            const saved = JSON.parse(savedStr);
+            if (saved.questions && saved.questions.length > 0) {
+              setQuestions(saved.questions);
+              setCurrentIndex(saved.currentIndex || 0);
+              setSelectedAnswers(saved.selectedAnswers || {});
+              setMarkedForReview(saved.markedForReview || {});
+              setVisitedQuestions(saved.visitedQuestions || {});
+              setTimeLeft(saved.timeLeft || 300);
+              if (saved.mode) setMode(saved.mode);
+              setLoading(false);
+              return;
+            }
+          }
+        }
+
         const query = new URLSearchParams();
         query.set('mode', 'quiz');
 
@@ -116,7 +135,24 @@ function QuizPlayerContent() {
       }
     }
     init();
-  }, [yearParam, categoryParam, subCategoryParam, languageParam, typeParam, paperIdParam, paperCodeParam, limitParam, mode]);
+  }, [yearParam, categoryParam, subCategoryParam, languageParam, typeParam, paperIdParam, paperCodeParam, limitParam, mode, resumeParam]);
+
+  // Auto-save active quiz session
+  useEffect(() => {
+    if (questions.length > 0 && !isFinished && typeof window !== 'undefined') {
+      const session = {
+        questions,
+        currentIndex,
+        selectedAnswers,
+        markedForReview,
+        visitedQuestions,
+        timeLeft,
+        mode,
+        timestamp: Date.now()
+      };
+      localStorage.setItem('kerala_psc_saved_quiz', JSON.stringify(session));
+    }
+  }, [questions, currentIndex, selectedAnswers, markedForReview, visitedQuestions, timeLeft, isFinished, mode]);
 
   const handleCalcClick = (val: string) => {
     if (val === 'C') setCalcDisplay('0');
@@ -135,6 +171,9 @@ function QuizPlayerContent() {
   };
 
   const handleFinishQuiz = async () => {
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('kerala_psc_saved_quiz');
+    }
     setIsFinished(true);
     if (!attemptSaved && questions.length > 0) {
       setAttemptSaved(true);
@@ -434,6 +473,9 @@ function QuizPlayerContent() {
           <div className="flex items-center gap-2">
             <button
               onClick={() => {
+                if (typeof window !== 'undefined') {
+                  localStorage.removeItem('kerala_psc_saved_quiz');
+                }
                 setIsFinished(false);
                 setSelectedAnswers({});
                 setMarkedForReview({});

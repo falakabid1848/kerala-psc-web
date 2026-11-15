@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { Category, Question, QuestionBankStats } from '@/types';
+import ResumeQuizBanner from '@/components/ResumeQuizBanner';
 import { 
   BookOpen, 
   Calendar, 
@@ -194,6 +195,8 @@ export default function HomePage() {
 
   return (
     <div className="space-y-6 sm:space-y-10">
+      <ResumeQuizBanner />
+
       {/* Hero Banner */}
       <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-gradient-to-br from-emerald-950 via-slate-900 to-teal-950 text-white p-5 sm:p-10 shadow-2xl border border-emerald-800/40">
         <div className="absolute right-0 top-0 bottom-0 w-2/5 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/15 via-teal-500/5 to-transparent pointer-events-none" />
