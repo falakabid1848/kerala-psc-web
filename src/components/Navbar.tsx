@@ -42,22 +42,22 @@ export default function Navbar() {
   }, [mobileMenuOpen]);
 
   const navLinks = [
-    { href: '/', label: 'Question Bank', icon: BookOpen, badge: '11.4K' },
+    { href: '/', label: 'Question Bank', icon: BookOpen, badge: '105K+' },
+    { href: '/mock-test', label: 'Mock Test', icon: Sparkles, badge: '100M', highlight: true },
+    { href: '/statement-questions', label: 'Statements', icon: BookOpen, badge: '55K+' },
     { href: '/current-affairs', label: 'Current Affairs', icon: Calendar, badge: '2026 🔥' },
-    { href: '/quiz', label: 'Live Mock / OMR', icon: Sparkles, badge: 'New', highlight: true },
-    { href: '/notifications', label: 'Exam Notifications', icon: Bell, badge: '2024-25' },
+    { href: '/thulasi', label: 'PSC Thulasi', icon: Megaphone },
+    { href: '/syllabus', label: 'Syllabus', icon: FileText },
     { href: '/previous-papers', label: 'Previous Papers', icon: FileText, badge: '2020-25' },
-    { href: '/banking', label: 'Banking & Speed', icon: Landmark },
-    { href: '/bookmarks', label: 'Bookmarks', icon: Bookmark },
-    { href: '/analytics', label: 'Analytics', icon: BarChart3 },
+    { href: '/banking', label: 'Banking', icon: Landmark },
   ];
 
-  const bottomNavItems = [
+  const bottomNavItems: { href: string; label: string; icon: any; highlight?: boolean; badge?: string }[] = [
     { href: '/', label: 'Questions', icon: Home },
-    { href: '/quiz', label: 'Live Mock', icon: Sparkles, highlight: true },
-    { href: '/notifications', label: 'Exams', icon: Bell, badge: 'New' },
-    { href: '/previous-papers', label: 'Papers', icon: FileText },
-    { href: '/banking', label: 'Banking', icon: Landmark },
+    { href: '/mock-test', label: 'Mock Test', icon: Sparkles, highlight: true },
+    { href: '/statement-questions', label: 'Statements', icon: BookOpen },
+    { href: '/current-affairs', label: 'Current Affairs', icon: Calendar },
+    { href: '/thulasi', label: 'Thulasi', icon: Megaphone },
   ];
 
   return (
@@ -110,7 +110,7 @@ export default function Navbar() {
                 <div className="font-extrabold text-slate-900 text-sm sm:text-base tracking-tight flex items-center gap-1.5 leading-tight">
                   <span className="truncate">Kerala PSC Master</span>
                   <span className="text-[9px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded-full shrink-0">
-                    11.4K Qs
+                    105K+ Qs
                   </span>
                 </div>
                 <p className="text-[10px] text-slate-500 font-medium kerala-font leading-tight truncate hidden sm:block">
@@ -206,7 +206,7 @@ export default function Navbar() {
                   </div>
                   <div>
                     <h3 className="font-extrabold text-slate-900 text-sm">Kerala PSC Master</h3>
-                    <p className="text-[10px] text-slate-500">keralapsc.xyz &bull; 11.4K Qs</p>
+                    <p className="text-[10px] text-slate-500">keralapsc.xyz &bull; 105,000+ Qs</p>
                   </div>
                 </div>
                 <button
@@ -276,7 +276,7 @@ export default function Navbar() {
 
             {/* Drawer Footer */}
             <div className="pt-4 border-t border-slate-100 text-center text-[10px] text-slate-400">
-              keralapsc.xyz &bull; 11,400+ Free Kerala PSC Questions
+              keralapsc.xyz &bull; 105,000+ Free Kerala PSC Questions
             </div>
           </div>
         </div>

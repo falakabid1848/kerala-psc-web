@@ -1,5 +1,102 @@
 [
   {
+    "id": "ca-2026-11-15",
+    "date": "2026-11-15",
+    "display_date": "15 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Janjatiya Gaurav Divas 2026: 151st Birth Anniversary of Bhagwan Birsa Munda Celebrated",
+    "malayalam_title": "ജനജാതീയ ഗൗരവ് ദിവസ് 2026: ഭഗവാൻ ബിർസാ മുണ്ടയുടെ 151-ാം ജന്മവാർഷികം ആഘോഷിച്ചു",
+    "category": "National",
+    "summary": "Observed annually on 15 November, Janjatiya Gaurav Divas commemorates the birth anniversary of iconic tribal freedom fighter Bhagwan Birsa Munda. Kerala Scheduled Tribes Development Department launched specialized civil service coaching and livelihood schemes for indigenous tribal youth across Attappadi and Wayanad.",
+    "key_points": [
+      "Bhagwan Birsa Munda led the historic Ulgulan (Great Tumult) movement against British colonial exploitation in the late 19th century in Chhotanagpur region.",
+      "The Union Government declared 15 November as Janjatiya Gaurav Divas in 2021.",
+      "Birsa Munda belonged to the Munda tribal community in present-day Jharkhand.",
+      "Kerala government launched the P.K. Kalan Memorial Tribal Folk Arts Festival."
+    ],
+    "psc_potential_question": {
+      "question_text": "Janjatiya Gaurav Divas is observed every year on 15 November to commemorate the birth anniversary of which legendary tribal freedom fighter?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tantia Bhil"
+        },
+        {
+          "id": "B",
+          "text": "Bhagwan Birsa Munda"
+        },
+        {
+          "id": "C",
+          "text": "Alluri Sitarama Raju"
+        },
+        {
+          "id": "D",
+          "text": "Sidho-Kanho Murmu"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The Government of India declared 15 November as Janjatiya Gaurav Divas to honor the birth anniversary of tribal hero Bhagwan Birsa Munda who fought against British rule."
+    },
+    "tags": [
+      "#JanjatiyaGauravDivas",
+      "#BirsaMunda",
+      "#TribalHeritage",
+      "#KeralaTribalDev"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-14",
+    "date": "2026-11-14",
+    "display_date": "14 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Children's Day & World Diabetes Day: Kerala Launches Poshak Balyam Breakfast Scheme",
+    "malayalam_title": "ശിശുദിനവും ലോക പ്രമേഹ ദിനവും: കേരളത്തിൽ പോഷക് ബാല്യം പ്രഭാതഭക്ഷണ പദ്ധതി",
+    "category": "Kerala",
+    "summary": "Celebrated nationwide on 14 November to mark the 137th birth anniversary of independent India's first Prime Minister Jawaharlal Nehru, Kerala's General Education Department officially launched the Poshak Balyam nutritional hot breakfast scheme across all government LP and UP schools. 14 November is also observed globally as World Diabetes Day in honor of insulin co-discoverer Sir Frederick Banting.",
+    "key_points": [
+      "Children's Day in India is celebrated on 14 November, the birth anniversary of Pandit Jawaharlal Nehru (born 14 November 1889).",
+      "Nehru authored historic books including 'The Discovery of India', 'Glimpses of World History', and 'Toward Freedom'.",
+      "World Diabetes Day is observed on 14 November, marking the birthday of Sir Frederick Banting who co-discovered insulin with Charles Best in 1921.",
+      "Kerala has the highest literacy rate and lowest infant mortality rate among Indian states."
+    ],
+    "psc_potential_question": {
+      "question_text": "World Diabetes Day is celebrated on 14 November to honor the birthday of which Nobel laureate who co-discovered insulin in 1921?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alexander Fleming"
+        },
+        {
+          "id": "B",
+          "text": "Sir Frederick Banting"
+        },
+        {
+          "id": "C",
+          "text": "Robert Koch"
+        },
+        {
+          "id": "D",
+          "text": "Louis Pasteur"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "World Diabetes Day on 14 November marks the birthday of Sir Frederick Banting, who along with Charles Best discovered insulin in 1921, saving millions of diabetic patients worldwide."
+    },
+    "tags": [
+      "#ChildrensDay",
+      "#JawaharlalNehru",
+      "#WorldDiabetesDay",
+      "#FrederickBanting",
+      "#PoshakBalyam"
+    ],
+    "is_trending": true
+  },
+  {
     "id": "ca-2026-11-13",
     "date": "2026-11-13",
     "display_date": "13 November 2026",

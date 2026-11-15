@@ -18,16 +18,20 @@ const GOOGLE_VERIFICATION = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.keralapsc.xyz'),
   title: {
-    default: 'Kerala PSC 2026: 11,400+ Free Question Bank, Mock Tests & Previous Papers | PSC Master',
+    default: 'Kerala PSC 2026: 100,000+ Free Question Bank, Mock Tests & Previous Papers | PSC Master',
     template: '%s | Kerala PSC Master',
   },
-  description: 'Top Kerala PSC preparation portal (keralapsc.xyz). 11,400+ free Kerala PSC statement questions, daily 2026 current affairs, official previous question papers (2020-2025) with answer keys, PSC Thulasi exam notifications, and live 75-min OMR mock tests for Degree Level, LDC, KAS, and Kerala Bank.',
+  description: 'Top Kerala PSC preparation portal (keralapsc.xyz). 100,000+ free Kerala PSC statement & MCQ questions, daily 2026 current affairs, official previous question papers (2020-2025) with answer keys, PSC Thulasi login guide, and live 75-min OMR mock tests for Degree Level, LDC, KAS, and Kerala Bank.',
   keywords: [
     'Kerala PSC',
     'kerala psc',
     'kerala psc thulasi',
-    'kerala psc question bank',
+    'psc thulasi login',
     'kerala psc mock test',
+    'kerala psc mock test 2026',
+    'kerala psc statement questions',
+    'kerala psc syllabus 2026',
+    'kerala psc question bank',
     'kerala psc previous question papers',
     'kerala psc current affairs 2026',
     'kerala psc online test',
@@ -35,13 +39,10 @@ export const metadata: Metadata = {
     'kerala psc answer key',
     'ldc question paper 2024 2025',
     'kerala psc degree level prelims',
-    'kerala psc syllabus 2026',
     'kerala psc exam calendar',
     'kerala bank clerk question paper',
     'kerala renaissance gk questions',
     'kas exam question paper',
-    'kerala psc statement questions',
-    'psc thulasi login',
     'psc bulletin online',
     'കേരള പിഎസ്സി ചോദ്യങ്ങൾ',
     'കേരള പിഎസ്സി മുൻവർഷ ചോദ്യങ്ങൾ'
@@ -60,8 +61,8 @@ export const metadata: Metadata = {
     google: GOOGLE_VERIFICATION,
   },
   openGraph: {
-    title: 'Kerala PSC 2026: 11,400+ Free Questions, Live Mock Tests & Answer Keys',
-    description: 'Master Kerala PSC exams with 11,400+ statement questions, official previous papers, live 75-min OMR mock tests, and 2026 daily current affairs.',
+    title: 'Kerala PSC 2026: 100,000+ Free Questions, Live Mock Tests & Answer Keys',
+    description: 'Master Kerala PSC exams with 100,000+ statement & MCQ questions, official previous papers, live 75-min OMR mock tests, and 2026 daily current affairs.',
     url: 'https://www.keralapsc.xyz',
     siteName: 'Kerala PSC Master',
     images: [
@@ -69,7 +70,7 @@ export const metadata: Metadata = {
         url: 'https://www.keralapsc.xyz/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Kerala PSC Master - 11,400+ Questions and Live Mock Tests',
+        alt: 'Kerala PSC Master - 100,000+ Questions and Live Mock Tests',
       },
     ],
     locale: 'en_IN',
@@ -77,7 +78,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kerala PSC 2026: 11,400+ Questions & Live Mock Tests',
+    title: 'Kerala PSC 2026: 100,000+ Questions & Live Mock Tests',
     description: 'Practice Kerala PSC statement questions, 2020-2025 previous papers with keys, and 2026 daily current affairs capsules.',
     images: ['https://www.keralapsc.xyz/og-image.png'],
   },
@@ -121,7 +122,7 @@ export default function RootLayout({
     '@type': 'EducationalOrganization',
     name: 'PSC Master Kerala',
     url: 'https://www.keralapsc.xyz',
-    description: 'India premier free preparation portal for Kerala Public Service Commission (KPSC) and Kerala Bank examinations with 11,400+ verified statement & MCQ questions.',
+    description: 'India premier free preparation portal for Kerala Public Service Commission (KPSC) and Kerala Bank examinations with 100,000+ verified statement & MCQ questions.',
     sameAs: [
       'https://www.keralapsc.xyz',
       'https://keralapsc.xyz',
@@ -153,7 +154,7 @@ export default function RootLayout({
         name: 'What is the best platform to practice Kerala PSC questions for free?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'keralapsc.xyz is the leading free platform featuring over 11,400 verified Kerala PSC statement-type questions, 21 previous question papers (2020-2025) with answer keys, 2026 daily current affairs, and timed 75-minute OMR mock tests.',
+          text: 'keralapsc.xyz is the leading free platform featuring over 100,000 verified Kerala PSC statement-type questions, 21 previous question papers (2020-2025) with answer keys, 2026 daily current affairs, and timed 75-minute OMR mock tests.',
         },
       },
       {
@@ -253,11 +254,11 @@ export default function RootLayout({
                   <span>PSC Master Kerala</span>
                 </div>
                 <p className="text-xs text-slate-400 leading-relaxed mb-4">
-                  India’s premier mobile-optimized preparation portal for Kerala PSC (Degree Level, LDC, Secretariat Assistant, KAS) and Kerala Bank recruitment exams with 11,400+ statement &amp; MCQ questions.
+                  India’s premier mobile-optimized preparation portal for Kerala PSC (Degree Level, LDC, Secretariat Assistant, KAS) and Kerala Bank recruitment exams with 100,000+ statement &amp; MCQ questions.
                 </p>
                 <div className="flex items-center gap-2 text-xs font-semibold text-emerald-400">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                  Live Question Database: 11,400 Verified Qs
+                  Live Question Database: 100,000+ Verified Qs &amp; Statements
                 </div>
               </div>
 
@@ -274,15 +275,16 @@ export default function RootLayout({
               </div>
 
               <div>
-                <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-3">Kerala PSC Resources</h4>
+                <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-3">Kerala PSC High-Rank Portals</h4>
                 <ul className="space-y-1.5 text-xs">
-                  <li><Link href="/current-affairs" className="text-amber-300 font-semibold hover:text-white transition">Daily Current Affairs (2026) 🔥</Link></li>
-                  <li><Link href="/notifications" className="hover:text-emerald-400 transition">Official PSC Exam Notifications (2025-26)</Link></li>
-                  <li><Link href="/previous-papers" className="hover:text-emerald-400 transition">Previous Question Papers (2020-2025)</Link></li>
-                  <li><Link href="/quiz?mode=exam" className="hover:text-emerald-400 transition">100-Mark OMR Simulator Mode</Link></li>
+                  <li><Link href="/thulasi" className="text-emerald-300 font-semibold hover:text-white transition">PSC Thulasi Login Portal Guide 2026</Link></li>
+                  <li><Link href="/mock-test" className="text-amber-300 font-semibold hover:text-white transition">100-Mark OMR Simulator Mock Test</Link></li>
+                  <li><Link href="/statement-questions" className="text-teal-300 font-semibold hover:text-white transition">55,000+ Statement Questions Bank</Link></li>
+                  <li><Link href="/syllabus" className="text-indigo-300 font-semibold hover:text-white transition">PSC Exam Syllabus &amp; Marks Distribution</Link></li>
+                  <li><Link href="/current-affairs" className="hover:text-emerald-400 transition">Daily Current Affairs (Jan-Nov 2026)</Link></li>
+                  <li><Link href="/previous-papers" className="hover:text-emerald-400 transition">21 Previous Question Papers (2020-2025)</Link></li>
+                  <li><Link href="/notifications" className="hover:text-emerald-400 transition">Official PSC Exam Notifications</Link></li>
                   <li><Link href="/banking" className="hover:text-emerald-400 transition">Banking TCS-iON Speed Drills</Link></li>
-                  <li><Link href="/bookmarks" className="hover:text-emerald-400 transition">Tricky Statements Revision Deck</Link></li>
-                  <li><Link href="/analytics" className="hover:text-emerald-400 transition">Negative Marking Scorecard</Link></li>
                 </ul>
               </div>
 

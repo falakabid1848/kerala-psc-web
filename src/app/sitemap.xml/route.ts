@@ -13,6 +13,10 @@ export async function GET(request: NextRequest) {
 
   const staticPages = [
     { path: '', priority: '1.0', changefreq: 'daily' },
+    { path: '/thulasi', priority: '0.98', changefreq: 'daily' },
+    { path: '/mock-test', priority: '0.98', changefreq: 'daily' },
+    { path: '/statement-questions', priority: '0.98', changefreq: 'daily' },
+    { path: '/syllabus', priority: '0.95', changefreq: 'weekly' },
     { path: '/current-affairs', priority: '0.95', changefreq: 'daily' },
     { path: '/quiz', priority: '0.95', changefreq: 'daily' },
     { path: '/previous-papers', priority: '0.9', changefreq: 'weekly' },

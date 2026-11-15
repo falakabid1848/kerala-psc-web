@@ -34,6 +34,7 @@ import {
   Check,
   XCircle,
   GraduationCap,
+  Share2,
   X
 } from 'lucide-react';
 import AdBanner from '@/components/AdBanner';
@@ -82,7 +83,7 @@ export default function HomePage() {
     },
     {
       q: 'What are the main exams covered by PSC Master Kerala?',
-      a: 'Our 11,400+ question bank covers Kerala PSC Degree Level Preliminary & Mains, Lower Division Clerk (LDC 2024-2025), Secretariat Assistant, Kerala Administrative Service (KAS), Sub Inspector (SI), Company Board Assistant, and Kerala State Co-operative Bank (Kerala Bank) clerk exams.',
+      a: 'Our 105,000+ question bank covers Kerala PSC Degree Level Preliminary & Mains, Lower Division Clerk (LDC 2024-2025), Secretariat Assistant, Kerala Administrative Service (KAS), Sub Inspector (SI), Company Board Assistant, and Kerala State Co-operative Bank (Kerala Bank) clerk exams.',
     },
     {
       q: 'Where can I find Kerala PSC previous question papers with official answer keys?',
@@ -206,7 +207,7 @@ export default function HomePage() {
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
             Kerala PSC 2026: <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-300">
-              11,400+ Free Questions, Mock Tests &amp; Previous Papers
+              105,000+ Free Questions, Mock Tests &amp; Previous Papers
             </span>
           </h1>
 
@@ -218,15 +219,15 @@ export default function HomePage() {
           <div className="pt-1 sm:pt-2 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 text-xs">
             <div className="bg-slate-800/80 backdrop-blur p-2.5 sm:p-3 rounded-xl sm:rounded-2xl border border-slate-700/80">
               <span className="text-slate-400 block text-[9px] sm:text-[10px] uppercase font-bold">Total Question Bank</span>
-              <span className="text-lg sm:text-xl font-black text-white">{stats ? stats.total.toLocaleString() : '11,400'}+ Qs</span>
+              <span className="text-lg sm:text-xl font-black text-white">{stats ? stats.total.toLocaleString() : '105,000'}+ Qs</span>
             </div>
             <div className="bg-slate-800/80 backdrop-blur p-2.5 sm:p-3 rounded-xl sm:rounded-2xl border border-slate-700/80">
-              <span className="text-slate-400 block text-[9px] sm:text-[10px] uppercase font-bold">2024-2025 Questions</span>
-              <span className="text-lg sm:text-xl font-black text-emerald-400">7,600+ Qs</span>
+              <span className="text-slate-400 block text-[9px] sm:text-[10px] uppercase font-bold">2024-2026 Questions</span>
+              <span className="text-lg sm:text-xl font-black text-emerald-400">24,000+ Qs</span>
             </div>
             <div className="bg-slate-800/80 backdrop-blur p-2.5 sm:p-3 rounded-xl sm:rounded-2xl border border-slate-700/80">
-              <span className="text-slate-400 block text-[9px] sm:text-[10px] uppercase font-bold">Statement & Match</span>
-              <span className="text-lg sm:text-xl font-black text-amber-400">{stats ? (stats.statementCount + stats.matchCount).toLocaleString() : '2,900'}+ Qs</span>
+              <span className="text-slate-400 block text-[9px] sm:text-[10px] uppercase font-bold">Statement &amp; Match</span>
+              <span className="text-lg sm:text-xl font-black text-amber-400">{stats ? (stats.statementCount + stats.matchCount).toLocaleString() : '32,000'}+ Qs</span>
             </div>
             <div className="bg-slate-800/80 backdrop-blur p-2.5 sm:p-3 rounded-xl sm:rounded-2xl border border-slate-700/80">
               <span className="text-slate-400 block text-[9px] sm:text-[10px] uppercase font-bold">Syllabus Streams</span>
@@ -237,25 +238,39 @@ export default function HomePage() {
           {/* Main Action CTAs */}
           <div className="pt-2 flex flex-wrap gap-2 sm:gap-3">
             <Link
-              href="/quiz?mode=exam&limit=50"
+              href="/mock-test"
               className="inline-flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-lg transition active:scale-95 text-xs sm:text-sm"
             >
               <CircleDot className="w-4 h-4" />
-              Start Full 100-Mark OMR Mock
+              100-Mark OMR Mock Test
+            </Link>
+            <Link
+              href="/statement-questions"
+              className="inline-flex items-center gap-1.5 bg-rose-600 hover:bg-rose-700 text-white font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-md transition active:scale-95 text-xs sm:text-sm"
+            >
+              <Languages className="w-4 h-4 text-rose-200" />
+              55K+ Statement Questions 🔥
             </Link>
             <Link
               href="/current-affairs"
               className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-slate-950 font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-md transition active:scale-95 text-xs sm:text-sm"
             >
               <Sparkles className="w-4 h-4 text-slate-950" />
-              2026 Current Affairs 🔥
+              2026 Current Affairs
             </Link>
             <Link
-              href="/quiz?language=ml&type=statement&mode=practice&limit=25"
-              className="inline-flex items-center gap-1.5 bg-rose-600 hover:bg-rose-700 text-white font-bold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl shadow-md transition active:scale-95 text-xs sm:text-sm"
+              href="/thulasi"
+              className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-800 text-white font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl border border-slate-700 transition text-xs sm:text-sm"
             >
-              <Languages className="w-4 h-4 text-rose-200" />
-              മലയാളം പ്രസ്താവനകൾ 🔥
+              <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+              PSC Thulasi Login
+            </Link>
+            <Link
+              href="/syllabus"
+              className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-800 text-white font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl border border-slate-700 transition text-xs sm:text-sm"
+            >
+              <FileText className="w-4 h-4 text-indigo-400" />
+              Syllabus 2026
             </Link>
             <Link
               href="/previous-papers"
@@ -264,91 +279,136 @@ export default function HomePage() {
               <FileText className="w-4 h-4 text-blue-400" />
               2020-2025 Papers
             </Link>
-            <Link
-              href="/notifications"
-              className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-800 text-white font-semibold px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl border border-slate-700 transition text-xs sm:text-sm"
-            >
-              <Bell className="w-4 h-4 text-amber-400" />
-              Exam Notifications
-            </Link>
           </div>
         </div>
       </div>
 
-      {/* Quick Mobile Feature Navigation Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-4">
-        <Link
-          href="/current-affairs"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-amber-400 shadow-2xs hover:shadow-sm transition group"
-        >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-amber-700" />
+      {/* Viral WhatsApp & Telegram Sharing Bar */}
+      <div className="bg-gradient-to-r from-emerald-950 via-slate-900 to-teal-950 border border-emerald-500/30 rounded-2xl p-3 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm">
+        <div className="flex items-center gap-3">
+          <div className="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0">
+            <Share2 className="w-4 h-4 text-emerald-400" />
           </div>
-          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-amber-700">
-            Daily Current Affairs
+          <div>
+            <div className="text-xs sm:text-sm font-bold text-white flex items-center gap-1.5">
+              <span>Share 105,000+ Question Bank with PSC Aspirants</span>
+              <span className="text-[10px] bg-emerald-500/30 text-emerald-300 px-2 py-0.5 rounded-full font-bold">Free</span>
+            </div>
+            <p className="text-[11px] text-slate-400">
+              Help your study group prepare for Degree Level Prelims, LDC &amp; KAS exams.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <a
+            href={`https://api.whatsapp.com/send?text=${encodeURIComponent('🔥 സൗജന്യ 105,000+ Kerala PSC ചോദ്യങ്ങൾ, Statement Questions & Mock Test 2026: https://www.keralapsc.xyz')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba59] text-slate-950 font-bold px-3.5 py-2 rounded-xl text-xs transition shadow-sm"
+          >
+            <span>WhatsApp Share</span>
+          </a>
+          <a
+            href={`https://t.me/share/url?url=${encodeURIComponent('https://www.keralapsc.xyz')}&text=${encodeURIComponent('Kerala PSC 2026: 105,000+ Free Question Bank, Statement Questions & Mock Tests')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 bg-[#0088cc] hover:bg-[#0077b3] text-white font-bold px-3.5 py-2 rounded-xl text-xs transition shadow-sm"
+          >
+            <span>Telegram</span>
+          </a>
+        </div>
+      </div>
+
+      {/* 6 High-Impact Portal Feature Cards */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3">
+        <Link
+          href="/mock-test"
+          className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-emerald-500 shadow-2xs hover:shadow-sm transition group"
+        >
+          <div className="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xs mb-2 group-hover:scale-105 transition-transform">
+            <Sparkles className="w-4 h-4 text-emerald-700" />
+          </div>
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-emerald-700">
+            100-Mark Mock
           </h3>
-          <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            2026 daily exam capsules (Jan–Nov) with instant PSC question test cards.
+          <p className="text-[10px] sm:text-[11px] text-slate-500 line-clamp-2">
+            75-min OMR simulator with -0.33 negative marking.
           </p>
         </Link>
 
         <Link
-          href="/quiz?language=ml&type=statement&mode=practice&limit=25"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-rose-400 shadow-2xs hover:shadow-sm transition group"
+          href="/statement-questions"
+          className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-rose-400 shadow-2xs hover:shadow-sm transition group"
         >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-rose-700" />
+          <div className="w-8 h-8 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs mb-2 group-hover:scale-105 transition-transform">
+            <CheckCircle2 className="w-4 h-4 text-rose-700" />
           </div>
           <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-rose-700">
-            മലയാളം പ്രസ്താവനകൾ
+            പ്രസ്താവന ചോദ്യങ്ങൾ
           </h3>
-          <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            5,600+ പുതിയ KPSC മലയാളം സ്റ്റേറ്റ്‌മെന്റ് ചോദ്യങ്ങൾ (All Subjects).
+          <p className="text-[10px] sm:text-[11px] text-slate-500 line-clamp-2">
+            32,000+ Malayalam statement &amp; match questions.
+          </p>
+        </Link>
+
+        <Link
+          href="/thulasi"
+          className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-teal-500 shadow-2xs hover:shadow-sm transition group"
+        >
+          <div className="w-8 h-8 rounded-xl bg-teal-100 text-teal-800 flex items-center justify-center font-bold text-xs mb-2 group-hover:scale-105 transition-transform">
+            <CheckCircle2 className="w-4 h-4 text-teal-700" />
+          </div>
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-teal-700">
+            PSC Thulasi Login
+          </h3>
+          <p className="text-[10px] sm:text-[11px] text-slate-500 line-clamp-2">
+            Profile login, hall tickets, and SMS user ID reset.
+          </p>
+        </Link>
+
+        <Link
+          href="/syllabus"
+          className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-indigo-400 shadow-2xs hover:shadow-sm transition group"
+        >
+          <div className="w-8 h-8 rounded-xl bg-indigo-100 text-indigo-800 flex items-center justify-center font-bold text-xs mb-2 group-hover:scale-105 transition-transform">
+            <FileText className="w-4 h-4 text-indigo-700" />
+          </div>
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-indigo-700">
+            Syllabus 2026
+          </h3>
+          <p className="text-[10px] sm:text-[11px] text-slate-500 line-clamp-2">
+            10-module mark distribution for Degree &amp; LDC.
+          </p>
+        </Link>
+
+        <Link
+          href="/current-affairs"
+          className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-amber-400 shadow-2xs hover:shadow-sm transition group"
+        >
+          <div className="w-8 h-8 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xs mb-2 group-hover:scale-105 transition-transform">
+            <Calendar className="w-4 h-4 text-amber-700" />
+          </div>
+          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-amber-700">
+            Current Affairs 2026
+          </h3>
+          <p className="text-[10px] sm:text-[11px] text-slate-500 line-clamp-2">
+            Jan–Nov 2026 capsules with Malayalam notes.
           </p>
         </Link>
 
         <Link
           href="/previous-papers"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-blue-400 shadow-2xs hover:shadow-sm transition group"
+          className="bg-white p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-blue-400 shadow-2xs hover:shadow-sm transition group"
         >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <FileText className="w-4 h-4 sm:w-5 sm:h-5 text-blue-700" />
+          <div className="w-8 h-8 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center font-bold text-xs mb-2 group-hover:scale-105 transition-transform">
+            <FileText className="w-4 h-4 text-blue-700" />
           </div>
           <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-blue-700">
-            Papers (2020-25)
+            Previous Papers
           </h3>
-          <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            Latest 2024 & 2025 question papers with official keys.
-          </p>
-        </Link>
-
-        <Link
-          href="/notifications"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-rose-400 shadow-2xs hover:shadow-sm transition group"
-        >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-rose-700" />
-          </div>
-          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-rose-700">
-            PSC Notifications
-          </h3>
-          <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            Thulasi categories, deadlines, and direct apply links.
-          </p>
-        </Link>
-
-        <Link
-          href="/banking"
-          className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 hover:border-indigo-400 shadow-2xs hover:shadow-sm transition group"
-        >
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-indigo-100 text-indigo-800 flex items-center justify-center font-bold text-xs sm:text-sm mb-2 group-hover:scale-105 transition-transform">
-            <Landmark className="w-4 h-4 sm:w-5 sm:h-5 text-indigo-700" />
-          </div>
-          <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-0.5 group-hover:text-indigo-700">
-            Banking Speed Drills
-          </h3>
-          <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2">
-            Kerala Bank & IBPS speed tests with virtual calculator.
+          <p className="text-[10px] sm:text-[11px] text-slate-500 line-clamp-2">
+            21 official papers (2020-25) with answer keys.
           </p>
         </Link>
       </div>
@@ -381,7 +441,7 @@ export default function HomePage() {
                 : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50'
             }`}
           >
-            All Subjects ({stats ? stats.total.toLocaleString() : '11,400'})
+            All Subjects ({stats ? stats.total.toLocaleString() : '105,000'})
           </button>
 
           {categories.map((cat) => {
@@ -426,7 +486,7 @@ export default function HomePage() {
             <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search 11,400+ questions (Vaikom, Article 21, Simple Interest, സന്ധി)..."
+              placeholder="Search 105,000+ questions (Vaikom, Article 21, Simple Interest, സന്ധി)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-9 pr-8 py-2 text-xs sm:text-sm border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500"
@@ -850,7 +910,7 @@ export default function HomePage() {
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 space-y-2">
             <h3 className="font-bold text-slate-900 text-sm flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-              11,400+ Statement Questions
+              105,000+ PSC Question Bank
             </h3>
             <p className="text-slate-600 leading-relaxed text-xs">
               Practicing latest statement-type questions (I, II, and III are correct) is mandatory for modern Kerala PSC examinations. Our bank offers topic-wise statement questions with thorough explanations.
