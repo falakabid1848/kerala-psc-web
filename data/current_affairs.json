@@ -1,5 +1,389 @@
 [
   {
+    "id": "ca-2026-11-15-ezhuthachan",
+    "date": "2026-11-15",
+    "display_date": "15 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Ezhuthachan Puraskaram 2024 Conferred on Master Storyteller N.S. Madhavan",
+    "malayalam_title": "2024-ലെ എഴുത്തച്ഛൻ പുരസ്കാരം പ്രശസ്ത കഥാകൃത്ത് എൻ.എസ്. മാധവന് സമർപ്പിച്ചു",
+    "category": "Awards & Honors",
+    "summary": "Renowned Malayalam fiction writer and civil servant N.S. Madhavan was conferred the 2024 Ezhuthachan Puraskaram, Kerala’s highest literary award, carrying a citation, plaque, and cash purse of ₹5 lakh.",
+    "key_points": [
+      "Ezhuthachan Puraskaram was instituted by Kerala Sahitya Akademi in 1993.",
+      "First recipient was Sooranad Kunjan Pillai (1993).",
+      "N.S. Madhavan is celebrated for benchmark short stories like 'Higuita', 'Thiruth', 'Vanmarangal Veezhumpol', and the novel 'Lanthan Batheriyile Luthiniyakal'."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who was the first recipient of the Ezhuthachan Puraskaram instituted by the Government of Kerala in 1993?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sooranad Kunjan Pillai"
+        },
+        {
+          "id": "B",
+          "text": "Thakazhi Sivasankara Pillai"
+        },
+        {
+          "id": "C",
+          "text": "Balamani Amma"
+        },
+        {
+          "id": "D",
+          "text": "Vaikom Muhammad Basheer"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "Eminent scholar and lexicographer Sooranad Kunjan Pillai was the first recipient of the Ezhuthachan Puraskaram in 1993."
+    },
+    "tags": [
+      "#EzhuthachanPuraskaram",
+      "#NSMadhavan",
+      "#MalayalamLiterature",
+      "#Awards2026"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-17-ksmart",
+    "date": "2026-11-17",
+    "display_date": "17 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Kerala K-SMART Platform Wins National e-Governance Gold Award for Digital Public Infrastructure",
+    "malayalam_title": "കേരളത്തിന്റെ കെ-സ്മാർട്ട് (K-SMART) പദ്ധതിക്ക് ദേശീയ ഇ-ഗവേണൻസ് സ്വർണ്ണ പുരസ്കാരം",
+    "category": "Kerala",
+    "summary": "The Government of Kerala’s unified municipal platform K-SMART, developed by Information Kerala Mission (IKM), was awarded the National Award for e-Governance in citizen-centric delivery.",
+    "key_points": [
+      "K-SMART stands for Kerala Solutions for Managing Administrative Reformation and Transformation.",
+      "Integrates over 35 public services across municipal corporations and grama panchayats.",
+      "Features video-KYC based instant marriage registration and digital building permit approvals.",
+      "Developed natively on open-source stack by Information Kerala Mission."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which nodal agency developed Kerala's citizen service platform K-SMART for local self-government institutions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Information Kerala Mission (IKM)"
+        },
+        {
+          "id": "B",
+          "text": "C-DAC Thiruvananthapuram"
+        },
+        {
+          "id": "C",
+          "text": "Kerala State IT Mission (KSITM)"
+        },
+        {
+          "id": "D",
+          "text": "Keltron"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "Information Kerala Mission (IKM) is the autonomous agency under the Local Self Government Department that conceptualized and engineered K-SMART."
+    },
+    "tags": [
+      "#KSMART",
+      "#eGovernance",
+      "#DigitalKerala",
+      "#KeralaPSC"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-18-vizhinjam",
+    "date": "2026-11-18",
+    "display_date": "18 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Vizhinjam International Seaport Completes Phase 1 Trial Run Milestone with Over 100,000 TEUs Handled",
+    "malayalam_title": "വിഴിഞ്ഞം അന്താരാഷ്ട്ര തുറമുഖം: ഒന്നാം ഘട്ട ട്രയൽ റണ്ണിൽ ഒരു ലക്ഷത്തിലധികം കണ്ടെയ്നറുകൾ (TEU) കൈകാര്യം ചെയ്ത് ചരിത്ര നേട്ടം",
+    "category": "Kerala",
+    "summary": "India’s transshipment flagship Vizhinjam International Seaport crossed the historic threshold of handling 100,000 TEUs of cargo during ongoing commercial trial operations, significantly boosting trade connectivity for peninsular India.",
+    "key_points": [
+      "Vizhinjam is India’s first deepwater container transshipment port with a natural draft of 18 to 20 meters.",
+      "Constructed under Public-Private Partnership (PPP) between Government of Kerala and Adani Vizhinjam Port Private Limited (AVPPL).",
+      "The first cargo vessel 'San Fernando' berthed at Vizhinjam in July 2024.",
+      "Offers high bunkering, crew change, and automated shore-to-ship cranes capable of handling ultra-large container vessels (ULCVs)."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which was the first foreign mother vessel to berth at the Vizhinjam International Seaport during trial operations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "San Fernando"
+        },
+        {
+          "id": "B",
+          "text": "Ever Given"
+        },
+        {
+          "id": "C",
+          "text": "MSC Irina"
+        },
+        {
+          "id": "D",
+          "text": "Maersk Mc-Kinney"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "The 300-metre-long container vessel 'San Fernando' operated by Danish shipping giant Maersk was the first mothership to dock at Vizhinjam on 11 July 2024."
+    },
+    "tags": [
+      "#Vizhinjam",
+      "#KeralaEconomy",
+      "#PortsOfIndia",
+      "#CurrentAffairs2026"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-16-press",
+    "date": "2026-11-16",
+    "display_date": "16 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "National Press Day 2026: Press Council of India Celebrates 60 Years; Kerala Media Academy Excellence Awards Announced",
+    "malayalam_title": "ദേശീയ പത്രദിനം 2026: പ്രസ് കൗൺസിൽ ഓഫ് ഇന്ത്യയുടെ 60-ാം വാർഷികം; കേരള മീഡിയ അക്കാദമി അവാർഡുകൾ പ്രഖ്യാപിച്ചു",
+    "category": "National",
+    "summary": "Observed annually on 16 November, National Press Day marks the day the Press Council of India (PCI) commenced its statutory functions in 1966 as a moral watchdog ensuring free and responsible journalism. In Thiruvananthapuram, Kerala Media Academy conferred its national fellowship for investigative journalism and digital fact-checking.",
+    "key_points": [
+      "National Press Day is celebrated across India on 16 November every year.",
+      "Press Council of India was established under the recommendations of the First Press Commission (headed by Justice J.S. Rajadhyaksha).",
+      "PCI began functioning on 16 November 1966 as a statutory quasi-judicial body headed by a retired Supreme Court judge.",
+      "Kerala Media Academy (formerly Kerala Press Academy) was founded in 1979 as a joint venture of the Government of Kerala and Kerala Union of Working Journalists (KUWJ)."
+    ],
+    "psc_potential_question": {
+      "question_text": "National Press Day is observed in India on 16 November to commemorate which significant institutional establishment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Commencement of statutory operations by the Press Council of India in 1966"
+        },
+        {
+          "id": "B",
+          "text": "Publication of India's first newspaper 'Bengal Gazette' in 1780"
+        },
+        {
+          "id": "C",
+          "text": "Passing of the Vernacular Press Act in 1878"
+        },
+        {
+          "id": "D",
+          "text": "Founding of the Press Trust of India (PTI) in 1947"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "National Press Day is observed every year on 16 November to mark the day the Press Council of India (PCI) started functioning as an independent quasi-judicial watchdog of the press on 16 November 1966."
+    },
+    "tags": [
+      "#NationalPressDay",
+      "#PressCouncilOfIndia",
+      "#MediaAcademy",
+      "#ImportantDays"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-16-tolerance",
+    "date": "2026-11-16",
+    "display_date": "16 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "International Day for Tolerance 2026: UNESCO Honors Mahatma Gandhi's Pluralist Legacy",
+    "malayalam_title": "അന്താരാഷ്ട്ര സഹിഷ്ണുതാ ദിനം 2026: യുനെസ്കോ മഹാത്മാ ഗാന്ധിയുടെ മൂല്യങ്ങൾ അനുസ്മരിച്ചു",
+    "category": "National",
+    "summary": "Declared by the United Nations General Assembly following the 1995 UNESCO Declaration of Principles on Tolerance, 16 November is observed globally as the International Day for Tolerance. The prestigious UNESCO-Madanjeet Singh Prize for the Promotion of Tolerance and Non-Violence is awarded biennially on this date.",
+    "key_points": [
+      "Observed globally on 16 November following UNESCO resolution 51/95 in 1996.",
+      "1995 was declared the United Nations Year for Tolerance marking the 125th birth anniversary of Mahatma Gandhi.",
+      "The UNESCO-Madanjeet Singh Prize recognizes exemplary contributions in promoting peace, tolerance, and non-violence.",
+      "Madanjeet Singh was an Indian diplomat, artist, and UNESCO Goodwill Ambassador."
+    ],
+    "psc_potential_question": {
+      "question_text": "The biennial UNESCO prize for the Promotion of Tolerance and Non-Violence awarded on International Day for Tolerance is named after which eminent Indian diplomat?",
+      "options": [
+        {
+          "id": "A",
+          "text": "V.K. Krishna Menon"
+        },
+        {
+          "id": "B",
+          "text": "Madanjeet Singh"
+        },
+        {
+          "id": "C",
+          "text": "K.P.S. Menon"
+        },
+        {
+          "id": "D",
+          "text": "Brajesh Mishra"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The UNESCO-Madanjeet Singh Prize for the Promotion of Tolerance and Non-Violence was created in 1995 with the support of Indian diplomat and philanthropist Madanjeet Singh."
+    },
+    "tags": [
+      "#ToleranceDay",
+      "#UNESCO",
+      "#MadanjeetSinghPrize",
+      "#UnitedNations"
+    ],
+    "is_trending": false
+  },
+  {
+    "id": "ca-2026-11-16-milma",
+    "date": "2026-11-16",
+    "display_date": "16 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Milma Unveils India's First 100% Solar-Powered Green Dairy Corridor Across Wayanad & Idukki",
+    "malayalam_title": "ഇന്ത്യയിലെ ആദ്യത്തെ സമ്പൂർണ്ണ സൗരോർജ്ജ ഗ്രീൻ ഡയറി ഇടനാഴി മിൽമ വയനാട്ടിലും ഇടുക്കിയിലും ആരംഭിച്ചു",
+    "category": "Kerala",
+    "summary": "The Kerala Co-operative Milk Marketing Federation (Milma) commissioned high-efficiency solar chilling plants and carbon-neutral bulk milk cooling centers across high-range dairy societies in Wayanad and Idukki, making Kerala home to India's first zero-emission cooperative dairy corridor.",
+    "key_points": [
+      "Milma was established in 1980 under Operation Flood-II (National Dairy Development Board).",
+      "Registered as the Kerala Co-operative Milk Marketing Federation (KCMMF) with headquarters in Thiruvananthapuram.",
+      "The project cuts grid energy costs by 70% for rural farmer dairy cooperative societies.",
+      "Kerala's per capita milk availability has crossed 430 grams per day, approaching national targets."
+    ],
+    "psc_potential_question": {
+      "question_text": "In which year was the Kerala Co-operative Milk Marketing Federation (Milma) established under the Operation Flood programme?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1975"
+        },
+        {
+          "id": "B",
+          "text": "1980"
+        },
+        {
+          "id": "C",
+          "text": "1985"
+        },
+        {
+          "id": "D",
+          "text": "1991"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Milma (Kerala Co-operative Milk Marketing Federation) was set up in 1980 as the implementing agency for Operation Flood-II in Kerala with technical support from NDDB."
+    },
+    "tags": [
+      "#Milma",
+      "#GreenDairy",
+      "#KeralaAgriculture",
+      "#SolarPower"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-16-isro",
+    "date": "2026-11-16",
+    "display_date": "16 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "ISRO & European Space Agency (ESA) Complete Proba-3 Solar Mission Integration at Sriharikota for PSLV-C60",
+    "malayalam_title": "ഐ.എസ്.ആർ.ഒ - ഇ.എസ്.എ പ്രോബ-3 സൗരദൗത്യം ശ്രീഹരിക്കോട്ടയിൽ സജ്ജമായി; വിക്ഷേപണം പി.എസ്.എൽ.വി-സി60 റോക്കറ്റിൽ",
+    "category": "Science & Tech",
+    "summary": "At Satish Dhawan Space Centre (SDSC-SHAR), ISRO scientists successfully integrated the European Space Agency's groundbreaking Proba-3 dual satellites aboard the PSLV-C60 rocket. Proba-3 will demonstrate precision formation flying in orbit to create artificial solar eclipses and study the Sun's faint corona.",
+    "key_points": [
+      "Proba-3 comprises two satellites flying precisely 144 meters apart in millimeter-level formation.",
+      "The Occulter spacecraft will block the Sun's disc to allow the Coronagraph spacecraft to observe the solar atmosphere.",
+      "NewSpace India Limited (NSIL), the commercial arm of ISRO, procured the dedicated launch contract.",
+      "Launched via ISRO's reliable workhorse rocket PSLV (Polar Satellite Launch Vehicle) in XL configuration."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which European Space Agency (ESA) precision formation-flying mission to study the Sun's corona is launched aboard ISRO's PSLV-C60?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solar Orbiter"
+        },
+        {
+          "id": "B",
+          "text": "Proba-3"
+        },
+        {
+          "id": "C",
+          "text": "BepiColombo"
+        },
+        {
+          "id": "D",
+          "text": "JUICE"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Proba-3 is the European Space Agency's formation-flying coronagraph mission launched commercially by ISRO aboard PSLV-C60 from Sriharikota."
+    },
+    "tags": [
+      "#ISRO",
+      "#Proba3",
+      "#PSLVC60",
+      "#SpaceMission",
+      "#ESA"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-16-rbi",
+    "date": "2026-11-16",
+    "display_date": "16 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Reserve Bank of India (RBI) Rolls Out Offline Voice & NFC CBDC (Digital Rupee) Across Regional Rural Banks",
+    "malayalam_title": "ഗ്രാമീണ ബാങ്കുകളിലേക്ക് ഓഫ്‌ലൈൻ ഡിജിറ്റൽ രൂപ (e-Rupee) വിപുലീകരിച്ച് റിസർവ് ബാങ്ക് ഓഫ് ഇന്ത്യ",
+    "category": "National",
+    "summary": "The Reserve Bank of India officially expanded Central Bank Digital Currency (CBDC - Digital Rupee) to support offline NFC-tap and feature-phone voice-prompt transactions in hilly and rural areas with intermittent internet connectivity, with Kerala Gramin Bank among the leading pilot partners.",
+    "key_points": [
+      "RBI first introduced the retail Digital Rupee (e₹-R) pilot on 1 December 2022.",
+      "CBDC is a legal tender issued in digital form by the central bank under the RBI Act, 1934 (amended by Finance Act 2022).",
+      "Offline functionality enables peer-to-peer (P2P) transfers without active cellular network access.",
+      "Kerala Gramin Bank (sponsored by Canara Bank) is the largest Regional Rural Bank in Kerala."
+    ],
+    "psc_potential_question": {
+      "question_text": "Under which amended legislation is the Reserve Bank of India authorized to issue the Central Bank Digital Currency (CBDC / Digital Rupee)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Banking Regulation Act, 1949"
+        },
+        {
+          "id": "B",
+          "text": "Reserve Bank of India Act, 1934"
+        },
+        {
+          "id": "C",
+          "text": "Payment and Settlement Systems Act, 2007"
+        },
+        {
+          "id": "D",
+          "text": "Foreign Exchange Management Act, 1999"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The Reserve Bank of India Act, 1934 was amended by the Finance Act 2022 to officially include Central Bank Digital Currency (CBDC) under the definition of 'bank note'."
+    },
+    "tags": [
+      "#RBI",
+      "#DigitalRupee",
+      "#CBDC",
+      "#BankingAwareness"
+    ],
+    "is_trending": true
+  },
+  {
     "id": "ca-2026-11-15",
     "date": "2026-11-15",
     "display_date": "15 November 2026",
@@ -48,6 +432,102 @@
     "is_trending": true
   },
   {
+    "id": "ca-2026-11-15-vaikom",
+    "date": "2026-11-15",
+    "display_date": "15 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Vaikom Satyagraha Centenary Memorial: International Research Institute and Historic Walkway Dedicated",
+    "malayalam_title": "വൈക്കം സത്യാഗ്രഹ ശതാബ്ദി സ്മാരകം: അന്താരാഷ്ട്ര ഗവേഷണ കേന്ദ്രവും ചരിത്ര നടപ്പാതയും നാടിന് സമർപ്പിച്ചു",
+    "category": "Kerala",
+    "summary": "Marking the culminating centenary observances of the historic Vaikom Satyagraha (1924–1925), the Government of Kerala inaugurated the Vaikom Satyagraha Centenary Memorial Museum and Historical Research Centre in Kottayam district, chronicling the epic struggle for temple entry and road access for marginalized communities.",
+    "key_points": [
+      "Vaikom Satyagraha commenced on 30 March 1924 and ended on 23 November 1925 (603 days).",
+      "Key leaders: T.K. Madhavan, K.P. Kesava Menon, George Joseph, Mannathu Padmanabhan, and Periyar E.V. Ramasamy.",
+      "Mahatma Gandhi visited Vaikom in March 1925 and mediated discussions with the Rani of Travancore.",
+      "Mannathu Padmanabhan led the famous 'Savarna Jatha' from Vaikom to Thiruvananthapuram in support of the Satyagrahis."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who led the historic 'Savarna Jatha' from Vaikom to Thiruvananthapuram in November 1924 during the Vaikom Satyagraha?",
+      "options": [
+        {
+          "id": "A",
+          "text": "T.K. Madhavan"
+        },
+        {
+          "id": "B",
+          "text": "K.P. Kesava Menon"
+        },
+        {
+          "id": "C",
+          "text": "Mannathu Padmanabhan"
+        },
+        {
+          "id": "D",
+          "text": "A.K. Gopalan"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "Mannathu Padmanabhan organized and led the historic 'Savarna Jatha' comprising forward-caste supporters from Vaikom to Thiruvananthapuram to submit a mass petition to Regent Maharani Sethu Lakshmi Bayi."
+    },
+    "tags": [
+      "#VaikomSatyagraha",
+      "#KeralaRenaissance",
+      "#MannathuPadmanabhan",
+      "#TKMadhavan"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-15-highcourt",
+    "date": "2026-11-15",
+    "display_date": "15 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "High Court of Kerala Becomes First in India to Release 10,000 Certified Judgments in Malayalam via AI",
+    "malayalam_title": "10,000 ഹൈക്കോടതി വിധിന്യായങ്ങൾ മലയാളത്തിൽ ലഭ്യമാക്കിയ ആദ്യ സംസ്ഥാനമായി കേരളം",
+    "category": "Kerala",
+    "summary": "Under the Supreme Court's e-Courts digitization mission, the High Court of Kerala achieved a landmark milestone by making over 10,000 certified court judgments fully accessible in Malayalam through the AI-powered Supreme Court Vidhi Anuvaad Software (SUVAS) and Anuvadini platform.",
+    "key_points": [
+      "Kerala High Court was the first High Court in India to publish judgments in the regional language (Malayalam) in February 2023.",
+      "Headquartered at Ernakulam, with territorial jurisdiction over Kerala and the Union Territory of Lakshadweep.",
+      "Established under the States Reorganisation Act of 1956.",
+      "The first Chief Justice of the Kerala High Court was Justice K.T. Koshi."
+    ],
+    "psc_potential_question": {
+      "question_text": "Who served as the first Chief Justice of the High Court of Kerala upon its formation on 1 November 1956?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Justice Anna Chandy"
+        },
+        {
+          "id": "B",
+          "text": "Justice K.T. Koshi"
+        },
+        {
+          "id": "C",
+          "text": "Justice M.U. Isaac"
+        },
+        {
+          "id": "D",
+          "text": "Justice P. Govindan Nair"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Justice K.T. Koshi was the first Chief Justice of the Kerala High Court, serving from 1 November 1956 following the reorganization of Kerala state."
+    },
+    "tags": [
+      "#KeralaHighCourt",
+      "#DigitalJudiciary",
+      "#MalayalamGovernance",
+      "#LegalAffairs"
+    ],
+    "is_trending": false
+  },
+  {
     "id": "ca-2026-11-14",
     "date": "2026-11-14",
     "display_date": "14 November 2026",
@@ -93,6 +573,54 @@
       "#WorldDiabetesDay",
       "#FrederickBanting",
       "#PoshakBalyam"
+    ],
+    "is_trending": true
+  },
+  {
+    "id": "ca-2026-11-14-biodiversity",
+    "date": "2026-11-14",
+    "display_date": "14 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Kerala State Biodiversity Board (KSBB) Reports Record Nilgiri Tahr Population Surge Across Western Ghats",
+    "malayalam_title": "പശ്ചിമഘട്ടത്തിൽ വരയാടുകളുടെ എണ്ണത്തിൽ വൻ വർധന: സംസ്ഥാന ജൈവവൈവിധ്യ ബോർഡ് സർവേ റിപ്പോർട്ട്",
+    "category": "Kerala",
+    "summary": "The synchronized census conducted jointly by the Kerala and Tamil Nadu Forest Departments in coordination with the Kerala State Biodiversity Board recorded over 3,250 Nilgiri Tahrs across Eravikulam National Park, Munnar, and Anamalai, representing a remarkable recovery for the endangered ungulate species.",
+    "key_points": [
+      "Nilgiri Tahr (Nilgiritragus hylocrius) is the state animal of Tamil Nadu and endemic to the Western Ghats.",
+      "Eravikulam National Park in Idukki district shelters the world's largest surviving population of Nilgiri Tahr.",
+      "IUCN Red List status: Endangered (Schedule I of Wildlife Protection Act, 1972).",
+      "Anamudi (2,695 m), the highest peak in South India, is located within Eravikulam National Park."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which National Park in Kerala shelters the largest natural wild population of the endangered Nilgiri Tahr?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Silent Valley National Park"
+        },
+        {
+          "id": "B",
+          "text": "Eravikulam National Park"
+        },
+        {
+          "id": "C",
+          "text": "Periyar National Park"
+        },
+        {
+          "id": "D",
+          "text": "Mathikettan Shola National Park"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "Eravikulam National Park, declared in 1978 in Idukki district, is world-famous as the prime habitat of the endangered Nilgiri Tahr (വരയാട്)."
+    },
+    "tags": [
+      "#NilgiriTahr",
+      "#Eravikulam",
+      "#WesternGhats",
+      "#Biodiversity"
     ],
     "is_trending": true
   },
@@ -193,6 +721,54 @@
     "is_trending": true
   },
   {
+    "id": "ca-2026-11-12-schemes",
+    "date": "2026-11-12",
+    "display_date": "12 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Kerala's 'Karunya Arogya Suraksha Padhathi' (KASP) Surpasses 10 Million Free Hospital Admissions",
+    "malayalam_title": "കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി (KASP) 1 കോടി സൗജന്യ ചികിത്സകൾ പൂർത്തിയാക്കി",
+    "category": "Kerala",
+    "summary": "Kerala's universal healthcare protection scheme, KASP (integrating Ayushman Bharat-PMJAY with the state government's Karunya Benevolent Fund), crossed the milestone of 1 crore cashless hospital treatments distributed through empaneled government and private healthcare facilities.",
+    "key_points": [
+      "KASP provides cashless health insurance coverage up to Rs 5 lakh per family per year.",
+      "Implemented by the State Health Agency (SHA) under the Health and Family Welfare Department, Kerala.",
+      "Kerala is among the top states in India for utilization of public healthcare insurance claims.",
+      "Karunya Benevolent Fund was originally instituted in Kerala in 2012 utilizing lottery revenues."
+    ],
+    "psc_potential_question": {
+      "question_text": "Which autonomous agency functions as the nodal implementing body for the Karunya Arogya Suraksha Padhathi (KASP) in Kerala?",
+      "options": [
+        {
+          "id": "A",
+          "text": "National Health Mission (NHM) Kerala"
+        },
+        {
+          "id": "B",
+          "text": "State Health Agency (SHA) Kerala"
+        },
+        {
+          "id": "C",
+          "text": "Kerala Medical Services Corporation (KMSCL)"
+        },
+        {
+          "id": "D",
+          "text": "Directorate of Health Services (DHS)"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The State Health Agency (SHA) Kerala is the dedicated nodal implementing agency for Ayushman Bharat - Karunya Arogya Suraksha Padhathi (KASP) in the state."
+    },
+    "tags": [
+      "#KASP",
+      "#KarunyaScheme",
+      "#KeralaHealth",
+      "#WelfareSchemes"
+    ],
+    "is_trending": false
+  },
+  {
     "id": "ca-2026-11-11",
     "date": "2026-11-11",
     "display_date": "11 November 2026",
@@ -286,6 +862,54 @@
       "#GreenHydrogen"
     ],
     "is_trending": false
+  },
+  {
+    "id": "ca-2026-11-10-vizhinjam",
+    "date": "2026-11-10",
+    "display_date": "10 November 2026",
+    "year": 2026,
+    "month": "November 2026",
+    "month_slug": "2026-11",
+    "title": "Vizhinjam International Seaport Crosses 100 Commercial Ultra-Large Container Vessel Handlings",
+    "malayalam_title": "വിഴിഞ്ഞം അന്താരാഷ്ട്ര തുറമുഖം 100 വലിയ കണ്ടെയ്നർ കപ്പലുകൾ വിജയകരമായി കൈകാര്യം ചെയ്തു",
+    "category": "Kerala",
+    "summary": "India's first automated deepwater transshipment gateway, Vizhinjam International Seaport in Thiruvananthapuram, achieved a commercial milestone by docking its 100th mega-container mothership, slashing Indian transshipment dependence on Colombo, Singapore, and Port Klang.",
+    "key_points": [
+      "Vizhinjam is India's first semi-automated container port with a natural draft of 18 to 20 meters.",
+      "Located just 10 nautical miles away from the premier East-West international shipping channel.",
+      "The first mothership to dock at Vizhinjam during trial operations was 'San Fernando' (Maersk) in July 2024.",
+      "Developed under a Public-Private Partnership (PPP) model by Adani Ports and SEZ with the Government of Kerala."
+    ],
+    "psc_potential_question": {
+      "question_text": "What was the name of the first mega-container mothership that docked at Vizhinjam International Seaport during trial operations in July 2024?",
+      "options": [
+        {
+          "id": "A",
+          "text": "MSC Claude Girardet"
+        },
+        {
+          "id": "B",
+          "text": "San Fernando"
+        },
+        {
+          "id": "C",
+          "text": "Ever Given"
+        },
+        {
+          "id": "D",
+          "text": "Zhen Hua 15"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "The mothership 'San Fernando', owned by global shipping giant Maersk, was the first container vessel to officially berth at Vizhinjam port on 11 July 2024. 'Zhen Hua 15' was the project cargo vessel that brought automated ship-to-shore cranes earlier."
+    },
+    "tags": [
+      "#VizhinjamPort",
+      "#TransshipmentHub",
+      "#KeralaEconomy",
+      "#Infrastructure"
+    ],
+    "is_trending": true
   },
   {
     "id": "ca-2026-11-09",

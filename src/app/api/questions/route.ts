@@ -11,6 +11,14 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(stats);
   }
 
+  if (searchParams.get('all') === 'true' || mode === 'all') {
+    const all = getQuestions();
+    return NextResponse.json({
+      total: all.length,
+      questions: all
+    });
+  }
+
   const category = searchParams.get('category');
   const subCategory = searchParams.get('sub_category');
   const year = searchParams.get('year');

@@ -12,7 +12,6 @@ import {
   Sparkles, 
   PlayCircle, 
   BookOpen, 
-  Printer, 
   Share2, 
   Check, 
   Tag, 
@@ -117,12 +116,6 @@ function CurrentAffairsContent() {
     }));
   };
 
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') {
-      window.print();
-    }
-  };
-
   const handleShare = () => {
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
       navigator.clipboard.writeText(window.location.href);
@@ -151,7 +144,7 @@ function CurrentAffairsContent() {
   return (
     <div className="space-y-6 sm:space-y-8 max-w-5xl mx-auto pb-12">
       {/* Hero Header */}
-      <div className="bg-gradient-to-r from-slate-900 via-emerald-950 to-slate-900 text-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-xl relative overflow-hidden print:hidden">
+      <div className="bg-gradient-to-r from-slate-900 via-emerald-950 to-slate-900 text-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-xl relative overflow-hidden">
         <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/15 via-transparent to-transparent pointer-events-none" />
         <div className="relative z-10 max-w-3xl">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 mb-3">
@@ -175,14 +168,6 @@ function CurrentAffairsContent() {
             </Link>
 
             <button
-              onClick={handlePrint}
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-300 hover:text-white bg-slate-800/80 hover:bg-slate-800 border border-slate-700 px-3.5 py-2.5 rounded-xl transition"
-            >
-              <Printer className="w-4 h-4 text-slate-400" />
-              <span>Print / Save PDF Digest</span>
-            </button>
-
-            <button
               onClick={handleShare}
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-300 hover:text-white bg-slate-800/80 hover:bg-slate-800 border border-slate-700 px-3.5 py-2.5 rounded-xl transition"
             >
@@ -194,7 +179,7 @@ function CurrentAffairsContent() {
       </div>
 
       {/* Year Switcher Selector */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-4 rounded-2xl border border-slate-200 shadow-2xs print:hidden">
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-4 rounded-2xl border border-slate-200 shadow-2xs">
         <div className="flex items-center gap-2">
           <Calendar className="w-4 h-4 text-emerald-600" />
           <span className="text-xs sm:text-sm font-bold text-slate-800">Select Exam Year:</span>
@@ -228,7 +213,7 @@ function CurrentAffairsContent() {
       </div>
 
       {/* Month Tabs Bar */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none print:hidden">
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
         {months.map((m) => (
           <button
             key={m.value}
@@ -245,7 +230,7 @@ function CurrentAffairsContent() {
       </div>
 
       {/* Search and Category Filter Bar */}
-      <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-2xs space-y-3 print:hidden">
+      <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-2xs space-y-3">
         {/* Search Input */}
         <div className="relative">
           <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -280,12 +265,6 @@ function CurrentAffairsContent() {
             );
           })}
         </div>
-      </div>
-
-      {/* Printable Heading */}
-      <div className="hidden print:block text-center border-b pb-4 mb-4">
-        <h2 className="text-xl font-bold uppercase">Kerala PSC Daily Current Affairs Digest ({selectedYear})</h2>
-        <p className="text-xs text-slate-600">keralapsc.xyz &bull; Curated Exam Capsule from January {selectedYear} onwards</p>
       </div>
 
       {/* Current Affairs Stream */}

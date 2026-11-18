@@ -1,0 +1,21 @@
+{
+  "adsEnabled": true,
+  "admobAppId": "ca-app-pub-3940256099942544~3347511713",
+  "bannerAdUnitId": "ca-app-pub-3940256099942544/6300978111",
+  "nativeAdUnitId": "ca-app-pub-3940256099942544/2247696110",
+  "interstitialAdUnitId": "ca-app-pub-3940256099942544/1033173712",
+  "rewardedVideoAdUnitId": "ca-app-pub-3940256099942544/5224354917",
+  "showHomeNativeAd": true,
+  "showQuizStartVideoAd": true,
+  "showQuizEndAd": true,
+  "adIntervalSeconds": 60,
+  "houseAd": {
+    "enabled": true,
+    "badge": "PSC TOPPER 2026",
+    "title": "Kerala PSC Rank Booster 2026 Series",
+    "description": "100-mark OMR tests with instant ranking and solutions.",
+    "ctaText": "Start Free Mock Test",
+    "targetRoute": "mock_test"
+  },
+  "updatedAt": "2026-11-16T04:54:35.992Z"
+}

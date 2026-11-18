@@ -11,12 +11,44 @@ const CATEGORIES = [
   'Indian Polity & Constitution',
   'Geography of Kerala & India',
   'General Science & Technology',
+  'Environmental Science & Disaster Management',
+  'Public Administration & Good Governance',
+  'Indian Economy & Planning',
+  'Indian History & National Movement',
+  'Information Technology & Cyber Laws',
   'Malayalam Language & Literature',
   'Current Affairs & Schemes',
   'Banking & Financial Awareness',
   'Quantitative Aptitude & Mental Ability',
-  'General English',
-  'Information Technology & Cyber Laws'
+  'General English'
+];
+
+const ENV_TOPICS = [
+  { name: 'പശ്ചിമഘട്ട സംരക്ഷണം (ഗാഡ്ഗിൽ-കസ്തൂരിരംഗൻ)', facts: ['ഗാഡ്ഗിൽ സമിതി 100% പ്രദേശവും ESZ ആക്കാൻ നിർദ്ദേശിച്ചു.', 'കസ്തൂരിരംഗൻ സമിതി 37% പ്രദേശത്ത് നിയന്ത്രണം നിശ്ചയിച്ചു.', 'ജനവാസ മേഖലകളെ ഒഴിവാക്കാൻ കസ്തൂരിരംഗൻ സമിതി ശുപാർശ ചെയ്തു.'] },
+  { name: 'കേരളത്തിലെ റാംസർ സൈറ്റുകൾ', facts: ['വേമ്പനാട് കായൽ ഇന്ത്യയിലെ ഏറ്റവും വലിയ റാംസർ തണ്ണീർത്തടമാണ്.', 'അഷ്ടമുടിക്കായൽ കൊല്ലം ജില്ലയിൽ സ്ഥിതി ചെയ്യുന്ന റാംസർ സൈറ്റാണ്.', 'ശാസ്താംകോട്ട കായൽ ശുദ്ധജല തടാകമായി റാംസർ പട്ടികയിൽ ഉൾപ്പെട്ടിട്ടുണ്ട്.'] },
+  { name: 'ദുരന്തനിവാരണ നിയമം 2005', facts: ['ദേശീയ ദുരന്തനിവാരണ അതോറിറ്റി അധ്യക്ഷൻ പ്രധാനമന്ത്രിയാണ്.', 'സംസ്ഥാന ദുരന്തനിവാരണ അതോറിറ്റി അധ്യക്ഷൻ മുഖ്യമന്ത്രിയാണ്.', 'ജില്ലാ ദുരന്തനിവാരണ അതോറിറ്റി അധ്യക്ഷൻ ജില്ലാ കളക്ടറാണ്.'] }
+];
+
+const PUB_TOPICS = [
+  { name: 'വിവരാവകാശ നിയമം 2005 (RTI)', facts: ['2005 ഒക്ടോബർ 12-ന് രാജ്യവ്യാപകമായി നിലവിൽ വന്നു.', 'സാധാരണ അപേക്ഷകൾക്ക് 30 ദിവസത്തിനകം വിവരം നൽകണം.', 'ജീവനുമായി ബന്ധപ്പെട്ട വിവരങ്ങൾക്ക് 48 മണിക്കൂർ സമയപരിധിയുണ്ട്.'] },
+  { name: 'കേരള സേവനാവകാശ നിയമം 2012', facts: ['സർക്കാർ സേവനങ്ങൾ സമയബന്ധിതമായി ലഭ്യമാക്കാൻ ലക്ഷ്യമിടുന്നു.', 'വീഴ്ച വരുത്തുന്ന ഉദ്യോഗസ്ഥന് ദിവസം 250 രൂപ വീതം പിഴ ചുമത്താം.', 'പരമാവധി പിഴത്തുക 5,000 രൂപയാണ്.'] },
+  { name: 'കേരള ലോകായുക്ത', facts: ['1999-ൽ കേരള ലോകായുക്ത നിയമം പാസാക്കപ്പെട്ടു.', 'സുപ്രീം കോടതി ജഡ്ജി അല്ലെങ്കിൽ ഹൈക്കോടതി ചീഫ് ജസ്റ്റിസ് ആയിരുന്ന വ്യക്തിയെ നിയമിക്കുന്നു.', 'പൊതുപ്രവർത്തകരുടെ അഴിമതി അന്വേഷിക്കാൻ പൂർണ്ണ അധികാരമുണ്ട്.'] }
+];
+
+const ECON_TOPICS = [
+  { name: 'നീതി ആയോഗ് (NITI Aayog)', facts: ['2015 ജനുവരി 1-ന് ആസൂത്രണ കമ്മീഷന് പകരമായി നിലവിൽ വന്നു.', 'എക്സ്-ഒഫീഷ്യോ അധ്യക്ഷൻ ഇന്ത്യൻ പ്രധാനമന്ത്രിയാണ്.', 'ഗവേണിംഗ് കൗൺസിലിൽ എല്ലാ സംസ്ഥാന മുഖ്യമന്ത്രിമാരും ഉൾപ്പെടുന്നു.'] },
+  { name: 'ചരക്ക് സേവന നികുതി (GST)', facts: ['101-ാം ഭരണഘടനാ ഭേദഗതിയിലൂടെ 2017 ജൂലൈ 1-ന് നിലവിൽ വന്നു.', 'ഭരണഘടനയുടെ അനുച്ഛേദം 279A പ്രകാരമാണ് ജി.എസ്.ടി കൗൺസിൽ രൂപീകരിച്ചത്.', 'ജി.എസ്.ടി കൗൺസിലിന്റെ അധ്യക്ഷൻ കേന്ദ്ര ധനമന്ത്രിയാണ്.'] },
+  { name: 'പഞ്ചവത്സര പദ്ധതികൾ', facts: ['ഒന്നാം പദ്ധതി ഹാരോഡ്-ഡോമർ മോഡലിൽ കൃഷിക്ക് മുൻഗണന നൽകി.', 'രണ്ടാം പദ്ധതി പി.സി. മഹലനോബിസ് മോഡലിൽ വൻകിട വ്യവസായങ്ങൾക്ക് ഊന്നൽ നൽകി.', 'പന്ത്രണ്ടാം പദ്ധതിയാണ് ഇന്ത്യയിലെ അവസാന പഞ്ചവത്സര പദ്ധതി.'] }
+];
+
+const IT_TOPICS = [
+  { name: 'ഇൻഫർമേഷൻ ടെക്നോളജി ആക്ട് 2000', facts: ['2000 ഒക്ടോബർ 17-ന് ഇന്ത്യയിൽ പ്രാബല്യത്തിൽ വന്നു.', 'ശ്രേയ സിംഗാൾ കേസിൽ സുപ്രീം കോടതി സെക്ഷൻ 66A റദ്ദാക്കി.', 'സൈബർ ഭീകരവാദത്തിനെതിരെയുള്ള ശിക്ഷ സെക്ഷൻ 66F നിർവ്വചിക്കുന്നു.'] },
+  { name: 'കേരള ഇ-ഗവേണൻസ് (കെ-ഫോൺ & അക്ഷയ)', facts: ['കെ-ഫോൺ ഇന്റർനെറ്റ് അടിസ്ഥാന അവകാശമാക്കി അതിവേഗ നെറ്റ്‌വർക്ക് നൽകുന്നു.', '2002 നവംബറിൽ മലപ്പുറത്ത് അക്ഷയ പദ്ധതി ആരംഭിച്ചു.', 'പൊതുവിദ്യാലയങ്ങളെ ഹൈടെക് ആക്കാൻ കൈറ്റ് (KITE) നേതൃത്വം നൽകി.'] }
+];
+
+const HIST_TOPICS = [
+  { name: '1857-ലെ ഒന്നാം സ്വാതന്ത്ര്യ സമരം', facts: ['മംഗൽ പാണ്ഡെ ബാരക്പൂരിൽ ബ്രിട്ടീഷ് ഉദ്യോഗസ്ഥർക്കെതിരെ വെടിയുതിർത്തു.', 'വിപ്ലവകാരികൾ ബഹദൂർ ഷാ രണ്ടാമനെ ചക്രവർത്തിയായി പ്രഖ്യാപിച്ചു.', 'കാൺപൂരിൽ നാനാ സാഹിബും താന്തിയാ തോപ്പിയും നയിച്ചു.'] },
+  { name: 'ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്', facts: ['1885 ഡിസംബർ 28-ന് ബോംബെയിൽ ആദ്യ സമ്മേളനം ചേർന്നു.', 'ഡബ്ല്യു.സി. ബാനർജി ആദ്യ പ്രസിഡന്റായിരുന്നു.', 'ഗാന്ധിജി അധ്യക്ഷനായ ഏക സമ്മേളനം 1924 ബെൽഗാം സമ്മേളനമാണ്.'] }
 ];
 
 const KERALA_TOPICS = [
@@ -52,7 +84,12 @@ export function generateSyntheticQuestion(index: number, categoryFilter?: string
 
   let topicPool = KERALA_TOPICS;
   if (cat.includes('Polity')) topicPool = POLITY_TOPICS;
-  else if (cat.includes('Science')) topicPool = SCIENCE_TOPICS;
+  else if (cat.includes('Science') && !cat.includes('Environmental')) topicPool = SCIENCE_TOPICS;
+  else if (cat.includes('Environmental')) topicPool = ENV_TOPICS;
+  else if (cat.includes('Administration') || cat.includes('Public')) topicPool = PUB_TOPICS;
+  else if (cat.includes('Economy')) topicPool = ECON_TOPICS;
+  else if (cat.includes('Cyber') || cat.includes('Technology')) topicPool = IT_TOPICS;
+  else if (cat.includes('History') && !cat.includes('Kerala')) topicPool = HIST_TOPICS;
 
   const topic = topicPool[Math.floor(seededRandom(seed + 3) * topicPool.length)];
 

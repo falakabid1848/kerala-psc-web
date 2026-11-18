@@ -36,7 +36,11 @@ import {
   XCircle,
   GraduationCap,
   Share2,
-  X
+  X,
+  Trees,
+  ShieldCheck,
+  TrendingUp,
+  Flame
 } from 'lucide-react';
 import AdBanner from '@/components/AdBanner';
 
@@ -51,6 +55,10 @@ const iconMap: Record<string, any> = {
   Landmark: Landmark,
   Cpu: Cpu,
   BookOpen: BookOpen,
+  Trees: Trees,
+  ShieldCheck: ShieldCheck,
+  TrendingUp: TrendingUp,
+  Flame: Flame,
 };
 
 export default function HomePage() {
@@ -88,7 +96,7 @@ export default function HomePage() {
     },
     {
       q: 'Where can I find Kerala PSC previous question papers with official answer keys?',
-      a: 'Navigate to the "Previous Papers" tab in the menu to browse 21 official papers from 2020 through 2025. You can solve them online, reveal answer keys with one click, or use the "Print / Save PDF" feature for offline revision.',
+      a: 'Navigate to the "Previous Papers" tab in the menu to browse 21 official papers from 2020 through 2025. You can solve them online, take them as a 75-minute mock test, or reveal answer keys with one click.',
     },
     {
       q: 'Are Kerala PSC 2026 daily current affairs available with Malayalam notes?',
@@ -518,7 +526,7 @@ export default function HomePage() {
         {/* Quick Year Pill Selectors (Mobile Friendly) */}
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-xs">
           <span className="text-slate-400 text-[11px] font-bold mr-1 shrink-0">Year:</span>
-          {['All', '2025', '2024', '2023', '2022', '2021'].map((yr) => {
+          {['All', '2026', '2025', '2024', '2023', '2022', '2021'].map((yr) => {
             const isYSelected = selectedYear === yr;
             return (
               <button
@@ -533,7 +541,7 @@ export default function HomePage() {
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                 }`}
               >
-                {yr === '2025' ? '2025 🔥' : yr}
+                {yr === '2026' ? '2026 🔥' : yr === '2025' ? '2025' : yr}
               </button>
             );
           })}
@@ -926,7 +934,7 @@ export default function HomePage() {
               2020-2025 Solved Question Papers
             </h3>
             <p className="text-slate-600 leading-relaxed text-xs">
-              Access 21 authentic previous question papers covering Degree Level Prelims, Lower Division Clerk (LDC), Secretariat Assistant, and KAS with instant answer keys and printable PDF view.
+              Access 21 authentic previous question papers covering Degree Level Prelims, Lower Division Clerk (LDC), Secretariat Assistant, and KAS with instant answer keys and live interactive test mode.
             </p>
           </div>
 

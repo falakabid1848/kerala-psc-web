@@ -309,9 +309,36 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Drawer Footer */}
-            <div className="pt-4 border-t border-slate-100 text-center text-[10px] text-slate-400">
-              keralapsc.xyz &bull; 105,000+ Free Kerala PSC Questions
+            {/* Drawer Footer with Visible Legal Links */}
+            <div className="pt-4 border-t border-slate-100 space-y-2">
+              <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-semibold text-slate-600">
+                <Link
+                  href="/privacy-policy"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="px-2 py-1 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700"
+                >
+                  Privacy Policy
+                </Link>
+                <span>&bull;</span>
+                <Link
+                  href="/terms"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="px-2 py-1 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700"
+                >
+                  Terms &amp; Conditions
+                </Link>
+                <span>&bull;</span>
+                <Link
+                  href="/disclaimer"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="px-2 py-1 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700"
+                >
+                  Disclaimer
+                </Link>
+              </div>
+              <div className="text-center text-[10px] text-slate-400">
+                keralapsc.xyz &bull; 105,000+ Free Kerala PSC Questions
+              </div>
             </div>
           </div>
         </div>

@@ -22,6 +22,10 @@ export async function GET(request: NextRequest) {
     { path: '/previous-papers', priority: '0.9', changefreq: 'weekly' },
     { path: '/notifications', priority: '0.9', changefreq: 'daily' },
     { path: '/banking', priority: '0.85', changefreq: 'weekly' },
+    { path: '/privacy-policy', priority: '0.7', changefreq: 'monthly' },
+    { path: '/terms', priority: '0.7', changefreq: 'monthly' },
+    { path: '/disclaimer', priority: '0.7', changefreq: 'monthly' },
+    { path: '/contact', priority: '0.7', changefreq: 'monthly' },
     { path: '/bookmarks', priority: '0.6', changefreq: 'monthly' },
     { path: '/analytics', priority: '0.6', changefreq: 'monthly' },
   ];

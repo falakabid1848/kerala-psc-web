@@ -2,6 +2,7 @@
   {
     "id": "kerala-history",
     "name": "Kerala History & Culture",
+    "malayalam_name": "കേരള ചരിത്രവും നവോത്ഥാനവും",
     "icon": "ScrollText",
     "description": "Kerala Renaissance, Modern Travancore, Cochin, Malabar, and anti-colonial revolts.",
     "sub_categories": [
@@ -22,6 +23,7 @@
   {
     "id": "indian-polity",
     "name": "Indian Polity & Constitution",
+    "malayalam_name": "ഇന്ത്യൻ ഭരണഘടനയും രാഷ്ട്രീയവും",
     "icon": "Scale",
     "description": "Fundamental Rights, Directive Principles, Judiciary, Constitutional Bodies, Governance.",
     "sub_categories": [
@@ -42,12 +44,110 @@
   {
     "id": "geography",
     "name": "Geography of Kerala & India",
+    "malayalam_name": "ഭൂമിശാസ്ത്രം (കേരളവും ഇന്ത്യയും)",
     "icon": "Globe",
     "description": "Physiography, Rivers, Climate, Wildlife Sanctuaries, Minerals and Agriculture.",
     "sub_categories": [
       "Rivers and Drainage System of Kerala",
       "Western Ghats & Protected Areas",
-      "Agriculture and Soil Patterns"
+      "Agriculture and Soil Patterns",
+      "Physiography of India"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "environmental-science",
+    "name": "Environmental Science & Disaster Management",
+    "malayalam_name": "പരിസ്ഥിതി ശാസ്ത്രവും ദുരന്തനിവാരണവും",
+    "icon": "Trees",
+    "description": "Western Ghats, Ramsar sites, Biodiversity, Disaster Management Act 2005, Climate change.",
+    "sub_categories": [
+      "പശ്ചിമഘട്ടവും ജൈവവൈവിധ്യവും",
+      "തണ്ണീർത്തടങ്ങളും റാംസർ സൈറ്റുകളും",
+      "ദുരന്തനിവാരണ നിയമവും അതോറിറ്റികളും (NDMA/KSDMA)",
+      "കാലാവസ്ഥാ വ്യതിയാനവും പരിസ്ഥിതി പ്രോട്ടോക്കോളുകളും"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "public-administration",
+    "name": "Public Administration & Good Governance",
+    "malayalam_name": "പൊതുഭരണവും സദ്ഭരണവും",
+    "icon": "ShieldCheck",
+    "description": "RTI Act 2005, Right to Service Act, Lokayukta, Vigilance, Consumer Protection Act 2019.",
+    "sub_categories": [
+      "വിവരാവകാശ നിയമം (RTI Act 2005)",
+      "കേരള സേവനാവകാശ നിയമം (Right to Service Act)",
+      "ലോകായുക്ത & വിജിലൻസ് സംവിധാനങ്ങൾ",
+      "ഉപഭോക്തൃ സംരക്ഷണ നിയമം 2019 & സിറ്റിസൺസ് ചാർട്ടർ"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "indian-economy",
+    "name": "Indian Economy & Planning",
+    "malayalam_name": "ഇന്ത്യൻ സമ്പദ്‌വ്യവസ്ഥ & ആസൂത്രണം",
+    "icon": "TrendingUp",
+    "description": "Five-Year Plans, NITI Aayog, GST, Inflation, RBI Monetary Policy, Kerala Economy.",
+    "sub_categories": [
+      "പഞ്ചവത്സര പദ്ധതികളും നീതി ആയോഗും",
+      "ഇന്ത്യൻ ബാങ്കിംഗും റിസർവ് ബാങ്കും",
+      "ജി.എസ്.ടി.യും നികുതി ഘടനയും",
+      "ദാരിദ്ര്യ നിർമ്മാർജ്ജനവും കേരള സമ്പദ്‌വ്യവസ്ഥയും"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022
+    ]
+  },
+  {
+    "id": "indian-history",
+    "name": "Indian History & National Movement",
+    "malayalam_name": "ഇന്ത്യൻ ചരിത്രവും ദേശീയ പ്രസ്ഥാനവും",
+    "icon": "Flame",
+    "description": "Revolt of 1857, Indian National Congress, Gandhian Era, Social & Religious Reform Movements.",
+    "sub_categories": [
+      "1857-ലെ ഒന്നാം സ്വാതന്ത്ര്യ സമരം",
+      "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്സും സമ്മേളനങ്ങളും",
+      "ഗാന്ധിയൻ കാലഘട്ടവും ദേശീയ മുന്നേറ്റങ്ങളും",
+      "ഇന്ത്യൻ നവോത്ഥാന പ്രസ്ഥാനങ്ങൾ"
+    ],
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+    ]
+  },
+  {
+    "id": "it-cyber-laws",
+    "name": "Information Technology & Cyber Laws",
+    "malayalam_name": "ഐ.ടി. & സൈബർ നിയമങ്ങൾ",
+    "icon": "Cpu",
+    "description": "Computer hardware, software, networking, cyber security, IT Act 2000, AI & Kerala e-Governance.",
+    "sub_categories": [
+      "Cyber Laws & IT Act 2000",
+      "Computer Fundamentals & Networking",
+      "Artificial Intelligence & Future Tech",
+      "Kerala e-Governance (Akshaya, K-FON, KITE)"
     ],
     "years": [
       2025,
@@ -59,12 +159,14 @@
   {
     "id": "general-science",
     "name": "General Science & Technology",
+    "malayalam_name": "ജനറൽ സയൻസ് & സാങ്കേതികവിദ്യ",
     "icon": "Atom",
     "description": "Space missions, Defense technology, Human physiology, Environmental science.",
     "sub_categories": [
       "Physics & Space Technology",
       "Environmental Biology & Ecology",
-      "Chemistry in Daily Life"
+      "Chemistry in Daily Life",
+      "Human Health & Diseases"
     ],
     "years": [
       2025,
@@ -76,6 +178,7 @@
   {
     "id": "mental-ability",
     "name": "Quantitative Aptitude & Mental Ability",
+    "malayalam_name": "ഗണിതവും മാനസികശേഷിയും",
     "icon": "Calculator",
     "description": "Arithmetic shortcuts, Number Series, Reasoning, Time & Work, Speed math and Banking Aptitude.",
     "sub_categories": [
@@ -93,6 +196,7 @@
   {
     "id": "general-english",
     "name": "General English",
+    "malayalam_name": "ജനറൽ ഇംഗ്ലീഷ്",
     "icon": "BookOpen",
     "description": "Grammar rules, Tenses, Prepositions, Idioms, Phrasal verbs, Vocabulary and Sentence correction.",
     "sub_categories": [
@@ -109,6 +213,7 @@
   {
     "id": "malayalam",
     "name": "Malayalam Language & Literature",
+    "malayalam_name": "മലയാള ഭാഷയും സാഹിത്യവും",
     "icon": "Languages",
     "description": "സാഹിത്യം, പുരസ്കാരങ്ങൾ, സന്ധി, സമാസം, ശൈലികൾ, പര്യായങ്ങൾ, വിപരീത പദങ്ങൾ.",
     "sub_categories": [
@@ -125,6 +230,7 @@
   {
     "id": "banking-awareness",
     "name": "Banking & Financial Awareness",
+    "malayalam_name": "ബാങ്കിംഗ് & ധനകാര്യ അവബോധം",
     "icon": "Landmark",
     "description": "RBI policies, Kerala Bank, cooperative banking, monetary tools, financial institutions.",
     "sub_categories": [
@@ -139,24 +245,9 @@
     ]
   },
   {
-    "id": "it-cyber-laws",
-    "name": "Information Technology & Cyber Laws",
-    "icon": "Cpu",
-    "description": "Computer hardware, software, networking, cyber security, IT Act 2000.",
-    "sub_categories": [
-      "Cyber Laws & Security",
-      "Computer Fundamentals & Networking"
-    ],
-    "years": [
-      2025,
-      2024,
-      2023,
-      2022
-    ]
-  },
-  {
     "id": "current-affairs",
     "name": "Current Affairs & Schemes",
+    "malayalam_name": "ആനുകാലിക സംഭവങ്ങൾ",
     "icon": "Newspaper",
     "description": "Government flagship schemes, Awards, Summits, Kerala development initiatives.",
     "sub_categories": [

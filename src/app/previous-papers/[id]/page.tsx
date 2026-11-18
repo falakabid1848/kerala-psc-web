@@ -7,7 +7,6 @@ import {
   ArrowLeft, 
   FileText, 
   PlayCircle, 
-  Printer, 
   CheckCircle2, 
   HelpCircle, 
   Clock, 
@@ -69,12 +68,6 @@ function PaperViewerContent() {
     loadData();
   }, [paperId]);
 
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') {
-      window.print();
-    }
-  };
-
   const handleShare = () => {
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
       navigator.clipboard.writeText(window.location.href);
@@ -117,8 +110,8 @@ function PaperViewerContent() {
 
   return (
     <div className="space-y-6 max-w-5xl mx-auto pb-12">
-      {/* Top Navigation & Breadcrumbs (Hidden when printing) */}
-      <div className="flex items-center justify-between gap-3 print:hidden">
+      {/* Top Navigation & Breadcrumbs */}
+      <div className="flex items-center justify-between gap-3">
         <Link
           href="/previous-papers"
           className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-blue-600 bg-white border border-slate-200 px-3 py-1.5 rounded-xl transition"
@@ -134,14 +127,6 @@ function PaperViewerContent() {
           >
             {copied ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Share2 className="w-3.5 h-3.5" />}
             <span>{copied ? 'Link Copied!' : 'Share'}</span>
-          </button>
-          <button
-            onClick={handlePrint}
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-blue-700 bg-white border border-slate-200 px-3 py-1.5 rounded-xl transition"
-          >
-            <Printer className="w-3.5 h-3.5 text-slate-500" />
-            <span className="hidden sm:inline">Print / Save PDF</span>
-            <span className="sm:hidden">Print</span>
           </button>
         </div>
       </div>
@@ -194,8 +179,8 @@ function PaperViewerContent() {
           </div>
         </div>
 
-        {/* Primary CTA Button (Hidden when printing) */}
-        <div className="flex flex-wrap items-center gap-3 print:hidden">
+        {/* Primary CTA Button */}
+        <div className="flex flex-wrap items-center gap-3">
           <Link
             href={`/quiz?paper_id=${paper.id}&mode=exam`}
             className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold text-sm rounded-xl shadow-md transition transform active:scale-98"
@@ -206,8 +191,8 @@ function PaperViewerContent() {
         </div>
       </div>
 
-      {/* View Switcher Tabs (Hidden when printing) */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-2 rounded-2xl border border-slate-200 shadow-2xs print:hidden">
+      {/* View Switcher Tabs */}
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-2 rounded-2xl border border-slate-200 shadow-2xs">
         <div className="flex items-center gap-1.5 w-full sm:w-auto">
           <button
             onClick={() => setActiveTab('paper')}
@@ -247,7 +232,7 @@ function PaperViewerContent() {
 
       {/* Answer Key Quick Matrix (Shown only on Answer Key Tab) */}
       {activeTab === 'key' && (
-        <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-xs print:hidden">
+        <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-xs">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
@@ -269,15 +254,6 @@ function PaperViewerContent() {
           </div>
         </div>
       )}
-
-      {/* Printable Paper Header (Visible only when printing) */}
-      <div className="hidden print:block text-center border-b pb-4 mb-4">
-        <h2 className="text-lg font-black uppercase">Kerala Public Service Commission</h2>
-        <h3 className="text-base font-bold">{paper.exam_name}</h3>
-        <p className="text-xs text-slate-600">
-          Question Code: {paper.question_code} | Total Questions: {questions.length} | Time: {paper.duration_minutes} Minutes | Max Marks: 100
-        </p>
-      </div>
 
       {/* Questions Stream */}
       <div className="space-y-4">
@@ -311,7 +287,7 @@ function PaperViewerContent() {
                 {activeTab === 'paper' && (
                   <button
                     onClick={() => toggleRevealSingle(q.id)}
-                    className="text-[11px] font-semibold text-slate-500 hover:text-blue-600 px-2 py-1 rounded-lg hover:bg-slate-50 transition print:hidden"
+                    className="text-[11px] font-semibold text-slate-500 hover:text-blue-600 px-2 py-1 rounded-lg hover:bg-slate-50 transition"
                   >
                     {isRevealed ? 'Hide Answer' : 'Show Answer'}
                   </button>
@@ -379,8 +355,8 @@ function PaperViewerContent() {
         })}
       </div>
 
-      {/* Bottom Sticky Test Mode CTA (Hidden when printing) */}
-      <div className="sticky bottom-4 z-20 bg-slate-900/95 backdrop-blur text-white p-3.5 sm:p-4 rounded-2xl shadow-2xl border border-slate-700 flex flex-wrap items-center justify-between gap-3 print:hidden">
+      {/* Bottom Sticky Test Mode CTA */}
+      <div className="sticky bottom-4 z-20 bg-slate-900/95 backdrop-blur text-white p-3.5 sm:p-4 rounded-2xl shadow-2xl border border-slate-700 flex flex-wrap items-center justify-between gap-3">
         <div>
           <div className="text-xs font-bold text-white">Ready to test yourself under real exam conditions?</div>
           <div className="text-[11px] text-slate-300">

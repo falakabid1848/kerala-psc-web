@@ -3,6 +3,7 @@ import Script from 'next/script';
 import './globals.css';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import ContentProtection from '@/components/ContentProtection';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -159,10 +160,10 @@ export default function RootLayout({
       },
       {
         '@type': 'Question',
-        name: 'How do I download Kerala PSC previous question papers with official answer keys?',
+        name: 'Where can I practice Kerala PSC previous question papers with official answer keys?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'You can practice and print 21 full official Kerala PSC previous question papers from 2020 to 2025 (Degree Level Prelims, LDC, Secretariat Assistant, and KAS) along with official provisional and final answer keys at https://www.keralapsc.xyz/previous-papers.',
+          text: 'You can practice 21 full official Kerala PSC previous question papers from 2020 to 2025 (Degree Level Prelims, LDC, Secretariat Assistant, and KAS) interactively online along with official provisional and final answer keys at https://www.keralapsc.xyz/previous-papers.',
         },
       },
       {
@@ -204,7 +205,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 selection:bg-emerald-500 selection:text-white pb-20 md:pb-0">
+      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 pb-20 md:pb-0 select-none">
+        {/* Anti-Scraping & Copy Protection */}
+        <ContentProtection />
+
         {/* Google Analytics 4 (gtag.js) */}
         {GA_MEASUREMENT_ID && (
           <>
@@ -243,7 +247,7 @@ export default function RootLayout({
         </main>
 
         {/* Footer */}
-        <footer className="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 mt-12 text-sm">
+        <footer className="bg-slate-900 text-slate-400 pt-10 pb-28 md:pb-12 border-t border-slate-800 mt-12 text-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
               <div>
@@ -268,6 +272,10 @@ export default function RootLayout({
                   <li><Link href="/?category=Kerala History & Culture" className="hover:text-emerald-400 transition">Kerala History &amp; Renaissance</Link></li>
                   <li><Link href="/?category=Indian Polity & Constitution" className="hover:text-emerald-400 transition">Indian Polity &amp; Constitution</Link></li>
                   <li><Link href="/?category=Geography of Kerala & India" className="hover:text-emerald-400 transition">Geography of Kerala &amp; India</Link></li>
+                  <li><Link href="/?category=Environmental Science & Disaster Management" className="hover:text-emerald-400 transition">Environmental Science &amp; Disaster Mgmt</Link></li>
+                  <li><Link href="/?category=Public Administration & Good Governance" className="hover:text-emerald-400 transition">Public Administration &amp; RTI / Governance</Link></li>
+                  <li><Link href="/?category=Indian Economy & Planning" className="hover:text-emerald-400 transition">Indian Economy, Planning &amp; NITI Aayog</Link></li>
+                  <li><Link href="/?category=Information Technology & Cyber Laws" className="hover:text-emerald-400 transition">IT, AI, Cyber Laws &amp; e-Gov</Link></li>
                   <li><Link href="/?category=Quantitative Aptitude & Mental Ability" className="hover:text-emerald-400 transition">Maths &amp; Mental Ability (PSC/Banking)</Link></li>
                   <li><Link href="/?category=Malayalam Language & Literature" className="hover:text-emerald-400 transition">മലയാള ഭാഷയും സാഹിത്യവും</Link></li>
                   <li><Link href="/?category=Banking & Financial Awareness" className="hover:text-emerald-400 transition">Banking &amp; Financial Awareness</Link></li>
@@ -289,34 +297,65 @@ export default function RootLayout({
               </div>
 
               <div>
-                <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-3">Kerala PSC Exam Rules</h4>
-                <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/60 text-xs space-y-2">
-                  <div className="flex justify-between">
-                    <span className="text-slate-300">Total Marks:</span>
-                    <span className="text-white font-bold">100 Marks</span>
-                  </div>
+                <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-3">Legal, Policies &amp; Rules</h4>
+                <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/60 text-xs space-y-2 mb-3">
                   <div className="flex justify-between">
                     <span className="text-slate-300">Exam Duration:</span>
                     <span className="text-white font-bold">75 Minutes</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-300">Correct Answer:</span>
-                    <span className="text-emerald-400 font-bold">+1.00 Mark</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-300">Negative Marking:</span>
                     <span className="text-rose-400 font-bold">-0.33 Mark</span>
                   </div>
                 </div>
+                <ul className="space-y-1.5 text-xs">
+                  <li><Link href="/privacy-policy" className="hover:text-emerald-400 text-slate-300 transition">Privacy Policy (AdSense &amp; DPDP)</Link></li>
+                  <li><Link href="/terms" className="hover:text-emerald-400 text-slate-300 transition">Terms &amp; Conditions (Anti-Copying)</Link></li>
+                  <li><Link href="/disclaimer" className="hover:text-emerald-400 text-slate-300 transition">Non-Affiliation Disclaimer</Link></li>
+                  <li><Link href="/contact" className="hover:text-emerald-400 text-slate-300 transition">Contact Us &amp; Grievance Officer</Link></li>
+                  <li><Link href="/admin/ads" className="hover:text-emerald-400 text-slate-400 transition">AdMob &amp; Ads Control Center</Link></li>
+                </ul>
                 <p className="text-[11px] text-slate-500 mt-3">
-                  Disclaimer: This is an independent educational prep platform and is not officially affiliated with Kerala Public Service Commission (KPSC).
+                  Disclaimer: This is an independent educational platform and is not officially affiliated with Kerala Public Service Commission (KPSC).
                 </p>
               </div>
             </div>
 
-            <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500">
-              <p>© 2024-2026 PSC Master Kerala (keralapsc.xyz). Dedicated to Kerala PSC &amp; Banking Aspirants.</p>
-              <p className="mt-2 sm:mt-0 font-medium">SEO Optimized &bull; Mobile-First &bull; High Speed</p>
+            {/* Prominent Bottom Legal & Policy Bar */}
+            <div className="border-t border-slate-800 pt-6 mt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
+              <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-slate-300 font-semibold">
+                <Link 
+                  href="/privacy-policy" 
+                  className="px-3.5 py-1.5 rounded-xl bg-slate-800/90 hover:bg-emerald-600 hover:text-white transition text-slate-200 border border-slate-700/70 flex items-center gap-1.5 shadow-2xs"
+                >
+                  <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                  Privacy Policy
+                </Link>
+                <Link 
+                  href="/terms" 
+                  className="px-3.5 py-1.5 rounded-xl bg-slate-800/90 hover:bg-blue-600 hover:text-white transition text-slate-200 border border-slate-700/70 flex items-center gap-1.5 shadow-2xs"
+                >
+                  <span className="w-2 h-2 rounded-full bg-blue-400"></span>
+                  Terms &amp; Conditions
+                </Link>
+                <Link 
+                  href="/disclaimer" 
+                  className="px-3.5 py-1.5 rounded-xl bg-slate-800/90 hover:bg-amber-600 hover:text-white transition text-slate-200 border border-slate-700/70 flex items-center gap-1.5 shadow-2xs"
+                >
+                  <span className="w-2 h-2 rounded-full bg-amber-400"></span>
+                  Disclaimer
+                </Link>
+                <Link 
+                  href="/contact" 
+                  className="px-3.5 py-1.5 rounded-xl bg-slate-800/90 hover:bg-slate-700 hover:text-white transition text-slate-200 border border-slate-700/70 flex items-center gap-1.5 shadow-2xs"
+                >
+                  Contact Us
+                </Link>
+              </div>
+
+              <p className="text-slate-500 text-center md:text-right text-[11px] sm:text-xs">
+                © 2024-2026 PSC Master Kerala (keralapsc.xyz). Dedicated to Kerala PSC &amp; Banking Aspirants.
+              </p>
             </div>
           </div>
         </footer>

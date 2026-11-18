@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { 
   FileText, 
-  Download, 
   PlayCircle, 
   Calendar, 
   Clock, 
@@ -12,11 +11,11 @@ import {
   Filter, 
   Search, 
   CheckCircle, 
-  Layers,
-  Sparkles,
-  HelpCircle,
-  FileCheck2,
-  ExternalLink
+  Layers, 
+  Sparkles, 
+  HelpCircle, 
+  FileCheck2, 
+  ExternalLink 
 } from 'lucide-react';
 import { PreviousPaper } from '@/types';
 
@@ -70,7 +69,7 @@ export default function PreviousPapersPage() {
             Kerala PSC Previous Question Papers
           </h1>
           <p className="text-slate-300 text-xs sm:text-base leading-relaxed mb-4">
-            Practice real 2024 and 2025 examination question papers online with negative marking (-0.33) and timer, or download authentic PDFs and official final keys with question codes.
+            Practice real 2024 and 2025 examination question papers online with negative marking (-0.33) and timer, or explore comprehensive question banks and official final keys with question codes.
           </p>
           <div className="flex flex-wrap gap-2 sm:gap-4 text-xs font-medium text-slate-300">
             <div className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-lg border border-slate-700">
@@ -225,7 +224,7 @@ export default function PreviousPapersPage() {
                       className="py-2 px-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-semibold text-[11px] rounded-xl flex items-center justify-center gap-1 transition"
                     >
                       <FileText className="w-3.5 h-3.5 text-slate-500" />
-                      Paper PDF
+                      View Paper
                     </Link>
                     <Link
                       href={`/previous-papers/${paper.id}?view=key`}
