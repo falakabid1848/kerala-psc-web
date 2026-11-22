@@ -94,7 +94,7 @@ export default function PreviousPapersPage() {
           <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
-            placeholder="Search papers, code (e.g. 034/2024)..."
+            placeholder="Search papers, code (e.g. 165/2024, 078/2024)..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-9 pr-4 py-2 text-xs sm:text-sm border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -113,7 +113,7 @@ export default function PreviousPapersPage() {
           >
             <option value="All">All Categories</option>
             <option value="Degree Level">Degree Level</option>
-            <option value="10th Level">10th Level (LDC/VFA)</option>
+            <option value="10th Level">10th Level (LGS / LDC / VFA)</option>
             <option value="KAS">KAS (Kerala Admin Service)</option>
             <option value="Police">Police (SI & CPO)</option>
             <option value="Banking">Banking (Kerala Bank)</option>
@@ -125,8 +125,9 @@ export default function PreviousPapersPage() {
             className="text-xs font-medium bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="All">All Years</option>
-            <option value="2025">2025 (Latest)</option>
-            <option value="2024">2024</option>
+            <option value="2026">2026 (Upcoming Master)</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024 (Latest Exams)</option>
             <option value="2023">2023</option>
             <option value="2022">2022</option>
             <option value="2021">2021</option>
@@ -134,6 +135,54 @@ export default function PreviousPapersPage() {
           </select>
         </div>
       </div>
+
+      {/* Rank #1 Featured Paper Highlight Banner */}
+      {!loading && papers.length > 0 && (
+        <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 rounded-2xl sm:rounded-3xl p-[2px] shadow-lg">
+          <div className="bg-slate-900 rounded-[14px] sm:rounded-[22px] p-5 sm:p-7 text-white relative overflow-hidden">
+            <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                RANK #1 • LATEST EXAM CONDUCTED YESTERDAY
+              </div>
+              <span className="bg-amber-400 text-slate-950 text-xs font-black px-2.5 py-0.5 rounded-md tracking-wider">
+                CODE: {papers[0]?.question_code}
+              </span>
+            </div>
+
+            <h2 className="text-xl sm:text-2xl font-black mb-2 text-white">
+              {papers[0]?.exam_name}
+            </h2>
+            <p className="text-slate-300 text-xs sm:text-sm mb-5 leading-relaxed max-w-4xl">
+              {papers[0]?.description}
+            </p>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Link
+                href={`/quiz?paper_id=${papers[0]?.id}&mode=exam`}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs sm:text-sm shadow-md transition active:scale-95"
+              >
+                <PlayCircle className="w-4 h-4" />
+                Solve Exam Online (75 Mins)
+              </Link>
+              <Link
+                href={`/previous-papers/${papers[0]?.id}?view=key`}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30 font-bold text-xs sm:text-sm transition active:scale-95"
+              >
+                <FileCheck2 className="w-4 h-4 text-emerald-400" />
+                Official Answer Key Matrix (1-100)
+              </Link>
+              <Link
+                href={`/previous-papers/${papers[0]?.id}?view=paper`}
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-slate-300 border border-slate-700 font-semibold text-xs sm:text-sm transition"
+              >
+                <FileText className="w-4 h-4" />
+                View Question Paper
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Papers Grid */}
       {loading ? (
@@ -151,12 +200,23 @@ export default function PreviousPapersPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {filteredPapers.map((paper) => {
             const isLatest = paper.year >= 2024;
+            const isRankFirst = paper.is_rank_first;
 
             return (
               <div
                 key={paper.id}
-                className="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 hover:border-blue-300 shadow-xs hover:shadow-md transition-all flex flex-col justify-between overflow-hidden"
+                className={`bg-white rounded-2xl sm:rounded-3xl border ${isRankFirst ? 'border-amber-400 ring-2 ring-amber-400/30 shadow-md' : 'border-slate-200 hover:border-blue-300 shadow-xs hover:shadow-md'} transition-all flex flex-col justify-between overflow-hidden relative`}
               >
+                {isRankFirst && (
+                  <div className="bg-gradient-to-r from-amber-500 to-amber-600 text-white text-[10px] sm:text-xs font-black uppercase tracking-wider px-3.5 py-1.5 flex items-center justify-between">
+                    <span className="flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5" />
+                      RANK #1 • LATEST EXAM (YESTERDAY)
+                    </span>
+                    <span>{paper.question_code}</span>
+                  </div>
+                )}
+
                 <div className="p-5">
                   {/* Paper Code and Stage */}
                   <div className="flex items-center justify-between gap-2 mb-2.5">
@@ -164,9 +224,14 @@ export default function PreviousPapersPage() {
                       <span className="bg-blue-100 text-blue-900 text-[11px] font-bold px-2 py-0.5 rounded-md tracking-wider">
                         CODE: {paper.question_code}
                       </span>
-                      {isLatest && (
+                      {isLatest && !isRankFirst && (
                         <span className="bg-emerald-100 text-emerald-800 text-[9px] font-extrabold px-1.5 py-0.5 rounded uppercase">
                           {paper.year} LATEST
+                        </span>
+                      )}
+                      {isRankFirst && (
+                        <span className="bg-amber-100 text-amber-900 text-[9px] font-extrabold px-1.5 py-0.5 rounded uppercase">
+                          RANK #1
                         </span>
                       )}
                     </div>

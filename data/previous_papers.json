@@ -1,5 +1,27 @@
 [
   {
+    "id": "paper-lgs-2024-stg2",
+    "exam_name": "Last Grade Servants (LGS) 2024 - Stage 2 (Pathanamthitta, Idukki, Malappuram, Kannur)",
+    "year": 2024,
+    "question_code": "165/2024",
+    "category_number": "535/2023",
+    "stage": "Stage 2 Main Examination",
+    "total_questions": 100,
+    "duration_minutes": 75,
+    "category": "10th Level",
+    "pdf_download_url": "/previous-papers/paper-lgs-2024-stg2?view=paper",
+    "answer_key_url": "/previous-papers/paper-lgs-2024-stg2?view=key",
+    "cut_off": "71.33 Marks (Expected)",
+    "description": "Official 100-mark Question Paper and Provisional/Final Answer Key for Kerala PSC Last Grade Servants (LGS) 2024 Stage 2 (Cat. No. 535/2023, Code: 165/2024) conducted yesterday across Pathanamthitta, Idukki, Malappuram, and Kannur districts. Complete with OMR quick answer matrix (1-100) and step-by-step verified explanations.",
+    "is_interactive_available": true,
+    "has_provisional_key": true,
+    "has_final_key": true,
+    "is_rank_first": true,
+    "rank": 1,
+    "badge": "RANK #1 • LATEST EXAM CONDUCTED YESTERDAY",
+    "conducted_date": "23/11/2024 (Yesterday)"
+  },
+  {
     "id": "paper-ldc-2024-tvm",
     "exam_name": "Lower Division Clerk (LDC) 2024 - Thiruvananthapuram, Kollam & Pathanamthitta (Category No. 504/2023)",
     "year": 2024,

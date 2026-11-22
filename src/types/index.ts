@@ -58,6 +58,7 @@ export interface PreviousPaper {
   year: number;
   question_code: string;
   stage?: string;
+  category_number?: string;
   total_questions: number;
   duration_minutes: number;
   category: string;
@@ -66,6 +67,12 @@ export interface PreviousPaper {
   cut_off?: string;
   description: string;
   is_interactive_available: boolean;
+  has_provisional_key?: boolean;
+  has_final_key?: boolean;
+  is_rank_first?: boolean;
+  rank?: number;
+  badge?: string;
+  conducted_date?: string;
 }
 
 export interface QuestionBankStats {
