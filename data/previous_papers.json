@@ -1,5 +1,39 @@
 [
   {
+    "id": "paper-ldc-2024-tvm",
+    "exam_name": "Lower Division Clerk (LDC) 2024 - Thiruvananthapuram, Kollam & Pathanamthitta (Category No. 504/2023)",
+    "year": 2024,
+    "question_code": "078/2024",
+    "stage": "Main Examination",
+    "total_questions": 100,
+    "duration_minutes": 75,
+    "category": "10th Level",
+    "pdf_download_url": "/previous-papers/paper-ldc-2024-tvm?view=paper",
+    "answer_key_url": "/previous-papers/paper-ldc-2024-tvm?view=key",
+    "cut_off": "68.67 Marks",
+    "description": "Official 100-mark Question Paper and Final Answer Key for LDC 2024 (Cat. 504/2023) conducted on 27/07/2024 with detailed step-by-step explanations.",
+    "is_interactive_available": true,
+    "has_provisional_key": true,
+    "has_final_key": true
+  },
+  {
+    "id": "paper-kpsc-master-2026",
+    "exam_name": "Kerala PSC 2026 State Master Model Examination Paper & Official Answer Key",
+    "year": 2026,
+    "question_code": "001/2026",
+    "stage": "State-Level Master",
+    "total_questions": 100,
+    "duration_minutes": 75,
+    "category": "Degree Level / 10th / 12th",
+    "pdf_download_url": "/previous-papers/paper-kpsc-master-2026?view=paper",
+    "answer_key_url": "/previous-papers/paper-kpsc-master-2026?view=key",
+    "cut_off": "65.00 Marks (Target)",
+    "description": "Latest 2026 benchmark multi-format examination paper with deep analytical statements, Renaissance, Constitution, Science, Malayalam, English, and Mental Ability.",
+    "is_interactive_available": true,
+    "has_provisional_key": true,
+    "has_final_key": true
+  },
+  {
     "id": "paper-dlp-2025-model",
     "exam_name": "Kerala PSC Degree Level Preliminary Examination 2025 - Official Master Model",
     "year": 2025,
@@ -56,8 +90,10 @@
     "pdf_download_url": "/previous-papers/paper-dlp-2024-stg1?view=paper",
     "answer_key_url": "/previous-papers/paper-dlp-2024-stg1?view=key",
     "cut_off": "61.33 Marks",
-    "description": "Official 2024 Stage 1 Degree Prelims paper with deep multi-statement questions on Kerala Renaissance reformers, Supreme Court judgements, and Science.",
-    "is_interactive_available": true
+    "description": "Official Question Paper & Final Answer Key for Degree Level Preliminary Examination 2024 Stage 1 (Code 034/2024) with complete 100-mark solution matrix.",
+    "is_interactive_available": true,
+    "has_provisional_key": true,
+    "has_final_key": true
   },
   {
     "id": "paper-dlp-2024-stg2",
@@ -131,8 +167,10 @@
     "pdf_download_url": "/previous-papers/paper-cpo-2024?view=paper",
     "answer_key_url": "/previous-papers/paper-cpo-2024?view=key",
     "cut_off": "57.33 Marks",
-    "description": "Armed Police Constable 2024 recruitment paper testing General Studies, Basic Police Regulations, Constitution, and Elementary Mathematics.",
-    "is_interactive_available": true
+    "description": "Official Question Paper & Final Answer Key for Civil Police Officer (CPO) / Police Constable 2024 (Exam Code 061/2024) with complete 100-mark solution matrix.",
+    "is_interactive_available": true,
+    "has_provisional_key": true,
+    "has_final_key": true
   },
   {
     "id": "paper-si-2024",
